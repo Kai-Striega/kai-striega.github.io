@@ -1,0 +1,74 @@
+baseURL: "https://theme.scientific-python.org/"
+languageCode: "en-us"
+title: "Scientific Python Hugo Theme documentation"
+theme: scientific-python-hugo-theme
+relativeURLs: true
+disableKinds: ["taxonomy"]
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    renderHooks:
+      link:
+        enableDefault: true
+
+params:
+  author:
+    name: "Scientific Python team"
+  description: "Documentation & template site for the Scientific Python Hugo Theme."
+  images:
+    - /images/logo.svg
+  navbarlogo:
+    image: logo.svg
+    text: Scientific Python Hugo Theme
+    link: /
+  hero:
+    title: Scientific Python Theme
+    image: logo.svg
+    buttontext: Get Started
+    buttonlink: /getstarted/
+  navbar:
+    - title: Features
+      url: /features/
+    - title: Shortcodes
+      url: /shortcodes/
+    - title: Examples
+      url: /examples/
+    - title: More
+      sublinks:
+        - title: Dropdown item
+          url: /
+        - title: Dropdown item
+          url: /
+  footer:
+    logo: logo.svg
+    socialmediatitle: ""
+    socialmedia:
+      - link: https://github.com/scientific-python/
+        icon: github
+      - link: https://www.youtube.com/c/ScientificPython-org
+        icon: youtube
+      - link: https://fosstodon.org/@scientific_python
+        icon: mastodon
+      - link: https://discuss.scientific-python.org
+        icon: discourse
+      - link: https://discord.com/invite/vur45CbwMz
+        icon: discord
+
+    quicklinks:
+      column1:
+        title: ""
+        links:
+          - text: About
+            link: /about/
+          - text: Theme GitHub
+            link: https://github.com/scientific-python/scientific-python-hugo-theme
+      column2:
+        links:
+          - text: Scientific Python Forum
+            link: https://discuss.scientific-python.org
+      column3:
+        links:
