@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://kaistriega.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Kai Striega'
 theme = 'scientific-python-hugo-theme'
