@@ -2,3 +2,8 @@ baseURL = 'https://kaistriega.com/'
 languageCode = 'en-us'
 title = 'Kai Striega'
 theme = 'scientific-python-hugo-theme'
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html', 'rss']
+  term = ['html', 'rss']
