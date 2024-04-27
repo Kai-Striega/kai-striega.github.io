@@ -1,9 +1,7 @@
 ---
-title: "About Me"
+title: "Hi I'm Kai 👋"
 draft: false
 ---
-
-## Hi I'm Kai 👋
 
 I'm a **SciPy maintainer** and software developer who is passionate about **free and open source software**, **scientific computing**, and building **diverse communities** within technology.
 I love coding mainly in **Python** with some **C**, **C++** and **fortran**. I studied, and have a passion for, **Mathematics** especially Pure Mathematics.
