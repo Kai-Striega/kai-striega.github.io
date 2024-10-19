@@ -1,7 +1,6 @@
 +++
 title = 'Virtual Environments'
 date = 2024-10-19T18:14:18+11:00
-draft = true
 +++
 
 Last night I helped a junior developer from [SheCodes](https://shecodes.com.au/) debug an issue. She
