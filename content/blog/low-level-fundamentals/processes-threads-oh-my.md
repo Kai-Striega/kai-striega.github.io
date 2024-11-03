@@ -3,17 +3,33 @@ title = 'Processes, Threads, Oh My!'
 date = 2024-10-27T13:51:52+11:00
 +++
 
+## TLDR
+
+* Processes and threads are an integral part of programming
+* They are an essential tool in any developer's toolbox
+* Processes is how the OS represents a running program.
+* Threads are how the computer groups together instructions from your program and executes them
+* You can have multiple processes and threads
+* At least one thread runs _inside_ each process
+* Tradeoffs of processes vs threads are:
+  * Processes are slower to create than threads
+  * Processes own their memory, threads share memory between them
+  * It is easy to make very difficult to debug errors with threads
+
+## Introduction
+
 I have a friend who is currently trying to transition into software engineering. She is currently completing her masters
 in IT. While nerding out together about tech, I mentioned multiprocessing. She said she'd never heard of it. That's not
 great, so I tried to explain it, but feel that I didn't do a great job of it. This blog post will be my attempt to
 clarify some of the essential concepts that a developer should know about processes and threads, focusing on how they 
 work in Linux. I'll do this in a couple of parts:
 
-1. Why: Why care at all?
-2. Processes: Cover what processes are, and try to explain how they work
-3. Threads: Same as processes, but with threads
-4. Processes vs Threads: Pros/cons of each and when you would use one vs the other (IN PROGRESS)
-5. Linux Tasks (TODO)
+1. TLDR
+2. Introduction
+3. Why: Why care at all?
+4. Processes: Cover what processes are, and try to explain how they work
+5. Threads: Same as processes, but with threads
+6. Processes vs Threads: Pros/cons of each and when you would use one vs the other
 
 ## Why care about processes and threads?
 
@@ -44,7 +60,7 @@ a process is created. These are:
 2. Memory which typically holds the executable code, process specific data, a call stack (to keep track of active subroutines and/or other events) and some heap memory.
 3. File descriptors of operating system resources
 4. Security attributes (e.g. who owns the process and permissions)
-5. Processor state (what's the CPU currently doing)
+5. Processor state (what's the CPU currently doing?)
 
 ### Seeing info about processes
 
@@ -364,5 +380,27 @@ kai        63671  1.0  0.1 103820 88856 pts/3    S+   17:43   0:00 python proces
 kai        63672  0.5  0.1 103820 89104 pts/3    S+   17:43   0:00 python process_vs_thread_memory.py
 ```
 
-This creates 4 processes which require the following amounts of memory 326288 KB of memory. That's 5x as much. This is
+This creates 4 processes which require 326288 KB of memory. That's 5x as much. This is
 due to each process making a copy of the large list we created AND all the information that is required of a process.
+
+### Bugs
+
+While processes "own" their memory, threads share memory between them. This leads to many new classes of bugs which are
+usually _very_ hard to debug. Some examples of bugs that occur with multiple threads are:
+
+* Race Conditions
+* Deadlocks
+* Livelocks
+* Thread Starvation
+* Priority Starvation
+* Memory Consistency Errors
+* Atomicity Violations
+* Order Violations
+
+Multi-threading bugs are often [Heisenbugs](https://en.wikipedia.org/wiki/Heisenbug). The bug can occur all the time,
+rarely or only sometimes. They are very hard to detect, as they may pass tests but can lead to serious consequences.
+
+## Conclusion
+
+I hope that this post has helped you to realise that processes and threads exist, and a quick introduction to them. You
+won't be an expert at this point. I'd suggest you read up a bit more when you have time.
