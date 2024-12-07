@@ -41,7 +41,7 @@ are:
 
 Each row in etymdb_values.csv represents a word, followed by properties for each word. These are:
 
-1. The EtymdDB ID
+1. The EtymDB ID
 2. The language code
 3. The field[^3]
 4. The lexeme
