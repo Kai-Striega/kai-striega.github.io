@@ -1,8 +1,7 @@
 +++
+title = 'What is a Curiously Related Word?'
 date = 2024-12-07T12:53:46+11:00
 +++
-
-# What is a Curiously Related Word?
 
 ## Contents:
 
