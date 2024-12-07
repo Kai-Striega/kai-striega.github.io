@@ -1,6 +1,5 @@
 +++
 date = 2024-12-07T12:53:46+11:00
-draft = true
 +++
 
 # What is a Curiously Related Word?
@@ -74,11 +73,11 @@ What are we actually going to be doing? Let's outline it:
 1. Get a word from the user
    1. Validate that it is in EtymDB
    2. Validate that it is in English
-2. Find the root word for the provided word
+2. Find the root word for the user's word
 3. Find all leaf words for the root word
    1. Make sure each leaf word is in English
-   2. Make sure each left word is not the provided word
-4. For each leaf word calculate the similarity to the provided word
+   2. Make sure each leaf word is not the user's word
+4. For each leaf word calculate the similarity to the user's word
 5. Select the word with the highest similarity
 
 ## Conclusion
