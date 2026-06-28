@@ -7,3 +7,32 @@ theme = 'scientific-python-hugo-theme'
   section = ['html', 'rss']
   taxonomy = ['html', 'rss']
   term = ['html', 'rss']
+
+[params.author]
+  name = 'Kai Striega'
+
+[params.footer]
+  logo = 'logo.svg'
+  socialmediatitle = ''
+
+  [params.footer.quicklinks.site]
+    title = ''
+    [[params.footer.quicklinks.site.links]]
+      text = 'Blog'
+      link = '/blog/'
+    [[params.footer.quicklinks.site.links]]
+      text = 'About'
+      link = '/about/'
+    [[params.footer.quicklinks.site.links]]
+      text = 'Subscribe (RSS)'
+      link = '/blog/index.xml'
+
+  [[params.footer.socialmedia]]
+    link = 'https://github.com/Kai-Striega'
+    icon = 'github'
+  [[params.footer.socialmedia]]
+    link = '/blog/index.xml'
+    icon = 'rss-feed'
+  [[params.footer.socialmedia]]
+    link = 'mailto:me@kaistriega.com'
+    icon = 'mail'
