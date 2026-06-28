@@ -1,0 +1,33 @@
+{{- $featuredImage := .Resources.GetMatch "featuredImage" -}}
+<section class="post content-padding">
+  <div class="content-container">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.Subtitle }}
+    <h5 class="subtitle">{{ .Params.Subtitle }}</h5>
+    {{ end }}
+    <div class="post-meta">{{ partial "posts/meta.html" . }}</div>
+    <div class="post-content">
+      {{ with $featuredImage }}
+      {{ if .Params.showOnTop }}
+      <div class="post-featuredImage">
+        <img src="{{ .RelPermalink }}" {{ with .Params.description }}alt="{{ . }}"{{ end }}/>
+      </div>
+      {{ end }}
+      {{ end }}
+      {{/* A series is any content directory with an _index.md (its own Hugo
+           section) holding more than one post. Membership and order are implied
+           by the directory + post dates, so posts need no extra front matter. */}}
+      {{ $section := .CurrentSection }}
+      {{ if and (ne .Kind "section") (gt (len $section.RegularPages) 1) (ne $section.Title "") }}
+      <aside class="post-series">
+        <p>This post is part of the series <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a>:</p>
+        {{ partial "posts/list-without-summary.html" $section.RegularPages.ByDate }}
+      </aside>
+      {{ end }}
+      {{ .Content }}
+      {{ partial "posts/comments.html" .}}
+    </div>
+  </div>
+  {{ partial "shortcuts.html" . }}
+</section>
