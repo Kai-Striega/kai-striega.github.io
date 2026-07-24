@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="300" viewBox="0 0 700 300" role="img" aria-labelledby="title desc">
+  <title id="title">A struct of arrays laid over cache lines</title>
+  <desc id="desc">The temperature field stored as its own contiguous array of 4 byte integers. Thirty two temperatures fill two 64 byte cache lines completely, so every byte fetched from memory is a byte the program asked for. The other six fields live in separate arrays elsewhere in memory and are never touched.</desc>
+
+  <rect x="0" y="0" width="700" height="300" fill="#f7f7f5"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+
+    <text x="30" y="28" font-size="15" font-weight="600" fill="#1d1d1b">Struct of arrays: Readings.temperature</text>
+
+    <!-- Cache line brackets -->
+    <g stroke="#5a5a55" stroke-width="1.5" fill="none">
+      <path d="M 30 74 L 30 66 L 350 66 L 350 74"/>
+      <path d="M 350 74 L 350 66 L 670 66 L 670 74"/>
+    </g>
+    <text x="190" y="58" text-anchor="middle" font-size="12" fill="#5a5a55">cache line 0 — 64 bytes</text>
+    <text x="510" y="58" text-anchor="middle" font-size="12" fill="#5a5a55">cache line 1 — 64 bytes</text>
+
+    <!-- 32 temperature cells, 4 bytes each -->
+    <g font-size="8" fill="#ffffff" text-anchor="middle">
+      <rect x="30"  y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="40"  y="109">t0</text>
+      <rect x="50"  y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="60"  y="109">t1</text>
+      <rect x="70"  y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="80"  y="109">t2</text>
+      <rect x="90"  y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="100" y="109">t3</text>
+      <rect x="110" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="120" y="109">t4</text>
+      <rect x="130" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="140" y="109">t5</text>
+      <rect x="150" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="160" y="109">t6</text>
+      <rect x="170" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="180" y="109">t7</text>
+      <rect x="190" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="200" y="109">t8</text>
+      <rect x="210" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="220" y="109">t9</text>
+      <rect x="230" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="240" y="109">t10</text>
+      <rect x="250" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="260" y="109">t11</text>
+      <rect x="270" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="280" y="109">t12</text>
+      <rect x="290" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="300" y="109">t13</text>
+      <rect x="310" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="320" y="109">t14</text>
+      <rect x="330" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="340" y="109">t15</text>
+
+      <rect x="350" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="360" y="109">t16</text>
+      <rect x="370" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="380" y="109">t17</text>
+      <rect x="390" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="400" y="109">t18</text>
+      <rect x="410" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="420" y="109">t19</text>
+      <rect x="430" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="440" y="109">t20</text>
+      <rect x="450" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="460" y="109">t21</text>
+      <rect x="470" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="480" y="109">t22</text>
+      <rect x="490" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="500" y="109">t23</text>
+      <rect x="510" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="520" y="109">t24</text>
+      <rect x="530" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="540" y="109">t25</text>
+      <rect x="550" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="560" y="109">t26</text>
+      <rect x="570" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="580" y="109">t27</text>
+      <rect x="590" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="600" y="109">t28</text>
+      <rect x="610" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="620" y="109">t29</text>
+      <rect x="630" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="640" y="109">t30</text>
+      <rect x="650" y="82" width="20" height="46" fill="#2f6f4f" stroke="#1f4a35"/><text x="660" y="109">t31</text>
+    </g>
+
+    <!-- Cache line boundaries drawn on top -->
+    <g fill="none" stroke="#1d1d1b" stroke-width="2">
+      <rect x="30" y="82" width="320" height="46"/>
+      <rect x="350" y="82" width="320" height="46"/>
+    </g>
+
+    <text x="350" y="152" text-anchor="middle" font-size="11" fill="#6a6a63">32 temperatures, 4 bytes each</text>
+
+    <!-- The other arrays, elsewhere -->
+    <text x="30" y="188" font-size="12" fill="#5a5a55">The other six fields live in their own arrays, somewhere else entirely:</text>
+    <g font-size="10" fill="#6a6a63" text-anchor="middle">
+      <rect x="30"  y="198" width="86" height="24" fill="#e8e8e2" stroke="#c4c4bc" stroke-dasharray="3 2"/><text x="73"  y="214">timestamp[]</text>
+      <rect x="124" y="198" width="86" height="24" fill="#e8e8e2" stroke="#c4c4bc" stroke-dasharray="3 2"/><text x="167" y="214">station_id[]</text>
+      <rect x="218" y="198" width="86" height="24" fill="#e8e8e2" stroke="#c4c4bc" stroke-dasharray="3 2"/><text x="261" y="214">humidity[]</text>
+      <rect x="312" y="198" width="86" height="24" fill="#e8e8e2" stroke="#c4c4bc" stroke-dasharray="3 2"/><text x="355" y="214">pressure[]</text>
+      <rect x="406" y="198" width="86" height="24" fill="#e8e8e2" stroke="#c4c4bc" stroke-dasharray="3 2"/><text x="449" y="214">wind_speed[]</text>
+      <rect x="500" y="198" width="86" height="24" fill="#e8e8e2" stroke="#c4c4bc" stroke-dasharray="3 2"/><text x="543" y="214">rainfall[]</text>
+      <text x="628" y="214" fill="#a9a9a1" font-size="11">never touched</text>
+    </g>
+
+    <text x="30" y="256" font-size="13" font-weight="600" fill="#2f6f4f">Two cache lines, 128 bytes moved, 128 bytes used.</text>
+    <text x="30" y="276" font-size="12" fill="#5a5a55">Same question, same answer, same hardware. The only thing that changed is where the bytes sit.</text>
+  </g>
+</svg>
