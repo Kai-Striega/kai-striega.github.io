@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380" role="img" aria-labelledby="title desc">
+  <title id="title">The memory hierarchy of an Intel i9-12900K</title>
+  <desc id="desc">Five levels of storage, from registers to main memory. Each step down is larger but dramatically slower: registers are immediate, L1 data cache is 48 KiB per core at about 5 cycles, L2 is 1.25 MiB per core at about 15 cycles, L3 is 30 MiB shared at about 50 cycles, and main memory is 62 GiB at roughly 250 cycles.</desc>
+
+  <rect x="0" y="0" width="760" height="380" fill="#f7f7f5"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14">
+
+    <text x="30" y="32" font-size="15" font-weight="600" fill="#1d1d1b">Closer to the core</text>
+    <text x="30" y="52" font-size="13" fill="#5a5a55">smaller, and much faster</text>
+
+    <!-- Registers -->
+    <rect x="30" y="70" width="150" height="44" rx="4" fill="#2f6f4f" stroke="#1f4a35" stroke-width="1.5"/>
+    <text x="105" y="92" text-anchor="middle" fill="#ffffff" font-weight="600">Registers</text>
+    <text x="105" y="107" text-anchor="middle" fill="#d6e8de" font-size="11">a few hundred bytes</text>
+    <text x="200" y="96" fill="#1d1d1b" font-size="13">immediate</text>
+
+    <!-- L1 -->
+    <rect x="30" y="126" width="200" height="44" rx="4" fill="#4a8f6a" stroke="#1f4a35" stroke-width="1.5"/>
+    <text x="130" y="148" text-anchor="middle" fill="#ffffff" font-weight="600">L1 data cache</text>
+    <text x="130" y="163" text-anchor="middle" fill="#e3f0e9" font-size="11">48 KiB per core</text>
+    <text x="250" y="152" fill="#1d1d1b" font-size="13">~5 cycles</text>
+
+    <!-- L2 -->
+    <rect x="30" y="182" width="280" height="44" rx="4" fill="#7aa88c" stroke="#1f4a35" stroke-width="1.5"/>
+    <text x="170" y="204" text-anchor="middle" fill="#ffffff" font-weight="600">L2 cache</text>
+    <text x="170" y="219" text-anchor="middle" fill="#f0f6f2" font-size="11">1.25 MiB per core, 14 MiB total</text>
+    <text x="330" y="208" fill="#1d1d1b" font-size="13">~15 cycles</text>
+
+    <!-- L3 -->
+    <rect x="30" y="238" width="400" height="44" rx="4" fill="#b0a98f" stroke="#6b6552" stroke-width="1.5"/>
+    <text x="230" y="260" text-anchor="middle" fill="#ffffff" font-weight="600">L3 cache</text>
+    <text x="230" y="275" text-anchor="middle" fill="#f7f5ee" font-size="11">30 MiB, shared by every core</text>
+    <text x="450" y="264" fill="#1d1d1b" font-size="13">~50 cycles</text>
+
+    <!-- DRAM -->
+    <rect x="30" y="294" width="560" height="44" rx="4" fill="#b5705f" stroke="#7d4436" stroke-width="1.5"/>
+    <text x="310" y="316" text-anchor="middle" fill="#ffffff" font-weight="600">Main memory (DRAM)</text>
+    <text x="310" y="331" text-anchor="middle" fill="#f8ebe7" font-size="11">62 GiB</text>
+    <text x="610" y="320" fill="#1d1d1b" font-size="13">~250 cycles</text>
+
+    <!-- Arrow down the side -->
+    <line x1="700" y1="80" x2="700" y2="320" stroke="#8a8a82" stroke-width="2"/>
+    <polygon points="700,332 695,318 705,318" fill="#8a8a82"/>
+    <text x="712" y="196" fill="#5a5a55" font-size="11">bigger,</text>
+    <text x="712" y="210" fill="#5a5a55" font-size="11">slower</text>
+
+    <text x="30" y="366" font-size="12" fill="#5a5a55">Cycle counts are approximate. The orders of magnitude are the point, not the exact numbers.</text>
+  </g>
+</svg>
