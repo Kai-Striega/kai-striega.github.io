@@ -2,6 +2,14 @@ baseURL = 'https://kaistriega.com/'
 languageCode = 'en-us'
 title = 'Kai Striega'
 theme = 'scientific-python-hugo-theme'
+# Tags render as #rust and #cpu-caches, not #Rust and #Cpu-Caches.
+capitalizeListTitles = false
+
+# Posts are tagged; categories are unused, and an empty category index would be
+# another URL in the sitemap with nothing behind it. Series live in content
+# directories instead.
+[taxonomies]
+  tag = 'tags'
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']

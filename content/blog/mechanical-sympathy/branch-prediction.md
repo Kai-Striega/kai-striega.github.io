@@ -1,6 +1,7 @@
 +++
 title = 'Branch Prediction'
 date = 2026-07-25T11:45:58+10:00
+tags = ['performance', 'rust', 'benchmarking']
 +++
 
 [Last time][part1] I argued that your data layout is your program, because the machine reads memory in 64 byte

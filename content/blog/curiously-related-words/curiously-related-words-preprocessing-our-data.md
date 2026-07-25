@@ -1,6 +1,7 @@
 +++
 title = 'Curiously Related Words Preprocessing Our Data'
 date = 2024-12-07T15:32:41+11:00
+tags = ['etymology', 'graphs', 'python']
 +++
 
 [Previously](https://kaistriega.com/blog/curiously-related-words/what-is-a-curiously-related-word/) I've made up the

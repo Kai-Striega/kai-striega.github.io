@@ -1,6 +1,7 @@
 +++
 title = 'Curiously Related Words in Neo4j'
 date = 2024-12-08T08:08:07+11:00
+tags = ['etymology', 'graphs', 'neo4j']
 +++
 
 ## What we have

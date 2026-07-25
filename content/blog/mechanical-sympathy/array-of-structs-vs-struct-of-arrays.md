@@ -1,6 +1,7 @@
 +++
 title = 'Array of Structs vs Struct of Arrays'
 date = 2026-07-25T08:50:30+10:00
+tags = ['performance', 'cpu-caches', 'rust', 'python', 'benchmarking']
 +++
 
 I've been putting together a talk about [the things I don't worry about, because NumPy does them for me][talk]:
