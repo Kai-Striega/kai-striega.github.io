@@ -8,6 +8,9 @@ theme = 'scientific-python-hugo-theme'
   taxonomy = ['html', 'rss']
   term = ['html', 'rss']
 
+[params]
+  description = 'Kai Striega on scientific computing and performance: SciPy and NumPy internals, CPU caches, and how the machine underneath shapes the code you write.'
+
 [params.author]
   name = 'Kai Striega'
 
