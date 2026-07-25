@@ -14,3 +14,28 @@
   content: "\21A9";
   font-size: 1rem;
 }
+
+/* Skip link. Off screen until focused, so keyboard users can jump past the
+   navbar. Uses the theme's colour variables so it tracks light and dark. */
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+  z-index: 1000;
+  padding: 0.75rem 1.25rem;
+  background: var(--pst-color-background);
+  color: var(--pst-color-text-base);
+  border: 2px solid var(--pst-color-primary);
+  border-radius: 0 0 0.25rem 0;
+  text-decoration: underline;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+/* The skip target is focused programmatically, so the outline would ring the
+   whole page body. The jump itself is the affordance. */
+#main-content:focus {
+  outline: none;
+}
