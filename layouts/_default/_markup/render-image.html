@@ -1,2 +1,5 @@
-{{- /* Centre images in blog posts; leave images elsewhere at Goldmark defaults. */ -}}
-<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if eq .Page.Section "blog" }} class="align-center"{{ end }} loading="lazy">
+{{- /* Centre images in blog posts; leave images elsewhere at Goldmark defaults.
+       dark-light is the theme's opt-out from the brightness/contrast filter it
+       applies to content images in dark mode; the diagrams carry their own
+       dark palette. */ -}}
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if eq .Page.Section "blog" }} class="align-center dark-light"{{ end }} loading="lazy">
