@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="440" viewBox="0 0 700 440" role="img" aria-labelledby="t d">
+<title id="t">Interpreter dispatch cost against how repetitive the bytecode is</title>
+<desc id="d">A bar chart of nanoseconds per instruction for a bytecode interpreter. Every repeating instruction stream, from a period of 8 up to a period of 1024, costs about 0.8 nanoseconds per instruction and mispredicts almost never. A fully random stream costs 5.96 nanoseconds, roughly seven times more, and mispredicts 87 percent of dispatches. Every program executes exactly the same mix of opcodes; only the order differs.</desc>
+<rect width="700" height="440" fill="#f7f7f5"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="24" y="30" font-size="15" font-weight="600" fill="#1d1d1b">The predictor learns any pattern you give it, and nothing you don't</text>
+<text x="24" y="50" font-size="12" fill="#5a5a55">262,144 bytecode instructions, identical opcode mix in every bar, only the order changes</text>
+<text x="24" y="76" font-size="11" fill="#5a5a55">ns per instruction</text>
+<line x1="70" y1="352.0" x2="672" y2="352.0" stroke="#e4e4de" stroke-width="1"/>
+<text x="60" y="356.0" font-size="11" fill="#5a5a55" text-anchor="end">0</text>
+<line x1="70" y1="310.1" x2="672" y2="310.1" stroke="#e4e4de" stroke-width="1"/>
+<text x="60" y="314.1" font-size="11" fill="#5a5a55" text-anchor="end">1</text>
+<line x1="70" y1="268.2" x2="672" y2="268.2" stroke="#e4e4de" stroke-width="1"/>
+<text x="60" y="272.2" font-size="11" fill="#5a5a55" text-anchor="end">2</text>
+<line x1="70" y1="226.4" x2="672" y2="226.4" stroke="#e4e4de" stroke-width="1"/>
+<text x="60" y="230.4" font-size="11" fill="#5a5a55" text-anchor="end">3</text>
+<line x1="70" y1="184.5" x2="672" y2="184.5" stroke="#e4e4de" stroke-width="1"/>
+<text x="60" y="188.5" font-size="11" fill="#5a5a55" text-anchor="end">4</text>
+<line x1="70" y1="142.6" x2="672" y2="142.6" stroke="#e4e4de" stroke-width="1"/>
+<text x="60" y="146.6" font-size="11" fill="#5a5a55" text-anchor="end">5</text>
+<line x1="70" y1="100.8" x2="672" y2="100.8" stroke="#e4e4de" stroke-width="1"/>
+<text x="60" y="104.8" font-size="11" fill="#5a5a55" text-anchor="end">6</text>
+<path d="M 82.4 352 L 82.4 321.4 Q 82.4 317.4 86.4 317.4 L 120.4 317.4 Q 124.4 317.4 124.4 321.4 L 124.4 352 Z" fill="#1f6feb"/>
+<text x="103.4" y="309.4" font-size="11" font-weight="600" fill="#1f6feb" text-anchor="middle">0.83</text>
+<text x="103.4" y="370" font-size="11" fill="#5a5a55" text-anchor="middle">8</text>
+<path d="M 149.3 352 L 149.3 322.7 Q 149.3 318.7 153.3 318.7 L 187.3 318.7 Q 191.3 318.7 191.3 322.7 L 191.3 352 Z" fill="#1f6feb"/>
+<text x="170.3" y="310.7" font-size="11" font-weight="600" fill="#1f6feb" text-anchor="middle">0.80</text>
+<text x="170.3" y="370" font-size="11" fill="#5a5a55" text-anchor="middle">16</text>
+<path d="M 216.2 352 L 216.2 322.6 Q 216.2 318.6 220.2 318.6 L 254.2 318.6 Q 258.2 318.6 258.2 322.6 L 258.2 352 Z" fill="#1f6feb"/>
+<text x="237.2" y="310.6" font-size="11" font-weight="600" fill="#1f6feb" text-anchor="middle">0.80</text>
+<text x="237.2" y="370" font-size="11" fill="#5a5a55" text-anchor="middle">32</text>
+<path d="M 283.1 352 L 283.1 321.5 Q 283.1 317.5 287.1 317.5 L 321.1 317.5 Q 325.1 317.5 325.1 321.5 L 325.1 352 Z" fill="#1f6feb"/>
+<text x="304.1" y="309.5" font-size="11" font-weight="600" fill="#1f6feb" text-anchor="middle">0.82</text>
+<text x="304.1" y="370" font-size="11" fill="#5a5a55" text-anchor="middle">64</text>
+<path d="M 350.0 352 L 350.0 322.1 Q 350.0 318.1 354.0 318.1 L 388.0 318.1 Q 392.0 318.1 392.0 322.1 L 392.0 352 Z" fill="#1f6feb"/>
+<text x="371.0" y="310.1" font-size="11" font-weight="600" fill="#1f6feb" text-anchor="middle">0.81</text>
+<text x="371.0" y="370" font-size="11" fill="#5a5a55" text-anchor="middle">128</text>
+<path d="M 416.9 352 L 416.9 322.5 Q 416.9 318.5 420.9 318.5 L 454.9 318.5 Q 458.9 318.5 458.9 322.5 L 458.9 352 Z" fill="#1f6feb"/>
+<text x="437.9" y="310.5" font-size="11" font-weight="600" fill="#1f6feb" text-anchor="middle">0.80</text>
+<text x="437.9" y="370" font-size="11" fill="#5a5a55" text-anchor="middle">256</text>
+<path d="M 483.8 352 L 483.8 322.1 Q 483.8 318.1 487.8 318.1 L 521.8 318.1 Q 525.8 318.1 525.8 322.1 L 525.8 352 Z" fill="#1f6feb"/>
+<text x="504.8" y="310.1" font-size="11" font-weight="600" fill="#1f6feb" text-anchor="middle">0.81</text>
+<text x="504.8" y="370" font-size="11" fill="#5a5a55" text-anchor="middle">512</text>
+<path d="M 550.7 352 L 550.7 321.9 Q 550.7 317.9 554.7 317.9 L 588.7 317.9 Q 592.7 317.9 592.7 321.9 L 592.7 352 Z" fill="#1f6feb"/>
+<text x="571.7" y="309.9" font-size="11" font-weight="600" fill="#1f6feb" text-anchor="middle">0.81</text>
+<text x="571.7" y="370" font-size="11" fill="#5a5a55" text-anchor="middle">1024</text>
+<path d="M 617.6 352 L 617.6 106.4 Q 617.6 102.4 621.6 102.4 L 655.6 102.4 Q 659.6 102.4 659.6 106.4 L 659.6 352 Z" fill="#c2410c"/>
+<text x="638.6" y="94.4" font-size="11" font-weight="600" fill="#c2410c" text-anchor="middle">5.96</text>
+<text x="638.6" y="370" font-size="11" fill="#5a5a55" text-anchor="middle">random</text>
+<line x1="70" y1="352" x2="672" y2="352" stroke="#b9b9b2" stroke-width="1.5"/>
+<text x="321" y="392" font-size="11" fill="#5a5a55" text-anchor="middle">repeat period of the instruction stream</text>
+<path d="M 76.4 303.8 L 76.4 295.5 L 598.7 295.5 L 598.7 303.8" fill="none" stroke="#1f6feb" stroke-width="1.5"/>
+<text x="338" y="284.2" font-size="11" font-weight="600" fill="#1f6feb" text-anchor="middle">predicted almost perfectly</text>
+<text x="338" y="292.5" font-size="10" fill="#5a5a55" text-anchor="middle">under 0.2% of dispatches mispredicted</text>
+<text x="601.6" y="148.9" font-size="11" font-weight="600" fill="#c2410c" text-anchor="end">87% of dispatches</text>
+<text x="601.6" y="159.4" font-size="11" font-weight="600" fill="#c2410c" text-anchor="end">mispredicted</text>
+<line x1="605.6" y1="155.2" x2="614.6" y2="155.2" stroke="#c2410c" stroke-width="1.5"/>
+<polygon points="617.6,155.2 612.6,151.8 612.6,158.5" fill="#c2410c"/>
+<text x="24" y="416" font-size="11" fill="#5a5a55">A period of 1024 is still learned perfectly. What defeats the predictor is not length, it is the absence of a pattern.</text>
+</g></svg>
