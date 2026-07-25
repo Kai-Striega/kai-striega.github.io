@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="470" viewBox="0 0 700 470" role="img" aria-labelledby="t d">
+<title id="t">Scaling of three counter layouts from one to eight threads</title>
+<desc id="d">A log scale line chart of nanoseconds per element against thread count. The packed shared counters get worse as threads are added, from 3.72 nanoseconds at one thread to 9.07 at two and 6.28 at eight, never beating the single threaded reference of 0.435. Padding each counter to its own cache line scales almost linearly, from 3.68 down to 0.48. Accumulating in a local and storing once is fastest at every thread count, reaching 0.037 nanoseconds at eight threads.</desc>
+<rect width="700" height="470" fill="#f7f7f5"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="24" y="30" font-size="15" font-weight="600" fill="#1d1d1b">Adding threads to the packed version makes it slower</text>
+<text x="24" y="50" font-size="12" fill="#5a5a55">262,144 readings, 200 passes per thread, pinned to distinct physical P-cores, median of three</text>
+<text x="24" y="72" font-size="11" fill="#5a5a55">ns per element (log scale, lower is better)</text>
+<line x1="74" y1="378.0" x2="590" y2="378.0" stroke="#e4e4de" stroke-width="1"/>
+<text x="64" y="382.0" font-size="11" fill="#5a5a55" text-anchor="end">0.03</text>
+<line x1="74" y1="316.7" x2="590" y2="316.7" stroke="#e4e4de" stroke-width="1"/>
+<text x="64" y="320.7" font-size="11" fill="#5a5a55" text-anchor="end">0.1</text>
+<line x1="74" y1="260.7" x2="590" y2="260.7" stroke="#e4e4de" stroke-width="1"/>
+<text x="64" y="264.7" font-size="11" fill="#5a5a55" text-anchor="end">0.3</text>
+<line x1="74" y1="199.3" x2="590" y2="199.3" stroke="#e4e4de" stroke-width="1"/>
+<text x="64" y="203.3" font-size="11" fill="#5a5a55" text-anchor="end">1</text>
+<line x1="74" y1="143.3" x2="590" y2="143.3" stroke="#e4e4de" stroke-width="1"/>
+<text x="64" y="147.3" font-size="11" fill="#5a5a55" text-anchor="end">3</text>
+<line x1="74" y1="82.0" x2="590" y2="82.0" stroke="#e4e4de" stroke-width="1"/>
+<text x="64" y="86.0" font-size="11" fill="#5a5a55" text-anchor="end">10</text>
+<line x1="74" y1="241.7" x2="590" y2="241.7" stroke="#8a8a82" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="82" y="233.7" font-size="11" fill="#6a6a63">single-threaded reference, 0.435</text>
+<line x1="74" y1="378" x2="590" y2="378" stroke="#b9b9b2" stroke-width="1.5"/>
+<line x1="74.0" y1="378" x2="74.0" y2="383" stroke="#b9b9b2" stroke-width="1.5"/>
+<text x="74.0" y="399" font-size="11" fill="#5a5a55" text-anchor="middle">1</text>
+<line x1="246.0" y1="378" x2="246.0" y2="383" stroke="#b9b9b2" stroke-width="1.5"/>
+<text x="246.0" y="399" font-size="11" fill="#5a5a55" text-anchor="middle">2</text>
+<line x1="418.0" y1="378" x2="418.0" y2="383" stroke="#b9b9b2" stroke-width="1.5"/>
+<text x="418.0" y="399" font-size="11" fill="#5a5a55" text-anchor="middle">4</text>
+<line x1="590.0" y1="378" x2="590.0" y2="383" stroke="#b9b9b2" stroke-width="1.5"/>
+<text x="590.0" y="399" font-size="11" fill="#5a5a55" text-anchor="middle">8</text>
+<text x="332" y="420" font-size="11" fill="#5a5a55" text-anchor="middle">threads</text>
+<path d="M 74.0 237.3 L 246.0 272.1 L 418.0 308.7 L 590.0 367.7" fill="none" stroke="#6b3fa0" stroke-width="2"/>
+<circle cx="74.0" cy="237.3" r="4.5" fill="#6b3fa0" stroke="#f7f7f5" stroke-width="2"/>
+<circle cx="246.0" cy="272.1" r="4.5" fill="#6b3fa0" stroke="#f7f7f5" stroke-width="2"/>
+<circle cx="418.0" cy="308.7" r="4.5" fill="#6b3fa0" stroke="#f7f7f5" stroke-width="2"/>
+<circle cx="590.0" cy="367.7" r="4.5" fill="#6b3fa0" stroke="#f7f7f5" stroke-width="2"/>
+<path d="M 74.0 133.0 L 246.0 168.4 L 418.0 201.9 L 590.0 237.1" fill="none" stroke="#c2410c" stroke-width="2"/>
+<circle cx="74.0" cy="133.0" r="4.5" fill="#c2410c" stroke="#f7f7f5" stroke-width="2"/>
+<circle cx="246.0" cy="168.4" r="4.5" fill="#c2410c" stroke="#f7f7f5" stroke-width="2"/>
+<circle cx="418.0" cy="201.9" r="4.5" fill="#c2410c" stroke="#f7f7f5" stroke-width="2"/>
+<circle cx="590.0" cy="237.1" r="4.5" fill="#c2410c" stroke="#f7f7f5" stroke-width="2"/>
+<path d="M 74.0 132.4 L 246.0 86.9 L 418.0 92.4 L 590.0 105.7" fill="none" stroke="#1f6feb" stroke-width="2"/>
+<circle cx="74.0" cy="132.4" r="4.5" fill="#1f6feb" stroke="#f7f7f5" stroke-width="2"/>
+<circle cx="246.0" cy="86.9" r="4.5" fill="#1f6feb" stroke="#f7f7f5" stroke-width="2"/>
+<circle cx="418.0" cy="92.4" r="4.5" fill="#1f6feb" stroke="#f7f7f5" stroke-width="2"/>
+<circle cx="590.0" cy="105.7" r="4.5" fill="#1f6feb" stroke="#f7f7f5" stroke-width="2"/>
+<text x="600.0" y="109.7" font-size="12" font-weight="600" fill="#1f6feb">packed</text>
+<text x="600.0" y="124.7" font-size="10" fill="#5a5a55">6.28 ns</text>
+<text x="600.0" y="241.1" font-size="12" font-weight="600" fill="#c2410c">padded</text>
+<text x="600.0" y="256.1" font-size="10" fill="#5a5a55">0.476 ns</text>
+<text x="600.0" y="371.7" font-size="12" font-weight="600" fill="#6b3fa0">local</text>
+<text x="600.0" y="386.7" font-size="10" fill="#5a5a55">0.0367 ns</text>
+<rect x="24" y="431" width="12" height="12" rx="2" fill="#1f6feb"/><text x="42" y="441" font-size="12" fill="#1d1d1b">packed atomics (share a line)</text>
+<rect x="262" y="431" width="12" height="12" rx="2" fill="#c2410c"/><text x="280" y="441" font-size="12" fill="#1d1d1b">padded to 64 bytes</text>
+<rect x="452" y="431" width="12" height="12" rx="2" fill="#6b3fa0"/><text x="470" y="441" font-size="12" fill="#1d1d1b">local, stored once</text>
+</g></svg>
