@@ -13,7 +13,14 @@
     {{ if .Content }}
     {{ .Content }}
     {{ end }}
-    {{ $posts := .RegularPagesRecursive.ByPublishDate.Reverse }}
+    {{- /* A series reads front to back, so its own page lists oldest first.
+           /blog/ is an index rather than a sequence and stays newest first.
+           Series pages sit under /blog/, so the parent is the blog section;
+           only /blog/ itself has the home page as its parent. */ -}}
+    {{ $posts := .RegularPagesRecursive.ByPublishDate }}
+    {{ if .Parent.IsHome }}
+    {{ $posts = $posts.Reverse }}
+    {{ end }}
     {{ partial "posts/list-without-summary.html" $posts }}
   </div>
   {{ if .Content }}
