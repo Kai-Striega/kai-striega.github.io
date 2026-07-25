@@ -1,3 +1,16 @@
 .navbar-logo-text {
   font-family: "Lato";
 }
+
+/* Goldmark emits the footnote back-link as U+21A9 followed by a variation
+   selector, which renders as tofu in the body font. Suppress it and draw the
+   bare arrow instead. */
+.footnote-backref {
+  font-size: 0;
+  text-decoration: none;
+}
+
+.footnote-backref::after {
+  content: "\21A9";
+  font-size: 1rem;
+}
