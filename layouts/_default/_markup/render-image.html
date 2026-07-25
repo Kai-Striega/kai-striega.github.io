@@ -1,0 +1,2 @@
+{{- /* Centre images in blog posts; leave images elsewhere at Goldmark defaults. */ -}}
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if eq .Page.Section "blog" }} class="align-center"{{ end }} loading="lazy">
