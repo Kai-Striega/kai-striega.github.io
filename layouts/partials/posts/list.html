@@ -1,0 +1,22 @@
+{{- /* Same as the theme's partials/posts/list.html without the tag cloud.
+       The cloud sized each tag by post count, which reads as noise at this
+       number of tags; /tags/ lists them properly instead. Dropping it also
+       leaves .content-padding with a single child, so the content centres the
+       way it does on every other page. */ -}}
+<section class="section content-padding">
+  <div class="content-container">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.Subtitle }}
+    <h5 class="subtitle">{{ .Params.Subtitle }}</h5>
+    {{ end }}
+    {{ if .Content }}
+    {{ .Content }}
+    {{ end }}
+    {{ $posts := .RegularPagesRecursive.ByPublishDate.Reverse }}
+    {{ partial "posts/list-without-summary.html" $posts }}
+  </div>
+  {{ if .Content }}
+  {{ partial "shortcuts.html" . }}
+  {{ end }}
+</section>
