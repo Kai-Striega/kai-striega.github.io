@@ -1,0 +1,24 @@
+{{ define "title" }}{{ .Site.Title }} - Page not found{{ end }}
+{{ define "main" }}
+{{- /* No breadcrumbs here: the partial walks .Ancestors and calls errorf on any
+       page with no title, and a 404 has no place in the content tree. */ -}}
+<section class="content-padding">
+  <div class="content-container">
+    <h1>Page not found</h1>
+    <p>
+      That page does not exist. It may have moved, or the link that brought you
+      here may be out of date.
+    </p>
+    <p>
+      Try the <a href="/blog/">blog index</a>, or head back to the
+      <a href="/">home page</a>.
+    </p>
+
+    {{ $recent := where .Site.RegularPages "Section" "blog" }}
+    {{ with first 5 $recent.ByDate.Reverse }}
+    <h2>Recent posts</h2>
+    {{ partial "posts/list-without-summary.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
