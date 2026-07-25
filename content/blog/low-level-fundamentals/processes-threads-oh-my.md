@@ -1,6 +1,7 @@
 +++
 title = 'Processes, Threads, Oh My!'
 date = 2024-10-27T13:51:52+11:00
+tags = ['concurrency', 'python']
 +++
 
 ## TLDR

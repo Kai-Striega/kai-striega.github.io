@@ -1,0 +1,30 @@
+{{- /* The theme ships _default/term.html for an individual tag but no layout
+       for the term index, so /tags/ emitted RSS and no HTML while the sitemap
+       advertised it. This fills that gap.
+
+       The Kind guard matters: Hugo's lookup for a term page falls through to
+       taxonomy.html, and a project layout outranks a theme one, so on Hugo
+       0.146+ this file is chosen for individual tag pages too and would render
+       them as an empty term list. Older Hugo picks the theme's term.html and
+       the guard is simply never taken. Handling both keeps local (0.164) and
+       CI (0.124) in agreement. */ -}}
+{{ define "main" }}
+{{- if eq .Kind "term" -}}
+{{ partial "posts/tag.html" . }}
+{{- else -}}
+<section class="content-padding">
+  <div class="content-container">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    <ul class="term-list">
+      {{ range .Data.Terms.ByCount }}
+      <li>
+        <a href="{{ .Page.RelPermalink }}">#{{ .Page.Title }}</a>
+        <span class="term-count">{{ len .Pages }} post{{ if ne (len .Pages) 1 }}s{{ end }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{- end -}}
+{{ end }}

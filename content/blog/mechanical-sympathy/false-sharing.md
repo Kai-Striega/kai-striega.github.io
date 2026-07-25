@@ -1,6 +1,7 @@
 +++
 title = 'False Sharing'
 date = 2026-07-25T14:01:54+10:00
+tags = ['performance', 'cpu-caches', 'concurrency', 'rust', 'python', 'benchmarking']
 +++
 
 [Part one][part1] of this series had one central fact and one piece of advice. The fact was that memory moves
