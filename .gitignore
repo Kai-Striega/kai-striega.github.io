@@ -560,5 +560,8 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 
-# build files from Hugo theme
+# Hugo build output and caches. resources/ is Hugo's SCSS/fingerprint
+# cache, keyed by content hash, and is regenerated on every build.
 public/
+resources/
+.hugo_build.lock
