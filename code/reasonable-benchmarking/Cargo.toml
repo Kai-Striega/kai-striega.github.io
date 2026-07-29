@@ -1,0 +1,39 @@
+[package]
+name = "reasonable-benchmarking"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.5"
+divan = "0.1"
+
+# Part 1: the naive timing pitfalls. These are plain binaries, not benches, because the
+# whole point is what happens when you time things *by hand*.
+
+# Part 2: one benchmark's distribution. Criterion persists the raw samples we analyse in Python.
+[[bench]]
+name = "distribution"
+harness = false
+
+# Part 2, median-centric view of the same workload.
+[[bench]]
+name = "distribution_divan"
+harness = false
+
+# Part 3: comparing a small suite of implementations.
+[[bench]]
+name = "sorts"
+harness = false
+
+[profile.release]
+opt-level = 3
+debug = true
+
+# Part 1, experiment E3: an *incidental* change that should not affect the answer but does affect
+# the runtime. Same source, same opt-level, only the number of codegen units differs. We run the
+# `distribution` bench under this profile and compare its point estimate to the default release build.
+[profile.one-cgu]
+inherits = "release"
+codegen-units = 1
