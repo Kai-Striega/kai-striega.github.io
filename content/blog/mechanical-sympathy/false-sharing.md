@@ -284,10 +284,12 @@ Set this next to part one and you have the reason I write these. Part one said p
 post says pad it apart. Both are correct, both come from the same 64 byte line, and a rule cannot tell you
 which one you need. The mechanism can.
 
-Next time I'd like to pick up something I haven't mentioned yet: why is a Python ``list`` slower than 
-an ``array("q")``, ``np.ndarray`` or Rust's ``vec``? I will be going beyond the standard
+Next time I'd like to pick up something I have only mentioned in a footnote: why is a Python ``list`` slower
+than an ``array("q")``, an ``np.ndarray`` or Rust's ``Vec``? I will be going beyond the standard
 "interpreters are slow" story and, using the skills we've developed over the last few posts, analyse the
-memory layout of our datastructures, with a few twists.
+memory layout of our datastructures, with a few twists. The main one being that when your data is a graph of
+pointers, the machine cannot even begin to look for the next value until it has finished waiting for this
+one.
 
 The benchmark, the Python script and the instructions to reproduce all of this are [in the repo for this
 blog][code]. Your numbers will be different. That's rather the point.

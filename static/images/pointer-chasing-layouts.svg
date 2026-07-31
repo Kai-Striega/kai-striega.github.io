@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" role="img" aria-labelledby="title desc">
+  <style>
+    /* Dark palette. CSS beats presentation attributes, so the drawing below is
+       untouched. Shared verbatim across the mechanical-sympathy diagrams;
+       selectors that match nothing here are harmless. */
+    @media (prefers-color-scheme: dark) {
+      /* canvas and neutrals */
+      [fill="#f7f7f5"] { fill: #1b212a }   [stroke="#f7f7f5"] { stroke: #1b212a }
+      [fill="#ffffff"] { fill: #262e3a }
+      [fill="#1d1d1b"] { fill: #e3e8ee }   [stroke="#1d1d1b"] { stroke: #e3e8ee }
+      [fill="#5a5a55"] { fill: #ced6dd }   [stroke="#5a5a55"] { stroke: #ced6dd }
+      [fill="#6a6a63"] { fill: #9ca4af }
+      [fill="#8a8a82"] { fill: #868f9c }   [stroke="#8a8a82"] { stroke: #868f9c }
+      [fill="#a9a9a1"] { fill: #566072 }   [stroke="#a9a9a1"] { stroke: #566072 }
+      [fill="#e8e8e2"] { fill: #333d4b }
+      [fill="#dcdcd6"] { fill: #2f3947 }
+      [stroke="#e4e4de"] { stroke: #394454 }
+      [stroke="#b9b9b2"] { stroke: #48566b }
+      [stroke="#c4c4bc"] { stroke: #48566b }
+      /* blue */
+      [fill="#1f6feb"] { fill: #6ea8ff }   [stroke="#1f6feb"] { stroke: #6ea8ff }
+      [stroke="#12408c"] { stroke: #3d6fbf }
+      [fill="#e8effb"] { fill: #1c2942 }
+      /* orange */
+      [fill="#c2410c"] { fill: #f08a4b }   [stroke="#c2410c"] { stroke: #f08a4b }
+      [stroke="#7d2a08"] { stroke: #b35a2a }
+      [fill="#f9e9e2"], [fill="#f8ebe7"], [fill="#f4ece7"] { fill: #33241c }
+      /* green */
+      [fill="#2f6f4f"] { fill: #57b98a }
+      [stroke="#1f4a35"] { stroke: #2f7a56 }
+      [fill="#4a8f6a"] { fill: #6fc79b }
+      [fill="#7aa88c"] { fill: #86b89f }
+      [fill="#f0f6f2"], [fill="#e3f0e9"], [fill="#d6e8de"] { fill: #1a2c24 }
+      /* purple */
+      [fill="#6b3fa0"] { fill: #a77dff }   [stroke="#6b3fa0"] { stroke: #a77dff }
+      [fill="#f0eefa"] { fill: #251f38 }
+      /* terracotta */
+      [fill="#b5705f"] { fill: #d0917f }   [stroke="#b5705f"] { stroke: #d0917f }
+      [stroke="#7d4436"] { stroke: #a5654f }
+      /* memory-hierarchy only */
+      [fill="#f7f5ee"] { fill: #1f2229 }
+      [fill="#b0a98f"] { fill: #a8a184 }
+      [stroke="#6b6552"] { stroke: #8a8470 }
+    }
+  </style>
+  <title id="title">Three ways to hold the same eight numbers</title>
+  <desc id="desc">Three layouts drawn one above the other. A contiguous array puts all eight values side by side, so one cache line brings back eight of them and the prefetcher can run ahead. An array of pointers stores eight addresses side by side, each pointing at a separate object elsewhere on the heap; the addresses stream in, so the core can issue many of the scattered loads at once. A linked list stores the same scattered objects, but each object holds the address of the next, so the core must wait for one load to return before it can start the next, and only one request is ever in flight.</desc>
+
+  <rect x="0" y="0" width="720" height="500" fill="#f7f7f5"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+
+    <text x="24" y="26" font-size="15" font-weight="600" fill="#1d1d1b">The same eight numbers, three ways to reach them</text>
+
+    <!-- ============ 1. Contiguous ============ -->
+    <text x="24" y="60" font-size="13" font-weight="600" fill="#1f6feb">A contiguous array</text>
+    <text x="24" y="78" font-size="11" fill="#5a5a55">One line brings back eight values, and the prefetcher already knows what comes next.</text>
+
+    <g font-size="11" text-anchor="middle" fill="#ffffff">
+      <rect x="24"  y="90" width="52" height="34" fill="#1f6feb" stroke="#12408c"/><text x="50"  y="112">v0</text>
+      <rect x="76"  y="90" width="52" height="34" fill="#1f6feb" stroke="#12408c"/><text x="102" y="112">v1</text>
+      <rect x="128" y="90" width="52" height="34" fill="#1f6feb" stroke="#12408c"/><text x="154" y="112">v2</text>
+      <rect x="180" y="90" width="52" height="34" fill="#1f6feb" stroke="#12408c"/><text x="206" y="112">v3</text>
+      <rect x="232" y="90" width="52" height="34" fill="#1f6feb" stroke="#12408c"/><text x="258" y="112">v4</text>
+      <rect x="284" y="90" width="52" height="34" fill="#1f6feb" stroke="#12408c"/><text x="310" y="112">v5</text>
+      <rect x="336" y="90" width="52" height="34" fill="#1f6feb" stroke="#12408c"/><text x="362" y="112">v6</text>
+      <rect x="388" y="90" width="52" height="34" fill="#1f6feb" stroke="#12408c"/><text x="414" y="112">v7</text>
+    </g>
+    <rect x="24" y="90" width="416" height="34" fill="none" stroke="#1d1d1b" stroke-width="2.5"/>
+    <text x="452" y="112" font-size="11" fill="#5a5a55">one cache line</text>
+    <text x="596" y="112" font-size="12" font-weight="600" fill="#1f6feb">0.3 ns each</text>
+
+    <!-- ============ 2. Array of pointers ============ -->
+    <text x="24" y="164" font-size="13" font-weight="600" fill="#c2410c">An array of pointers — a Python list</text>
+    <text x="24" y="182" font-size="11" fill="#5a5a55">The addresses arrive together, so the core can have a dozen scattered loads outstanding at once.</text>
+
+    <g font-size="10" text-anchor="middle" fill="#ffffff">
+      <rect x="24"  y="194" width="52" height="30" fill="#c2410c" stroke="#7d2a08"/><text x="50"  y="213">p0</text>
+      <rect x="76"  y="194" width="52" height="30" fill="#c2410c" stroke="#7d2a08"/><text x="102" y="213">p1</text>
+      <rect x="128" y="194" width="52" height="30" fill="#c2410c" stroke="#7d2a08"/><text x="154" y="213">p2</text>
+      <rect x="180" y="194" width="52" height="30" fill="#c2410c" stroke="#7d2a08"/><text x="206" y="213">p3</text>
+      <rect x="232" y="194" width="52" height="30" fill="#c2410c" stroke="#7d2a08"/><text x="258" y="213">p4</text>
+      <rect x="284" y="194" width="52" height="30" fill="#c2410c" stroke="#7d2a08"/><text x="310" y="213">p5</text>
+      <rect x="336" y="194" width="52" height="30" fill="#c2410c" stroke="#7d2a08"/><text x="362" y="213">p6</text>
+      <rect x="388" y="194" width="52" height="30" fill="#c2410c" stroke="#7d2a08"/><text x="414" y="213">p7</text>
+    </g>
+    <rect x="24" y="194" width="416" height="30" fill="none" stroke="#1d1d1b" stroke-width="2.5"/>
+    <text x="596" y="213" font-size="12" font-weight="600" fill="#c2410c">7.7 ns each</text>
+
+    <!-- arrows fanning out to scattered objects -->
+    <g stroke="#c2410c" stroke-width="1.2" fill="none">
+      <path d="M 50 226 L 96 258"/>
+      <path d="M 102 226 L 340 258"/>
+      <path d="M 154 226 L 44 258"/>
+      <path d="M 206 226 L 406 258"/>
+      <path d="M 258 226 L 216 258"/>
+      <path d="M 310 226 L 472 258"/>
+      <path d="M 362 226 L 160 258"/>
+      <path d="M 414 226 L 270 258"/>
+    </g>
+
+    <g font-size="10" text-anchor="middle" fill="#1d1d1b">
+      <rect x="24"  y="258" width="40" height="26" fill="#f9e9e2" stroke="#c2410c"/><text x="44"  y="275">v2</text>
+      <rect x="76"  y="258" width="40" height="26" fill="#f9e9e2" stroke="#c2410c"/><text x="96"  y="275">v0</text>
+      <rect x="140" y="258" width="40" height="26" fill="#f9e9e2" stroke="#c2410c"/><text x="160" y="275">v6</text>
+      <rect x="196" y="258" width="40" height="26" fill="#f9e9e2" stroke="#c2410c"/><text x="216" y="275">v4</text>
+      <rect x="250" y="258" width="40" height="26" fill="#f9e9e2" stroke="#c2410c"/><text x="270" y="275">v7</text>
+      <rect x="320" y="258" width="40" height="26" fill="#f9e9e2" stroke="#c2410c"/><text x="340" y="275">v1</text>
+      <rect x="386" y="258" width="40" height="26" fill="#f9e9e2" stroke="#c2410c"/><text x="406" y="275">v3</text>
+      <rect x="452" y="258" width="40" height="26" fill="#f9e9e2" stroke="#c2410c"/><text x="472" y="275">v5</text>
+    </g>
+    <text x="500" y="275" font-size="11" fill="#5a5a55">objects, scattered across the heap</text>
+
+    <!-- ============ 3. Linked list ============ -->
+    <text x="24" y="326" font-size="13" font-weight="600" fill="#6b3fa0">A linked list — the same scattered objects</text>
+    <text x="24" y="344" font-size="11" fill="#5a5a55">Each address lives inside the object before it, so nothing can start until the last one lands.</text>
+
+    <g font-size="10" text-anchor="middle">
+      <rect x="24"  y="358" width="76" height="30" fill="#f0eefa" stroke="#6b3fa0"/><text x="62"  y="377" fill="#1d1d1b">v0 · next</text>
+      <rect x="164" y="358" width="76" height="30" fill="#f0eefa" stroke="#6b3fa0"/><text x="202" y="377" fill="#1d1d1b">v1 · next</text>
+      <rect x="304" y="358" width="76" height="30" fill="#f0eefa" stroke="#6b3fa0"/><text x="342" y="377" fill="#1d1d1b">v2 · next</text>
+      <rect x="444" y="358" width="76" height="30" fill="#f0eefa" stroke="#6b3fa0"/><text x="482" y="377" fill="#1d1d1b">v3 · next</text>
+    </g>
+    <g stroke="#6b3fa0" stroke-width="2" fill="none">
+      <path d="M 100 373 L 154 373"/>
+      <path d="M 240 373 L 294 373"/>
+      <path d="M 380 373 L 434 373"/>
+      <path d="M 520 373 L 556 373"/>
+    </g>
+    <g fill="#6b3fa0">
+      <polygon points="164,373 152,368 152,378"/>
+      <polygon points="304,373 292,368 292,378"/>
+      <polygon points="444,373 432,368 432,378"/>
+    </g>
+    <text x="562" y="377" font-size="11" fill="#5a5a55">…</text>
+    <text x="596" y="377" font-size="12" font-weight="600" fill="#6b3fa0">106 ns each</text>
+
+    <g font-size="10" fill="#8a8a82" text-anchor="middle">
+      <text x="127" y="402">wait</text>
+      <text x="267" y="402">wait</text>
+      <text x="407" y="402">wait</text>
+    </g>
+
+    <!-- The rule -->
+    <rect x="24" y="418" width="672" height="46" rx="4" fill="#e8effb" stroke="#1f6feb" stroke-width="1.5"/>
+    <text x="360" y="438" font-size="12" font-weight="600" fill="#1f6feb" text-anchor="middle">The bottom two touch the same objects, in the same order, and miss the cache the same number of times.</text>
+    <text x="360" y="456" font-size="11" fill="#1d1d1b" text-anchor="middle">The list is fourteen times slower because it can only ever be waiting for one of them.</text>
+
+    <text x="24" y="486" font-size="11" fill="#5a5a55">Times measured on one core of an i9-12900K, four million elements, well past the 30 MiB L3.</text>
+  </g>
+</svg>
