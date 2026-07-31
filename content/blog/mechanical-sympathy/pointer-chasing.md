@@ -1,7 +1,6 @@
 +++
 title = 'Pointer Chasing'
 date = 2026-07-26T11:20:00+10:00
-draft = true
 tags = ['performance', 'cpu-caches', 'rust', 'python', 'benchmarking']
 +++
 
