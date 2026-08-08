@@ -1,0 +1,18 @@
+**********************************************************************
+** Visual Studio 2026 Developer Command Prompt v18.8.2
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+
+C:\Program Files\Microsoft Visual Studio\18\Community>cd C:\Users\Kai\Documents
+
+C:\Users\Kai\Documents>cl /c /Od isnan_ice.c
+Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36252 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+isnan_ice.c
+C:\Users\Kai\Documents\isnan_ice.c : fatal error C1001: Internal compiler error.
+(compiler file 'D:\a\_work\1\s\src\vctools\Compiler\Utc\src\p2\main.cpp', line 262)
+ To work around this problem, try simplifying or changing the program near the locations listed above.
+If possible please provide a repro here: https://developercommunity.visualstudio.com
+Please choose the Technical Support command on the Visual C++
+ Help menu, or open the Technical Support help file for more information
