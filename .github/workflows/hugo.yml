@@ -7,6 +7,12 @@ on:
     branches:
       - main
 
+  # Build and link-check pull requests, so a broken template or link shows up
+  # on the PR instead of at deploy time. PRs never deploy (see deploy.if).
+  pull_request:
+    branches:
+      - main
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -18,9 +24,11 @@ permissions:
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Pull requests get their own group per branch, so they never queue behind a
+# deployment, and a newer push to the PR cancels the stale check.
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.ref) || 'pages' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 # Default to bash
 defaults:
@@ -56,6 +64,7 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       - name: Setup Pages
+        if: github.event_name != 'pull_request'
         id: pages
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
@@ -65,18 +74,25 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          # Empty on pull requests (Setup Pages is skipped), where the build
+          # falls back to baseURL in hugo.toml.
+          PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
         run: |
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            ${PAGES_BASE_URL:+--baseURL "$PAGES_BASE_URL/"}
+      - name: Check internal links
+        run: python3 .github/scripts/check_links.py public
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
   # Deployment job
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
