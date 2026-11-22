@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="t d">
+  <style>
+    /* Dark palette. CSS beats presentation attributes, so the drawing below is
+       untouched. Shared verbatim across the mechanical-sympathy diagrams;
+       selectors that match nothing here are harmless. */
+    @media (prefers-color-scheme: dark) {
+      /* canvas and neutrals */
+      [fill="#f7f7f5"] { fill: #1b212a }   [stroke="#f7f7f5"] { stroke: #1b212a }
+      [fill="#ffffff"] { fill: #262e3a }
+      [fill="#1d1d1b"] { fill: #e3e8ee }   [stroke="#1d1d1b"] { stroke: #e3e8ee }
+      [fill="#5a5a55"] { fill: #ced6dd }   [stroke="#5a5a55"] { stroke: #ced6dd }
+      [fill="#6a6a63"] { fill: #9ca4af }
+      [fill="#8a8a82"] { fill: #868f9c }   [stroke="#8a8a82"] { stroke: #868f9c }
+      [fill="#a9a9a1"] { fill: #566072 }   [stroke="#a9a9a1"] { stroke: #566072 }
+      [fill="#e8e8e2"] { fill: #333d4b }
+      [fill="#dcdcd6"] { fill: #2f3947 }
+      [stroke="#e4e4de"] { stroke: #394454 }
+      [stroke="#b9b9b2"] { stroke: #48566b }
+      [stroke="#c4c4bc"] { stroke: #48566b }
+      /* blue */
+      [fill="#1f6feb"] { fill: #6ea8ff }   [stroke="#1f6feb"] { stroke: #6ea8ff }
+      [stroke="#12408c"] { stroke: #3d6fbf }
+      [fill="#e8effb"] { fill: #1c2942 }
+      /* orange */
+      [fill="#c2410c"] { fill: #f08a4b }   [stroke="#c2410c"] { stroke: #f08a4b }
+      [stroke="#7d2a08"] { stroke: #b35a2a }
+      [fill="#f9e9e2"], [fill="#f8ebe7"], [fill="#f4ece7"] { fill: #33241c }
+      /* green */
+      [fill="#2f6f4f"] { fill: #57b98a }
+      [stroke="#1f4a35"] { stroke: #2f7a56 }
+      [fill="#4a8f6a"] { fill: #6fc79b }
+      [fill="#7aa88c"] { fill: #86b89f }
+      [fill="#f0f6f2"], [fill="#e3f0e9"], [fill="#d6e8de"] { fill: #1a2c24 }
+      /* purple */
+      [fill="#6b3fa0"] { fill: #a77dff }   [stroke="#6b3fa0"] { stroke: #a77dff }
+      [fill="#f0eefa"] { fill: #251f38 }
+      /* terracotta */
+      [fill="#b5705f"] { fill: #d0917f }   [stroke="#b5705f"] { stroke: #d0917f }
+      [stroke="#7d4436"] { stroke: #a5654f }
+      /* memory-hierarchy only */
+      [fill="#f7f5ee"] { fill: #1f2229 }
+      [fill="#b0a98f"] { fill: #a8a184 }
+      [stroke="#6b6552"] { stroke: #8a8470 }
+    }
+    /* Teal, for independents: only this series uses it. */
+    @media (prefers-color-scheme: dark) {
+      [fill="#008080"] { fill: #3fb8b8 }   [stroke="#008080"] { stroke: #3fb8b8 }
+    }
+  </style>
+<title id="t">About one seat in twelve is won from behind</title>
+<desc id="d">Stacked bar chart of 102 seats won from behind, 2004 to 2025: 8 in 2004, 9 in 2007, 11 in 2010, 15 in 2013, 16 in 2016, 12 in 2019, 16 in 2022, 15 in 2025. Labor won most; independents won 7 in 2022 and 5 in 2025.</desc>
+<rect width="760" height="340" fill="#f7f7f5"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="24" y="30" font-size="15" font-weight="600" fill="#1d1d1b">About one seat in twelve is won from behind</text>
+<text x="24" y="50" font-size="12" fill="#5a5a55">House divisions won by a candidate who trailed on first preferences, by winner</text>
+<line x1="70.0" y1="290.0" x2="690.0" y2="290.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="62.0" y="294.0" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">0</text>
+<line x1="70.0" y1="237.2" x2="690.0" y2="237.2" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="62.0" y="241.2" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">5</text>
+<line x1="70.0" y1="184.4" x2="690.0" y2="184.4" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="62.0" y="188.4" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">10</text>
+<line x1="70.0" y1="131.7" x2="690.0" y2="131.7" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="62.0" y="135.7" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">15</text>
+<line x1="70.0" y1="290.0" x2="690.0" y2="290.0" stroke="#b9b9b2" stroke-width="1.0"/>
+<rect x="85.5" y="205.6" width="46.5" height="82.9" fill="#b5705f"/>
+<text x="108.8" y="199.6" font-size="11" fill="#1d1d1b" text-anchor="middle" font-weight="normal">8</text>
+<text x="108.8" y="306.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">2004</text>
+<rect x="163.0" y="195.0" width="46.5" height="93.5" fill="#b5705f"/>
+<text x="186.2" y="189.0" font-size="11" fill="#1d1d1b" text-anchor="middle" font-weight="normal">9</text>
+<text x="186.2" y="306.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">2007</text>
+<rect x="240.5" y="205.6" width="46.5" height="82.9" fill="#b5705f"/>
+<rect x="240.5" y="195.0" width="46.5" height="9.1" fill="#008080"/>
+<rect x="240.5" y="184.4" width="46.5" height="9.1" fill="#2f6f4f"/>
+<rect x="240.5" y="173.9" width="46.5" height="9.1" fill="#a9a9a1"/>
+<text x="263.8" y="167.9" font-size="11" fill="#1d1d1b" text-anchor="middle" font-weight="normal">11</text>
+<text x="263.8" y="306.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">2010</text>
+<rect x="318.0" y="163.3" width="46.5" height="125.2" fill="#b5705f"/>
+<rect x="318.0" y="152.8" width="46.5" height="9.1" fill="#008080"/>
+<rect x="318.0" y="131.7" width="46.5" height="19.6" fill="#a9a9a1"/>
+<text x="341.2" y="125.7" font-size="11" fill="#1d1d1b" text-anchor="middle" font-weight="normal">15</text>
+<text x="341.2" y="306.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">2013</text>
+<rect x="395.5" y="131.7" width="46.5" height="156.8" fill="#b5705f"/>
+<rect x="395.5" y="121.1" width="46.5" height="9.1" fill="#a9a9a1"/>
+<text x="418.8" y="115.1" font-size="11" fill="#1d1d1b" text-anchor="middle" font-weight="normal">16</text>
+<text x="418.8" y="306.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">2016</text>
+<rect x="473.0" y="184.4" width="46.5" height="104.1" fill="#b5705f"/>
+<rect x="473.0" y="173.9" width="46.5" height="9.1" fill="#008080"/>
+<rect x="473.0" y="163.3" width="46.5" height="9.1" fill="#a9a9a1"/>
+<text x="496.2" y="157.3" font-size="11" fill="#1d1d1b" text-anchor="middle" font-weight="normal">12</text>
+<text x="496.2" y="306.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">2019</text>
+<rect x="550.5" y="216.1" width="46.5" height="72.4" fill="#b5705f"/>
+<rect x="550.5" y="142.2" width="46.5" height="72.4" fill="#008080"/>
+<rect x="550.5" y="121.1" width="46.5" height="19.6" fill="#2f6f4f"/>
+<text x="573.8" y="115.1" font-size="11" fill="#1d1d1b" text-anchor="middle" font-weight="normal">16</text>
+<text x="573.8" y="306.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">2022</text>
+<rect x="628.0" y="195.0" width="46.5" height="93.5" fill="#b5705f"/>
+<rect x="628.0" y="142.2" width="46.5" height="51.3" fill="#008080"/>
+<rect x="628.0" y="131.7" width="46.5" height="9.1" fill="#2f6f4f"/>
+<text x="651.2" y="125.7" font-size="11" fill="#1d1d1b" text-anchor="middle" font-weight="normal">15</text>
+<text x="651.2" y="306.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">2025</text>
+<rect x="70.0" y="68.0" width="12.0" height="12.0" fill="#b5705f"/>
+<text x="94.0" y="78.0" font-size="12" fill="#1d1d1b" text-anchor="start" font-weight="normal">Labor</text>
+<rect x="149.0" y="68.0" width="12.0" height="12.0" fill="#008080"/>
+<text x="173.0" y="78.0" font-size="12" fill="#1d1d1b" text-anchor="start" font-weight="normal">Independents</text>
+<rect x="274.2" y="68.0" width="12.0" height="12.0" fill="#2f6f4f"/>
+<text x="298.2" y="78.0" font-size="12" fill="#1d1d1b" text-anchor="start" font-weight="normal">Greens</text>
+<rect x="359.8" y="68.0" width="12.0" height="12.0" fill="#a9a9a1"/>
+<text x="383.8" y="78.0" font-size="12" fill="#1d1d1b" text-anchor="start" font-weight="normal">Other</text>
+</g></svg>

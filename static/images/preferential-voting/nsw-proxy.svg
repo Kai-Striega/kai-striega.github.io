@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="310" viewBox="0 0 760 310" role="img" aria-labelledby="t d">
+  <style>
+    /* Dark palette. CSS beats presentation attributes, so the drawing below is
+       untouched. Shared verbatim across the mechanical-sympathy diagrams;
+       selectors that match nothing here are harmless. */
+    @media (prefers-color-scheme: dark) {
+      /* canvas and neutrals */
+      [fill="#f7f7f5"] { fill: #1b212a }   [stroke="#f7f7f5"] { stroke: #1b212a }
+      [fill="#ffffff"] { fill: #262e3a }
+      [fill="#1d1d1b"] { fill: #e3e8ee }   [stroke="#1d1d1b"] { stroke: #e3e8ee }
+      [fill="#5a5a55"] { fill: #ced6dd }   [stroke="#5a5a55"] { stroke: #ced6dd }
+      [fill="#6a6a63"] { fill: #9ca4af }
+      [fill="#8a8a82"] { fill: #868f9c }   [stroke="#8a8a82"] { stroke: #868f9c }
+      [fill="#a9a9a1"] { fill: #566072 }   [stroke="#a9a9a1"] { stroke: #566072 }
+      [fill="#e8e8e2"] { fill: #333d4b }
+      [fill="#dcdcd6"] { fill: #2f3947 }
+      [stroke="#e4e4de"] { stroke: #394454 }
+      [stroke="#b9b9b2"] { stroke: #48566b }
+      [stroke="#c4c4bc"] { stroke: #48566b }
+      /* blue */
+      [fill="#1f6feb"] { fill: #6ea8ff }   [stroke="#1f6feb"] { stroke: #6ea8ff }
+      [stroke="#12408c"] { stroke: #3d6fbf }
+      [fill="#e8effb"] { fill: #1c2942 }
+      /* orange */
+      [fill="#c2410c"] { fill: #f08a4b }   [stroke="#c2410c"] { stroke: #f08a4b }
+      [stroke="#7d2a08"] { stroke: #b35a2a }
+      [fill="#f9e9e2"], [fill="#f8ebe7"], [fill="#f4ece7"] { fill: #33241c }
+      /* green */
+      [fill="#2f6f4f"] { fill: #57b98a }
+      [stroke="#1f4a35"] { stroke: #2f7a56 }
+      [fill="#4a8f6a"] { fill: #6fc79b }
+      [fill="#7aa88c"] { fill: #86b89f }
+      [fill="#f0f6f2"], [fill="#e3f0e9"], [fill="#d6e8de"] { fill: #1a2c24 }
+      /* purple */
+      [fill="#6b3fa0"] { fill: #a77dff }   [stroke="#6b3fa0"] { stroke: #a77dff }
+      [fill="#f0eefa"] { fill: #251f38 }
+      /* terracotta */
+      [fill="#b5705f"] { fill: #d0917f }   [stroke="#b5705f"] { stroke: #d0917f }
+      [stroke="#7d4436"] { stroke: #a5654f }
+      /* memory-hierarchy only */
+      [fill="#f7f5ee"] { fill: #1f2229 }
+      [fill="#b0a98f"] { fill: #a8a184 }
+      [stroke="#6b6552"] { stroke: #8a8470 }
+    }
+    /* Teal, for independents: only this series uses it. */
+    @media (prefers-color-scheme: dark) {
+      [fill="#008080"] { fill: #3fb8b8 }   [stroke="#008080"] { stroke: #3fb8b8 }
+    }
+  </style>
+<title id="t">The Senate-style stand-in misses most where an MP has a personal vote</title>
+<desc id="d">Strip chart of 91 districts. Seats held by the Coalition all sit to the right of zero, by up to 17 points: the stand-in shows Labor stronger than the real ballots. Seats held by Labor straddle zero. The average lean is 3.3 points towards Labor.</desc>
+<rect width="760" height="310" fill="#f7f7f5"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="24" y="30" font-size="15" font-weight="600" fill="#1d1d1b">The Senate-style stand-in misses most where an MP has a personal vote</text>
+<text x="24" y="50" font-size="12" fill="#5a5a55">NSW 2023: stand-in minus real Labor share of the Labor v Coalition head-to-head, by who held the seat</text>
+<line x1="186.9" y1="80.0" x2="186.9" y2="260.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="186.9" y="276.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">-5</text>
+<line x1="298.5" y1="80.0" x2="298.5" y2="260.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="298.5" y="276.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">0</text>
+<line x1="410.0" y1="80.0" x2="410.0" y2="260.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="410.0" y="276.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">5</text>
+<line x1="521.5" y1="80.0" x2="521.5" y2="260.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="521.5" y="276.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">10</text>
+<line x1="633.1" y1="80.0" x2="633.1" y2="260.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="633.1" y="276.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">15</text>
+<line x1="120.0" y1="260.0" x2="700.0" y2="260.0" stroke="#b9b9b2" stroke-width="1.0"/>
+<line x1="298.5" y1="80.0" x2="298.5" y2="260.0" stroke="#1d1d1b" stroke-width="1.2"/>
+<text x="110.0" y="106.5" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Coalition</text>
+<circle cx="483.2" cy="93.7" r="3" fill="#8a8a82"/>
+<circle cx="551.7" cy="110.8" r="3" fill="#8a8a82"/>
+<circle cx="610.3" cy="108.8" r="3" fill="#8a8a82"/>
+<circle cx="356.9" cy="96.6" r="3" fill="#8a8a82"/>
+<circle cx="484.3" cy="102.4" r="3" fill="#8a8a82"/>
+<circle cx="619.9" cy="101.3" r="3" fill="#8a8a82"/>
+<circle cx="428.7" cy="106.1" r="3" fill="#8a8a82"/>
+<circle cx="439.9" cy="109.4" r="3" fill="#8a8a82"/>
+<circle cx="441.7" cy="92.8" r="3" fill="#8a8a82"/>
+<circle cx="424.9" cy="91.2" r="3" fill="#8a8a82"/>
+<circle cx="389.9" cy="110.6" r="3" fill="#8a8a82"/>
+<circle cx="395.7" cy="100.9" r="3" fill="#8a8a82"/>
+<circle cx="367.6" cy="108.8" r="3" fill="#8a8a82"/>
+<circle cx="442.8" cy="90.6" r="3" fill="#8a8a82"/>
+<circle cx="406.2" cy="101.2" r="3" fill="#8a8a82"/>
+<circle cx="383.0" cy="107.8" r="3" fill="#8a8a82"/>
+<circle cx="472.2" cy="96.0" r="3" fill="#8a8a82"/>
+<circle cx="387.0" cy="113.2" r="3" fill="#8a8a82"/>
+<circle cx="358.5" cy="112.1" r="3" fill="#8a8a82"/>
+<circle cx="384.8" cy="91.2" r="3" fill="#8a8a82"/>
+<circle cx="669.9" cy="91.1" r="3" fill="#8a8a82"/>
+<circle cx="464.2" cy="103.5" r="3" fill="#8a8a82"/>
+<circle cx="439.4" cy="113.0" r="3" fill="#8a8a82"/>
+<circle cx="526.9" cy="99.6" r="3" fill="#8a8a82"/>
+<circle cx="410.2" cy="95.7" r="3" fill="#8a8a82"/>
+<circle cx="413.6" cy="100.6" r="3" fill="#8a8a82"/>
+<circle cx="375.4" cy="91.2" r="3" fill="#8a8a82"/>
+<circle cx="420.7" cy="95.8" r="3" fill="#8a8a82"/>
+<circle cx="363.6" cy="101.0" r="3" fill="#8a8a82"/>
+<circle cx="472.7" cy="102.4" r="3" fill="#8a8a82"/>
+<circle cx="380.3" cy="96.1" r="3" fill="#8a8a82"/>
+<text x="110.0" y="151.5" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Labor</text>
+<circle cx="293.6" cy="141.0" r="3" fill="#8a8a82"/>
+<circle cx="328.6" cy="140.8" r="3" fill="#8a8a82"/>
+<circle cx="337.1" cy="146.5" r="3" fill="#8a8a82"/>
+<circle cx="335.3" cy="142.5" r="3" fill="#8a8a82"/>
+<circle cx="300.0" cy="136.0" r="3" fill="#8a8a82"/>
+<circle cx="257.2" cy="155.6" r="3" fill="#8a8a82"/>
+<circle cx="238.9" cy="148.9" r="3" fill="#8a8a82"/>
+<circle cx="228.2" cy="150.9" r="3" fill="#8a8a82"/>
+<circle cx="298.2" cy="140.0" r="3" fill="#8a8a82"/>
+<circle cx="332.4" cy="159.3" r="3" fill="#8a8a82"/>
+<circle cx="284.4" cy="156.1" r="3" fill="#8a8a82"/>
+<circle cx="229.1" cy="138.4" r="3" fill="#8a8a82"/>
+<circle cx="315.0" cy="143.5" r="3" fill="#8a8a82"/>
+<circle cx="271.7" cy="152.8" r="3" fill="#8a8a82"/>
+<circle cx="314.7" cy="152.6" r="3" fill="#8a8a82"/>
+<circle cx="197.0" cy="158.0" r="3" fill="#8a8a82"/>
+<circle cx="288.6" cy="145.6" r="3" fill="#8a8a82"/>
+<circle cx="321.7" cy="155.4" r="3" fill="#8a8a82"/>
+<circle cx="308.9" cy="151.6" r="3" fill="#8a8a82"/>
+<circle cx="308.9" cy="142.8" r="3" fill="#8a8a82"/>
+<circle cx="348.9" cy="149.6" r="3" fill="#8a8a82"/>
+<circle cx="300.5" cy="156.7" r="3" fill="#8a8a82"/>
+<circle cx="168.4" cy="155.8" r="3" fill="#8a8a82"/>
+<circle cx="405.8" cy="147.6" r="3" fill="#8a8a82"/>
+<circle cx="328.8" cy="149.6" r="3" fill="#8a8a82"/>
+<circle cx="259.6" cy="136.3" r="3" fill="#8a8a82"/>
+<circle cx="358.9" cy="141.3" r="3" fill="#8a8a82"/>
+<circle cx="312.3" cy="154.6" r="3" fill="#8a8a82"/>
+<circle cx="312.7" cy="145.4" r="3" fill="#8a8a82"/>
+<circle cx="351.3" cy="139.7" r="3" fill="#8a8a82"/>
+<circle cx="200.8" cy="148.7" r="3" fill="#8a8a82"/>
+<circle cx="347.5" cy="152.4" r="3" fill="#8a8a82"/>
+<circle cx="271.0" cy="151.7" r="3" fill="#8a8a82"/>
+<text x="110.0" y="196.5" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Open seat</text>
+<circle cx="306.7" cy="189.5" r="3" fill="#8a8a82"/>
+<circle cx="416.2" cy="191.0" r="3" fill="#8a8a82"/>
+<circle cx="343.3" cy="192.7" r="3" fill="#8a8a82"/>
+<circle cx="454.2" cy="199.2" r="3" fill="#8a8a82"/>
+<circle cx="386.4" cy="193.0" r="3" fill="#8a8a82"/>
+<circle cx="387.2" cy="189.9" r="3" fill="#8a8a82"/>
+<circle cx="331.3" cy="192.3" r="3" fill="#8a8a82"/>
+<circle cx="438.3" cy="181.2" r="3" fill="#8a8a82"/>
+<circle cx="425.4" cy="181.5" r="3" fill="#8a8a82"/>
+<circle cx="465.3" cy="197.4" r="3" fill="#8a8a82"/>
+<circle cx="442.8" cy="204.1" r="3" fill="#8a8a82"/>
+<circle cx="461.1" cy="194.7" r="3" fill="#8a8a82"/>
+<circle cx="395.9" cy="189.9" r="3" fill="#8a8a82"/>
+<circle cx="374.3" cy="184.6" r="3" fill="#8a8a82"/>
+<circle cx="378.1" cy="192.6" r="3" fill="#8a8a82"/>
+<circle cx="437.4" cy="204.1" r="3" fill="#8a8a82"/>
+<circle cx="379.4" cy="199.0" r="3" fill="#8a8a82"/>
+<circle cx="381.7" cy="193.5" r="3" fill="#8a8a82"/>
+<circle cx="389.9" cy="201.1" r="3" fill="#8a8a82"/>
+<text x="110.0" y="241.5" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Other</text>
+<circle cx="366.1" cy="231.1" r="3" fill="#8a8a82"/>
+<circle cx="434.1" cy="237.8" r="3" fill="#8a8a82"/>
+<circle cx="152.3" cy="248.4" r="3" fill="#8a8a82"/>
+<circle cx="299.6" cy="239.4" r="3" fill="#8a8a82"/>
+<circle cx="421.6" cy="236.5" r="3" fill="#8a8a82"/>
+<circle cx="337.9" cy="232.0" r="3" fill="#8a8a82"/>
+<circle cx="365.6" cy="238.7" r="3" fill="#8a8a82"/>
+<circle cx="344.0" cy="248.5" r="3" fill="#8a8a82"/>
+<text x="410.0" y="294.0" font-size="11" fill="#5a5a55" text-anchor="middle" font-weight="normal">Stand-in error, points (positive = stand-in favours Labor)</text>
+</g></svg>

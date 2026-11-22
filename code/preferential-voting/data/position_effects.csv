@@ -1,0 +1,9 @@
+column,log_odds,odds_multiplier
+"first column, major party",0.373,1.452
+"first column, minor party",1.4154,4.118
+"last column, major party",-0.1483,0.8622
+"last column, minor party",1.826,6.2091
+"second column, major party",0.159,1.1724
+"second column, minor party",-0.0128,0.9872
+"second-last column, major party",-0.2544,0.7754
+"second-last column, minor party",0.6558,1.9267

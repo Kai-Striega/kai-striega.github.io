@@ -1,0 +1,226 @@
+ballots_read,voters,pair,share,ranked,ballots,year,state
+all,Coalition voters,One Nation above Labor,0.4266,0.3612,1610869,2016,NSW
+all,Labor voters,One Nation above the Coalition,0.4463,0.3565,1405376,2016,NSW
+all,Greens voters,One Nation above the Coalition,0.1303,0.244,333362,2016,NSW
+ATL,Coalition voters,One Nation above Labor,0.424,0.3669,1544493,2016,NSW
+ATL,Labor voters,One Nation above the Coalition,0.4483,0.3647,1342992,2016,NSW
+ATL,Greens voters,One Nation above the Coalition,0.128,0.2562,304272,2016,NSW
+BTL,Coalition voters,One Nation above Labor,0.5234,0.2295,66376,2016,NSW
+BTL,Labor voters,One Nation above the Coalition,0.359,0.1788,62384,2016,NSW
+BTL,Greens voters,One Nation above the Coalition,0.1834,0.1166,29090,2016,NSW
+all,Coalition voters,One Nation above Labor,0.523,0.4031,960916,2016,QLD
+all,Labor voters,One Nation above the Coalition,0.4986,0.4228,717796,2016,QLD
+all,Greens voters,One Nation above the Coalition,0.2117,0.2688,188837,2016,QLD
+ATL,Coalition voters,One Nation above Labor,0.5188,0.4009,922925,2016,QLD
+ATL,Labor voters,One Nation above the Coalition,0.4989,0.4253,686253,2016,QLD
+ATL,Greens voters,One Nation above the Coalition,0.2069,0.2812,167327,2016,QLD
+BTL,Coalition voters,One Nation above Labor,0.6144,0.4548,37991,2016,QLD
+BTL,Labor voters,One Nation above the Coalition,0.4911,0.3666,31543,2016,QLD
+BTL,Greens voters,One Nation above the Coalition,0.2721,0.1724,21510,2016,QLD
+all,Coalition voters,One Nation above Labor,0.3853,0.4422,345803,2016,SA
+all,Labor voters,One Nation above the Coalition,0.3587,0.4683,289971,2016,SA
+all,Greens voters,One Nation above the Coalition,0.161,0.3731,62479,2016,SA
+ATL,Coalition voters,One Nation above Labor,0.3848,0.439,329516,2016,SA
+ATL,Labor voters,One Nation above the Coalition,0.3622,0.4773,269824,2016,SA
+ATL,Greens voters,One Nation above the Coalition,0.1513,0.3977,51010,2016,SA
+BTL,Coalition voters,One Nation above Labor,0.393,0.506,16287,2016,SA
+BTL,Labor voters,One Nation above the Coalition,0.2956,0.348,20147,2016,SA
+BTL,Greens voters,One Nation above the Coalition,0.2259,0.2632,11469,2016,SA
+all,Coalition voters,One Nation above Labor,0.291,0.73,110356,2016,TAS
+all,Labor voters,One Nation above the Coalition,0.4498,0.5906,114004,2016,TAS
+all,Greens voters,One Nation above the Coalition,0.2263,0.3699,37887,2016,TAS
+ATL,Coalition voters,One Nation above Labor,0.2997,0.7628,83365,2016,TAS
+ATL,Labor voters,One Nation above the Coalition,0.4808,0.6325,83366,2016,TAS
+ATL,Greens voters,One Nation above the Coalition,0.1994,0.3995,21675,2016,TAS
+BTL,Coalition voters,One Nation above Labor,0.2581,0.6284,26991,2016,TAS
+BTL,Labor voters,One Nation above the Coalition,0.3378,0.4764,30638,2016,TAS
+BTL,Greens voters,One Nation above the Coalition,0.2697,0.3303,16212,2016,TAS
+all,Coalition voters,One Nation above Labor,0.311,0.2849,1159110,2016,VIC
+all,Labor voters,One Nation above the Coalition,0.3287,0.2628,1075954,2016,VIC
+all,Greens voters,One Nation above the Coalition,0.086,0.2198,381070,2016,VIC
+ATL,Coalition voters,One Nation above Labor,0.3097,0.2832,1133028,2016,VIC
+ATL,Labor voters,One Nation above the Coalition,0.3292,0.2649,1035725,2016,VIC
+ATL,Greens voters,One Nation above the Coalition,0.0809,0.2289,339882,2016,VIC
+BTL,Coalition voters,One Nation above Labor,0.3564,0.3601,26082,2016,VIC
+BTL,Labor voters,One Nation above the Coalition,0.3119,0.2096,40229,2016,VIC
+BTL,Greens voters,One Nation above the Coalition,0.1519,0.1452,41188,2016,VIC
+all,Coalition voters,One Nation above Labor,0.3844,0.3798,526252,2016,WA
+all,Labor voters,One Nation above the Coalition,0.4247,0.435,386319,2016,WA
+all,Greens voters,One Nation above the Coalition,0.1725,0.3809,144051,2016,WA
+ATL,Coalition voters,One Nation above Labor,0.3841,0.3797,510870,2016,WA
+ATL,Labor voters,One Nation above the Coalition,0.4243,0.4413,369150,2016,WA
+ATL,Greens voters,One Nation above the Coalition,0.1693,0.4008,126547,2016,WA
+BTL,Coalition voters,One Nation above Labor,0.3968,0.3819,15382,2016,WA
+BTL,Labor voters,One Nation above the Coalition,0.4375,0.3006,17169,2016,WA
+BTL,Greens voters,One Nation above the Coalition,0.2117,0.237,17504,2016,WA
+all,Coalition voters,One Nation above Labor,0.5715,0.4287,1810295,2019,NSW
+all,Labor voters,One Nation above the Coalition,0.3046,0.3277,1400493,2019,NSW
+all,Greens voters,One Nation above the Coalition,0.1148,0.2574,409975,2019,NSW
+ATL,Coalition voters,One Nation above Labor,0.5315,0.4145,1635852,2019,NSW
+ATL,Labor voters,One Nation above the Coalition,0.307,0.3305,1349957,2019,NSW
+ATL,Greens voters,One Nation above the Coalition,0.115,0.2647,380114,2019,NSW
+BTL,Coalition voters,One Nation above Labor,0.8485,0.5614,174443,2019,NSW
+BTL,Labor voters,One Nation above the Coalition,0.2228,0.2526,50536,2019,NSW
+BTL,Greens voters,One Nation above the Coalition,0.11,0.1648,29861,2019,NSW
+all,Coalition voters,One Nation above Labor,0.6441,0.5529,1129116,2019,QLD
+all,Labor voters,One Nation above the Coalition,0.36,0.4455,655366,2019,QLD
+all,Greens voters,One Nation above the Coalition,0.1573,0.3732,289122,2019,QLD
+ATL,Coalition voters,One Nation above Labor,0.6429,0.5507,1079801,2019,QLD
+ATL,Labor voters,One Nation above the Coalition,0.3629,0.4514,624113,2019,QLD
+ATL,Greens voters,One Nation above the Coalition,0.1594,0.3922,253004,2019,QLD
+BTL,Coalition voters,One Nation above Labor,0.6695,0.6001,49315,2019,QLD
+BTL,Labor voters,One Nation above the Coalition,0.2788,0.3284,31253,2019,QLD
+BTL,Greens voters,One Nation above the Coalition,0.1338,0.2407,36118,2019,QLD
+all,Coalition voters,One Nation above Labor,0.5224,0.505,414060,2019,SA
+all,Labor voters,One Nation above the Coalition,0.3145,0.5046,332510,2019,SA
+all,Greens voters,One Nation above the Coalition,0.1395,0.4836,119627,2019,SA
+ATL,Coalition voters,One Nation above Labor,0.5237,0.4955,395058,2019,SA
+ATL,Labor voters,One Nation above the Coalition,0.3188,0.505,314876,2019,SA
+ATL,Greens voters,One Nation above the Coalition,0.144,0.5007,98903,2019,SA
+BTL,Coalition voters,One Nation above Labor,0.5046,0.7015,19002,2019,SA
+BTL,Labor voters,One Nation above the Coalition,0.2365,0.4985,17634,2019,SA
+BTL,Greens voters,One Nation above the Coalition,0.1128,0.4019,20724,2019,SA
+all,Coalition voters,One Nation above Labor,0.5129,0.6876,111231,2019,TAS
+all,Labor voters,One Nation above the Coalition,0.3532,0.6069,108100,2019,TAS
+all,Greens voters,One Nation above the Coalition,0.1307,0.4437,44354,2019,TAS
+ATL,Coalition voters,One Nation above Labor,0.5144,0.6794,91279,2019,TAS
+ATL,Labor voters,One Nation above the Coalition,0.3838,0.6586,77908,2019,TAS
+ATL,Greens voters,One Nation above the Coalition,0.1385,0.4833,25854,2019,TAS
+BTL,Coalition voters,One Nation above Labor,0.5063,0.725,19952,2019,TAS
+BTL,Labor voters,One Nation above the Coalition,0.2434,0.4732,30192,2019,TAS
+BTL,Greens voters,One Nation above the Coalition,0.1172,0.3884,18500,2019,TAS
+all,Coalition voters,One Nation above Labor,0.4904,0.3643,1327862,2019,VIC
+all,Labor voters,One Nation above the Coalition,0.2736,0.3406,1164146,2019,VIC
+all,Greens voters,One Nation above the Coalition,0.0693,0.2699,397532,2019,VIC
+ATL,Coalition voters,One Nation above Labor,0.4891,0.3627,1287050,2019,VIC
+ATL,Labor voters,One Nation above the Coalition,0.2772,0.3463,1107525,2019,VIC
+ATL,Greens voters,One Nation above the Coalition,0.0677,0.286,343081,2019,VIC
+BTL,Coalition voters,One Nation above Labor,0.5262,0.414,40812,2019,VIC
+BTL,Labor voters,One Nation above the Coalition,0.1676,0.2296,56621,2019,VIC
+BTL,Greens voters,One Nation above the Coalition,0.0862,0.168,54451,2019,VIC
+all,Coalition voters,One Nation above Labor,0.484,0.4572,591993,2019,WA
+all,Labor voters,One Nation above the Coalition,0.2787,0.4595,399771,2019,WA
+all,Greens voters,One Nation above the Coalition,0.1253,0.4188,171117,2019,WA
+ATL,Coalition voters,One Nation above Labor,0.4842,0.4532,575743,2019,WA
+ATL,Labor voters,One Nation above the Coalition,0.281,0.4647,380206,2019,WA
+ATL,Greens voters,One Nation above the Coalition,0.1263,0.4344,152292,2019,WA
+BTL,Coalition voters,One Nation above Labor,0.478,0.5984,16250,2019,WA
+BTL,Labor voters,One Nation above the Coalition,0.2196,0.3573,19565,2019,WA
+BTL,Greens voters,One Nation above the Coalition,0.1139,0.2925,18825,2019,WA
+all,Coalition voters,One Nation above Labor,0.5634,0.5441,1763457,2022,NSW
+all,Labor voters,One Nation above the Coalition,0.3307,0.387,1462307,2022,NSW
+all,Greens voters,One Nation above the Coalition,0.1484,0.3027,550862,2022,NSW
+ATL,Coalition voters,One Nation above Labor,0.5605,0.5446,1704657,2022,NSW
+ATL,Labor voters,One Nation above the Coalition,0.33,0.3925,1404444,2022,NSW
+ATL,Greens voters,One Nation above the Coalition,0.1465,0.3131,509981,2022,NSW
+BTL,Coalition voters,One Nation above Labor,0.6507,0.5294,58800,2022,NSW
+BTL,Labor voters,One Nation above the Coalition,0.3556,0.2545,57863,2022,NSW
+BTL,Greens voters,One Nation above the Coalition,0.1926,0.1725,40881,2022,NSW
+all,Coalition voters,One Nation above Labor,0.7622,0.8658,1062410,2022,QLD
+all,Labor voters,One Nation above the Coalition,0.3761,0.4428,744996,2022,QLD
+all,Greens voters,One Nation above the Coalition,0.2021,0.345,373769,2022,QLD
+ATL,Coalition voters,One Nation above Labor,0.7604,0.8709,1013227,2022,QLD
+ATL,Labor voters,One Nation above the Coalition,0.3766,0.4476,713051,2022,QLD
+ATL,Greens voters,One Nation above the Coalition,0.1998,0.3568,345470,2022,QLD
+BTL,Coalition voters,One Nation above Labor,0.8051,0.7613,49183,2022,QLD
+BTL,Labor voters,One Nation above the Coalition,0.3613,0.3341,31945,2022,QLD
+BTL,Greens voters,One Nation above the Coalition,0.2528,0.2006,28299,2022,QLD
+all,Coalition voters,One Nation above Labor,0.4051,0.4845,382915,2022,SA
+all,Labor voters,One Nation above the Coalition,0.2784,0.4638,364146,2022,SA
+all,Greens voters,One Nation above the Coalition,0.1498,0.3961,135017,2022,SA
+ATL,Coalition voters,One Nation above Labor,0.4009,0.4791,372322,2022,SA
+ATL,Labor voters,One Nation above the Coalition,0.2811,0.4676,343039,2022,SA
+ATL,Greens voters,One Nation above the Coalition,0.1476,0.4087,122255,2022,SA
+BTL,Coalition voters,One Nation above Labor,0.5109,0.6727,10593,2022,SA
+BTL,Labor voters,One Nation above the Coalition,0.2278,0.4025,21107,2022,SA
+BTL,Greens voters,One Nation above the Coalition,0.1803,0.2751,12762,2022,SA
+all,Coalition voters,One Nation above Labor,0.5289,0.7928,115648,2022,TAS
+all,Labor voters,One Nation above the Coalition,0.4247,0.599,97678,2022,TAS
+all,Greens voters,One Nation above the Coalition,0.2614,0.4291,56087,2022,TAS
+ATL,Coalition voters,One Nation above Labor,0.5269,0.7965,91503,2022,TAS
+ATL,Labor voters,One Nation above the Coalition,0.4281,0.6241,79901,2022,TAS
+ATL,Greens voters,One Nation above the Coalition,0.2302,0.4244,36188,2022,TAS
+BTL,Coalition voters,One Nation above Labor,0.5364,0.7791,24145,2022,TAS
+BTL,Labor voters,One Nation above the Coalition,0.405,0.4861,17777,2022,TAS
+BTL,Greens voters,One Nation above the Coalition,0.3164,0.4375,19899,2022,TAS
+all,Coalition voters,One Nation above Labor,0.4531,0.4751,1234315,2022,VIC
+all,Labor voters,One Nation above the Coalition,0.2564,0.3729,1202519,2022,VIC
+all,Greens voters,One Nation above the Coalition,0.115,0.2671,530861,2022,VIC
+ATL,Coalition voters,One Nation above Labor,0.4525,0.4724,1199425,2022,VIC
+ATL,Labor voters,One Nation above the Coalition,0.2572,0.3737,1160465,2022,VIC
+ATL,Greens voters,One Nation above the Coalition,0.1123,0.2753,484561,2022,VIC
+BTL,Coalition voters,One Nation above Labor,0.4703,0.5673,34890,2022,VIC
+BTL,Labor voters,One Nation above the Coalition,0.2344,0.35,42054,2022,VIC
+BTL,Greens voters,One Nation above the Coalition,0.1592,0.1808,46300,2022,VIC
+all,Coalition voters,One Nation above Labor,0.5457,0.6287,483508,2022,WA
+all,Labor voters,One Nation above the Coalition,0.3122,0.4538,527559,2022,WA
+all,Greens voters,One Nation above the Coalition,0.1824,0.3948,215633,2022,WA
+ATL,Coalition voters,One Nation above Labor,0.5478,0.6276,473665,2022,WA
+ATL,Labor voters,One Nation above the Coalition,0.3113,0.4539,511226,2022,WA
+ATL,Greens voters,One Nation above the Coalition,0.1728,0.4022,196875,2022,WA
+BTL,Coalition voters,One Nation above Labor,0.4549,0.6854,9843,2022,WA
+BTL,Labor voters,One Nation above the Coalition,0.34,0.4524,16333,2022,WA
+BTL,Greens voters,One Nation above the Coalition,0.3097,0.3169,18758,2022,WA
+all,Coalition voters,One Nation above Labor,0.781,0.8322,1468345,2025,NSW
+all,Labor voters,One Nation above the Coalition,0.2995,0.4622,1859680,2025,NSW
+all,Greens voters,One Nation above the Coalition,0.1809,0.3162,559023,2025,NSW
+ATL,Coalition voters,One Nation above Labor,0.7827,0.8375,1428201,2025,NSW
+ATL,Labor voters,One Nation above the Coalition,0.2957,0.4661,1792113,2025,NSW
+ATL,Greens voters,One Nation above the Coalition,0.1788,0.3257,525624,2025,NSW
+BTL,Coalition voters,One Nation above Labor,0.7009,0.6449,40144,2025,NSW
+BTL,Labor voters,One Nation above the Coalition,0.4298,0.3583,67567,2025,NSW
+BTL,Greens voters,One Nation above the Coalition,0.2458,0.1665,33399,2025,NSW
+all,Coalition voters,One Nation above Labor,0.7008,0.9736,34995,2025,NT
+all,Labor voters,One Nation above the Coalition,0.2269,0.9057,37552,2025,NT
+all,Greens voters,One Nation above the Coalition,0.2239,0.8504,12437,2025,NT
+ATL,Coalition voters,One Nation above Labor,0.7062,0.9724,32426,2025,NT
+ATL,Labor voters,One Nation above the Coalition,0.2245,0.9093,34690,2025,NT
+ATL,Greens voters,One Nation above the Coalition,0.2429,0.8722,9559,2025,NT
+BTL,Coalition voters,One Nation above Labor,0.6344,0.9879,2569,2025,NT
+BTL,Labor voters,One Nation above the Coalition,0.2576,0.8627,2862,2025,NT
+BTL,Greens voters,One Nation above the Coalition,0.1531,0.7783,2878,2025,NT
+all,Coalition voters,One Nation above Labor,0.7695,0.9001,997585,2025,QLD
+all,Labor voters,One Nation above the Coalition,0.2918,0.5159,983159,2025,QLD
+all,Greens voters,One Nation above the Coalition,0.2211,0.354,338400,2025,QLD
+ATL,Coalition voters,One Nation above Labor,0.7724,0.9039,969758,2025,QLD
+ATL,Labor voters,One Nation above the Coalition,0.2919,0.5209,948180,2025,QLD
+ATL,Greens voters,One Nation above the Coalition,0.2185,0.3671,312062,2025,QLD
+BTL,Coalition voters,One Nation above Labor,0.6498,0.7671,27827,2025,QLD
+BTL,Labor voters,One Nation above the Coalition,0.2908,0.3781,34979,2025,QLD
+BTL,Greens voters,One Nation above the Coalition,0.2781,0.1986,26338,2025,QLD
+all,Coalition voters,One Nation above Labor,0.71,0.8683,321032,2025,SA
+all,Labor voters,One Nation above the Coalition,0.2642,0.5349,443126,2025,SA
+all,Greens voters,One Nation above the Coalition,0.2016,0.4273,150344,2025,SA
+ATL,Coalition voters,One Nation above Labor,0.7111,0.8691,308243,2025,SA
+ATL,Labor voters,One Nation above the Coalition,0.2652,0.534,428153,2025,SA
+ATL,Greens voters,One Nation above the Coalition,0.2019,0.4318,135232,2025,SA
+BTL,Coalition voters,One Nation above Labor,0.6823,0.8488,12789,2025,SA
+BTL,Labor voters,One Nation above the Coalition,0.2366,0.5601,14973,2025,SA
+BTL,Greens voters,One Nation above the Coalition,0.1977,0.3863,15112,2025,SA
+all,Coalition voters,One Nation above Labor,0.6323,0.9091,87556,2025,TAS
+all,Labor voters,One Nation above the Coalition,0.3741,0.7048,131120,2025,TAS
+all,Greens voters,One Nation above the Coalition,0.2918,0.4832,60892,2025,TAS
+ATL,Coalition voters,One Nation above Labor,0.6321,0.9081,75861,2025,TAS
+ATL,Labor voters,One Nation above the Coalition,0.375,0.7312,112415,2025,TAS
+ATL,Greens voters,One Nation above the Coalition,0.2814,0.5156,41459,2025,TAS
+BTL,Coalition voters,One Nation above Labor,0.6338,0.9158,11695,2025,TAS
+BTL,Labor voters,One Nation above the Coalition,0.3675,0.5459,18705,2025,TAS
+BTL,Greens voters,One Nation above the Coalition,0.3196,0.4141,19433,2025,TAS
+all,Coalition voters,One Nation above Labor,0.7362,0.8369,1272836,2025,VIC
+all,Labor voters,One Nation above the Coalition,0.2548,0.4661,1422782,2025,VIC
+all,Greens voters,One Nation above the Coalition,0.1538,0.3027,511579,2025,VIC
+ATL,Coalition voters,One Nation above Labor,0.7409,0.8419,1231581,2025,VIC
+ATL,Labor voters,One Nation above the Coalition,0.2553,0.4711,1371980,2025,VIC
+ATL,Greens voters,One Nation above the Coalition,0.1517,0.3144,473496,2025,VIC
+BTL,Coalition voters,One Nation above Labor,0.5658,0.6876,41255,2025,VIC
+BTL,Labor voters,One Nation above the Coalition,0.2348,0.3319,50802,2025,VIC
+BTL,Greens voters,One Nation above the Coalition,0.2069,0.1567,38083,2025,VIC
+all,Coalition voters,One Nation above Labor,0.7367,0.8682,431746,2025,WA
+all,Labor voters,One Nation above the Coalition,0.2663,0.5481,586901,2025,WA
+all,Greens voters,One Nation above the Coalition,0.1933,0.4231,208577,2025,WA
+ATL,Coalition voters,One Nation above Labor,0.7381,0.8694,423603,2025,WA
+ATL,Labor voters,One Nation above the Coalition,0.2663,0.5515,572139,2025,WA
+ATL,Greens voters,One Nation above the Coalition,0.192,0.4372,194910,2025,WA
+BTL,Coalition voters,One Nation above Labor,0.6603,0.8072,8143,2025,WA
+BTL,Labor voters,One Nation above the Coalition,0.2662,0.4148,14762,2025,WA
+BTL,Greens voters,One Nation above the Coalition,0.2321,0.2222,13667,2025,WA

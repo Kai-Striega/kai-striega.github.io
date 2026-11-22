@@ -1,0 +1,315 @@
+year,state,division,winner_group,source,net,formal,margin,decisive
+2004,NSW,Parramatta,Labor,Greens,2858,75009,1157,TRUE
+2004,NSW,Parramatta,Labor,One Nation,4,75009,1157,FALSE
+2004,NSW,Parramatta,Labor,Other,202,75009,1157,FALSE
+2004,NSW,Richmond,Labor,Greens,9124,78819,301,TRUE
+2004,NSW,Richmond,Labor,Other,-787,78819,301,FALSE
+2004,SA,Adelaide,Labor,Greens,5666,85076,2266,TRUE
+2004,SA,Adelaide,Labor,Independents,34,85076,2266,FALSE
+2004,SA,Adelaide,Labor,Other,-570,85076,2266,FALSE
+2004,SA,Hindmarsh,Labor,Greens,3154,86906,108,TRUE
+2004,SA,Hindmarsh,Labor,Independents,546,86906,108,TRUE
+2004,SA,Hindmarsh,Labor,One Nation,-24,86906,108,FALSE
+2004,SA,Hindmarsh,Labor,Other,-485,86906,108,FALSE
+2004,VIC,Bendigo,Labor,Greens,4767,88110,1690,TRUE
+2004,VIC,Bendigo,Labor,Other,-1398,88110,1690,FALSE
+2004,VIC,Melbourne Ports,Labor,Greens,9444,81636,6110,TRUE
+2004,VIC,Melbourne Ports,Labor,Independents,-293,81636,6110,FALSE
+2004,VIC,Melbourne Ports,Labor,Other,-29,81636,6110,FALSE
+2004,WA,Cowan,Labor,Greens,2575,76382,1186,TRUE
+2004,WA,Cowan,Labor,One Nation,-49,76382,1186,FALSE
+2004,WA,Cowan,Labor,Other,-945,76382,1186,FALSE
+2004,WA,Swan,Labor,Greens,4090,69324,104,TRUE
+2004,WA,Swan,Labor,Independents,-107,69324,104,FALSE
+2004,WA,Swan,Labor,One Nation,-118,69324,104,FALSE
+2004,WA,Swan,Labor,Other,-838,69324,104,FALSE
+2007,NSW,Bennelong,Labor,Greens,2994,86936,2434,TRUE
+2007,NSW,Bennelong,Labor,Independents,1,86936,2434,FALSE
+2007,NSW,Bennelong,Labor,One Nation,-30,86936,2434,FALSE
+2007,NSW,Bennelong,Labor,Other,-388,86936,2434,FALSE
+2007,NSW,Page,Labor,Greens,6160,85510,4030,TRUE
+2007,NSW,Page,Labor,Independents,-141,85510,4030,FALSE
+2007,NSW,Page,Labor,Other,-812,85510,4030,FALSE
+2007,NSW,Robertson,Labor,Greens,3450,87210,184,TRUE
+2007,NSW,Robertson,Labor,One Nation,-26,87210,184,FALSE
+2007,NSW,Robertson,Labor,Other,-885,87210,184,FALSE
+2007,NT,Solomon,Labor,Greens,2770,51510,196,TRUE
+2007,NT,Solomon,Labor,Independents,-39,51510,196,FALSE
+2007,NT,Solomon,Labor,Other,-7,51510,196,FALSE
+2007,TAS,Bass,Labor,Greens,5062,63835,1271,TRUE
+2007,TAS,Bass,Labor,Independents,391,63835,1271,FALSE
+2007,TAS,Bass,Labor,Other,-177,63835,1271,FALSE
+2007,TAS,Braddon,Labor,Greens,2664,66261,1909,TRUE
+2007,TAS,Braddon,Labor,Other,-551,66261,1909,FALSE
+2007,VIC,Corangamite,Labor,Greens,4953,90394,1542,TRUE
+2007,VIC,Corangamite,Labor,Other,-889,90394,1542,FALSE
+2007,VIC,Deakin,Labor,Greens,4899,82310,2328,TRUE
+2007,VIC,Deakin,Labor,Other,-521,82310,2328,FALSE
+2007,WA,Hasluck,Labor,Greens,4096,73462,1852,TRUE
+2007,WA,Hasluck,Labor,One Nation,7,73462,1852,FALSE
+2007,WA,Hasluck,Labor,Other,-1181,73462,1852,FALSE
+2010,NSW,Banks,Labor,Greens,4722,83869,2431,TRUE
+2010,NSW,Banks,Labor,One Nation,-147,83869,2431,FALSE
+2010,NSW,Reid,Labor,Greens,5332,79628,4270,TRUE
+2010,NSW,Reid,Labor,Other,215,79628,4270,FALSE
+2010,NSW,Robertson,Labor,Greens,5965,85341,1699,TRUE
+2010,NSW,Robertson,Labor,Independents,99,85341,1699,FALSE
+2010,NSW,Robertson,Labor,One Nation,-19,85341,1699,FALSE
+2010,NSW,Robertson,Labor,Other,-1130,85341,1699,FALSE
+2010,QLD,Lilley,Labor,Greens,6264,86945,5523,TRUE
+2010,QLD,Lilley,Labor,Independents,-40,86945,5523,FALSE
+2010,QLD,Lilley,Labor,Other,-590,86945,5523,FALSE
+2010,QLD,Moreton,Labor,Greens,8572,81059,1835,TRUE
+2010,QLD,Moreton,Labor,Other,-745,81059,1835,FALSE
+2010,TAS,Denison,Independents,Coalition,9215,64859,1575,TRUE
+2010,TAS,Denison,Independents,Greens,1747,64859,1575,TRUE
+2010,TAS,Denison,Independents,Other,40,64859,1575,FALSE
+2010,VIC,Corangamite,Labor,Greens,6605,93699,771,TRUE
+2010,VIC,Corangamite,Labor,Independents,37,93699,771,FALSE
+2010,VIC,Corangamite,Labor,Other,-759,93699,771,FALSE
+2010,VIC,Deakin,Labor,Greens,6465,80000,3854,TRUE
+2010,VIC,Deakin,Labor,Independents,35,80000,3854,FALSE
+2010,VIC,Deakin,Labor,Other,-1034,80000,3854,FALSE
+2010,VIC,La Trobe,Labor,Greens,7661,88997,1619,TRUE
+2010,VIC,La Trobe,Labor,Other,-959,88997,1619,FALSE
+2010,VIC,Melbourne,Greens,Coalition,11109,89327,10791,TRUE
+2010,VIC,Melbourne,Greens,Other,1396,89327,10791,FALSE
+2010,WA,O'Connor,Coalition,Greens,709,81584,5802,FALSE
+2010,WA,O'Connor,Coalition,Independents,172,81584,5802,FALSE
+2010,WA,O'Connor,Coalition,Labor,13175,81584,5802,TRUE
+2010,WA,O'Connor,Coalition,Other,-498,81584,5802,FALSE
+2013,NSW,Kingsford Smith,Labor,Greens,5992,86103,4719,TRUE
+2013,NSW,Kingsford Smith,Labor,Other,5,86103,4719,FALSE
+2013,NSW,Parramatta,Labor,Greens,3060,80615,915,TRUE
+2013,NSW,Parramatta,Labor,Independents,87,80615,915,FALSE
+2013,NSW,Parramatta,Labor,One Nation,-67,80615,915,FALSE
+2013,NSW,Parramatta,Labor,Other,298,80615,915,FALSE
+2013,NSW,Richmond,Labor,Greens,11553,85278,5080,TRUE
+2013,NSW,Richmond,Labor,Independents,-552,85278,5080,FALSE
+2013,NSW,Richmond,Labor,Other,-2430,85278,5080,FALSE
+2013,QLD,Fairfax,Palmer / UAP,Greens,1448,84607,53,TRUE
+2013,QLD,Fairfax,Palmer / UAP,Independents,197,84607,53,TRUE
+2013,QLD,Fairfax,Palmer / UAP,Labor,10562,84607,53,TRUE
+2013,QLD,Fairfax,Palmer / UAP,One Nation,82,84607,53,TRUE
+2013,QLD,Fairfax,Palmer / UAP,Other,314,84607,53,TRUE
+2013,QLD,Griffith,Labor,Greens,6851,86409,5201,TRUE
+2013,QLD,Griffith,Labor,Independents,190,86409,5201,FALSE
+2013,QLD,Griffith,Labor,Other,-237,86409,5201,FALSE
+2013,QLD,Kennedy,Katter,Greens,429,84101,3691,FALSE
+2013,QLD,Kennedy,Katter,Independents,48,84101,3691,FALSE
+2013,QLD,Kennedy,Katter,Labor,10192,84101,3691,TRUE
+2013,QLD,Kennedy,Katter,Other,2675,84101,3691,FALSE
+2013,QLD,Lilley,Labor,Greens,4188,90101,2373,TRUE
+2013,QLD,Lilley,Labor,Other,-811,90101,2373,FALSE
+2013,QLD,Moreton,Labor,Greens,6101,82449,2557,TRUE
+2013,QLD,Moreton,Labor,Other,-652,82449,2557,FALSE
+2013,VIC,Bendigo,Labor,Coalition,-2059,92519,2333,FALSE
+2013,VIC,Bendigo,Labor,Greens,7491,92519,2333,TRUE
+2013,VIC,Bendigo,Labor,Independents,70,92519,2333,FALSE
+2013,VIC,Bendigo,Labor,Other,-297,92519,2333,FALSE
+2013,VIC,Bruce,Labor,Greens,3706,82645,2979,TRUE
+2013,VIC,Bruce,Labor,Independents,-1,82645,2979,FALSE
+2013,VIC,Bruce,Labor,Other,149,82645,2979,FALSE
+2013,VIC,Chisholm,Labor,Greens,7126,86109,2753,TRUE
+2013,VIC,Chisholm,Labor,Other,-398,86109,2753,FALSE
+2013,VIC,Indi,Independents,Greens,2066,89043,439,TRUE
+2013,VIC,Indi,Independents,Independents,313,89043,439,FALSE
+2013,VIC,Indi,Independents,Labor,9076,89043,439,TRUE
+2013,VIC,Indi,Independents,Other,1006,89043,439,TRUE
+2013,VIC,Jagajaga,Labor,Greens,9068,91605,5733,TRUE
+2013,VIC,Jagajaga,Labor,Other,274,91605,5733,FALSE
+2013,VIC,McEwen,Labor,Greens,5263,101261,313,TRUE
+2013,VIC,McEwen,Labor,Other,-2188,101261,313,FALSE
+2013,VIC,Melbourne Ports,Labor,Greens,12702,81073,5765,TRUE
+2013,VIC,Melbourne Ports,Labor,Other,665,81073,5765,FALSE
+2016,NSW,Macquarie,Labor,Greens,9330,91452,4014,TRUE
+2016,NSW,Macquarie,Labor,Other,-2850,91452,4014,FALSE
+2016,NSW,Richmond,Labor,Greens,15964,98398,7786,TRUE
+2016,NSW,Richmond,Labor,One Nation,-1087,98398,7786,FALSE
+2016,NSW,Richmond,Labor,Other,-636,98398,7786,FALSE
+2016,QLD,Griffith,Labor,Greens,11691,91983,2945,TRUE
+2016,QLD,Griffith,Labor,Independents,40,91983,2945,FALSE
+2016,QLD,Griffith,Labor,Other,-1594,91983,2945,FALSE
+2016,QLD,Herbert,Labor,Greens,3253,88337,37,TRUE
+2016,QLD,Herbert,Labor,One Nation,1301,88337,37,TRUE
+2016,QLD,Herbert,Labor,Other,-56,88337,37,FALSE
+2016,QLD,Longman,Labor,Greens,2529,88068,1390,TRUE
+2016,QLD,Longman,Labor,Independents,57,88068,1390,FALSE
+2016,QLD,Longman,Labor,One Nation,1812,88068,1390,TRUE
+2016,QLD,Longman,Labor,Other,190,88068,1390,FALSE
+2016,QLD,Moreton,Labor,Greens,8643,84948,6836,TRUE
+2016,QLD,Moreton,Labor,Other,-1046,84948,6836,FALSE
+2016,SA,Adelaide,Labor,Greens,5899,95544,8894,FALSE
+2016,SA,Adelaide,Labor,Other,3479,95544,8894,FALSE
+2016,SA,Hindmarsh,Labor,Greens,3909,98032,1140,TRUE
+2016,SA,Hindmarsh,Labor,Other,3446,98032,1140,TRUE
+2016,SA,Mayo,Xenophon / Centre Alliance,Greens,3651,95116,9450,FALSE
+2016,SA,Mayo,Xenophon / Centre Alliance,Labor,9815,95116,9450,TRUE
+2016,SA,Mayo,Xenophon / Centre Alliance,Other,-1259,95116,9450,FALSE
+2016,TAS,Braddon,Labor,Greens,2435,64672,2846,FALSE
+2016,TAS,Braddon,Labor,Other,1354,64672,2846,FALSE
+2016,TAS,Lyons,Labor,Greens,5284,68515,3161,TRUE
+2016,TAS,Lyons,Labor,Other,148,68515,3161,FALSE
+2016,VIC,Batman,Labor,Coalition,5217,90101,1853,TRUE
+2016,VIC,Batman,Labor,Independents,-279,90101,1853,FALSE
+2016,VIC,Batman,Labor,Other,-2220,90101,1853,FALSE
+2016,VIC,Jagajaga,Labor,Greens,10769,92430,8642,TRUE
+2016,VIC,Jagajaga,Labor,Other,-445,92430,8642,FALSE
+2016,VIC,Melbourne Ports,Labor,Greens,15079,84809,2337,TRUE
+2016,VIC,Melbourne Ports,Labor,Independents,-240,84809,2337,FALSE
+2016,VIC,Melbourne Ports,Labor,Other,134,84809,2337,FALSE
+2016,WA,Cowan,Labor,Greens,3554,81496,1106,TRUE
+2016,WA,Cowan,Labor,Other,-2009,81496,1106,FALSE
+2016,WA,Perth,Labor,Greens,10140,83631,5573,TRUE
+2016,WA,Perth,Labor,Other,-434,83631,5573,FALSE
+2019,NSW,Macquarie,Labor,Greens,7820,96951,371,TRUE
+2019,NSW,Macquarie,Labor,Other,-1068,96951,371,FALSE
+2019,NSW,Richmond,Labor,Greens,15140,100320,8182,TRUE
+2019,NSW,Richmond,Labor,Independents,-115,100320,8182,FALSE
+2019,NSW,Richmond,Labor,Other,-1671,100320,8182,FALSE
+2019,QLD,Griffith,Labor,Greens,17252,99617,5701,TRUE
+2019,QLD,Griffith,Labor,One Nation,-1121,99617,5701,FALSE
+2019,QLD,Griffith,Labor,Other,-450,99617,5701,FALSE
+2019,QLD,Lilley,Labor,Greens,9457,96605,1229,TRUE
+2019,QLD,Lilley,Labor,One Nation,-2747,96605,1229,FALSE
+2019,QLD,Lilley,Labor,Other,-523,96605,1229,FALSE
+2019,QLD,Moreton,Labor,Greens,10805,90642,3448,TRUE
+2019,QLD,Moreton,Labor,One Nation,-1569,90642,3448,FALSE
+2019,QLD,Moreton,Labor,Other,-641,90642,3448,FALSE
+2019,SA,Mayo,Xenophon / Centre Alliance,Greens,3921,112676,11572,FALSE
+2019,SA,Mayo,Xenophon / Centre Alliance,Labor,11727,112676,11572,TRUE
+2019,SA,Mayo,Xenophon / Centre Alliance,Other,-175,112676,11572,FALSE
+2019,VIC,Corangamite,Labor,Greens,9367,101620,2170,TRUE
+2019,VIC,Corangamite,Labor,Independents,414,101620,2170,FALSE
+2019,VIC,Corangamite,Labor,Other,-641,101620,2170,FALSE
+2019,VIC,Dunkley,Labor,Greens,6650,96828,5304,TRUE
+2019,VIC,Dunkley,Labor,Other,-31,96828,5304,FALSE
+2019,VIC,Indi,Independents,Coalition,-5900,100956,2816,FALSE
+2019,VIC,Indi,Independents,Greens,2429,100956,2816,FALSE
+2019,VIC,Indi,Independents,Labor,8401,100956,2816,TRUE
+2019,VIC,Indi,Independents,Other,648,100956,2816,FALSE
+2019,VIC,Macnamara,Labor,Greens,18307,97092,12134,TRUE
+2019,VIC,Macnamara,Labor,Independents,-132,97092,12134,FALSE
+2019,VIC,Macnamara,Labor,Other,-613,97092,12134,FALSE
+2019,WA,Cowan,Labor,Greens,5634,84853,1417,TRUE
+2019,WA,Cowan,Labor,One Nation,-1949,84853,1417,FALSE
+2019,WA,Cowan,Labor,Other,-1183,84853,1417,FALSE
+2019,WA,Perth,Labor,Greens,12408,87706,8646,TRUE
+2019,WA,Perth,Labor,One Nation,-955,87706,8646,FALSE
+2019,WA,Perth,Labor,Other,-214,87706,8646,FALSE
+2022,NSW,Bennelong,Labor,Greens,8000,99648,1954,TRUE
+2022,NSW,Bennelong,Labor,One Nation,-193,99648,1954,FALSE
+2022,NSW,Bennelong,Labor,Other,-2243,99648,1954,FALSE
+2022,NSW,Fowler,Independents,Coalition,6911,85903,2793,TRUE
+2022,NSW,Fowler,Independents,Greens,-1278,85903,2793,FALSE
+2022,NSW,Fowler,Independents,One Nation,318,85903,2793,FALSE
+2022,NSW,Fowler,Independents,Other,2469,85903,2793,FALSE
+2022,NSW,Gilmore,Labor,Greens,8967,111705,373,TRUE
+2022,NSW,Gilmore,Labor,Independents,-46,111705,373,FALSE
+2022,NSW,Gilmore,Labor,One Nation,-1499,111705,373,FALSE
+2022,NSW,Gilmore,Labor,Other,-283,111705,373,FALSE
+2022,NSW,Mackellar,Independents,Greens,3047,98991,4955,FALSE
+2022,NSW,Mackellar,Independents,Labor,5662,98991,4955,TRUE
+2022,NSW,Mackellar,Independents,One Nation,83,98991,4955,FALSE
+2022,NSW,Mackellar,Independents,Other,-568,98991,4955,FALSE
+2022,NSW,North Sydney,Independents,Greens,3172,97118,5666,FALSE
+2022,NSW,North Sydney,Independents,Labor,15293,97118,5666,TRUE
+2022,NSW,North Sydney,Independents,One Nation,-109,97118,5666,FALSE
+2022,NSW,North Sydney,Independents,Other,-211,97118,5666,FALSE
+2022,NSW,Robertson,Labor,Greens,8158,96210,4344,TRUE
+2022,NSW,Robertson,Labor,One Nation,-1494,96210,4344,FALSE
+2022,NSW,Robertson,Labor,Other,-103,96210,4344,FALSE
+2022,NSW,Wentworth,Independents,Greens,3940,88923,7449,FALSE
+2022,NSW,Wentworth,Independents,Labor,8688,88923,7449,TRUE
+2022,NSW,Wentworth,Independents,One Nation,-30,88923,7449,FALSE
+2022,NSW,Wentworth,Independents,Other,-964,88923,7449,FALSE
+2022,QLD,Brisbane,Greens,Labor,20506,108798,8122,TRUE
+2022,QLD,Brisbane,Greens,One Nation,-1419,108798,8122,FALSE
+2022,QLD,Brisbane,Greens,Other,426,108798,8122,FALSE
+2022,QLD,Ryan,Greens,Labor,14897,99316,5256,TRUE
+2022,QLD,Ryan,Greens,One Nation,-271,99316,5256,FALSE
+2022,QLD,Ryan,Greens,Other,-1134,99316,5256,FALSE
+2022,SA,Boothby,Labor,Greens,14989,113707,7451,TRUE
+2022,SA,Boothby,Labor,Independents,801,113707,7451,FALSE
+2022,SA,Boothby,Labor,One Nation,-173,113707,7451,FALSE
+2022,SA,Boothby,Labor,Other,-1716,113707,7451,FALSE
+2022,TAS,Lyons,Labor,Greens,4630,73338,1344,TRUE
+2022,TAS,Lyons,Labor,One Nation,-639,73338,1344,FALSE
+2022,TAS,Lyons,Labor,Other,3354,73338,1344,TRUE
+2022,VIC,Goldstein,Independents,Greens,4627,98087,5635,FALSE
+2022,VIC,Goldstein,Independents,Labor,7866,98087,5635,TRUE
+2022,VIC,Goldstein,Independents,One Nation,26,98087,5635,FALSE
+2022,VIC,Goldstein,Independents,Other,-1092,98087,5635,FALSE
+2022,VIC,Higgins,Labor,Greens,18018,95511,3941,TRUE
+2022,VIC,Higgins,Labor,Other,-2405,95511,3941,FALSE
+2022,VIC,Kooyong,Independents,Greens,4164,102517,6035,FALSE
+2022,VIC,Kooyong,Independents,Independents,45,102517,6035,FALSE
+2022,VIC,Kooyong,Independents,Labor,4982,102517,6035,FALSE
+2022,VIC,Kooyong,Independents,One Nation,-35,102517,6035,FALSE
+2022,VIC,Kooyong,Independents,Other,-688,102517,6035,FALSE
+2022,WA,Curtin,Independents,Greens,5108,105037,2657,TRUE
+2022,WA,Curtin,Independents,Labor,10226,105037,2657,TRUE
+2022,WA,Curtin,Independents,One Nation,17,105037,2657,FALSE
+2022,WA,Curtin,Independents,Other,-228,105037,2657,FALSE
+2022,WA,Tangney,Labor,Greens,9832,107548,5114,TRUE
+2022,WA,Tangney,Labor,One Nation,-1286,107548,5114,FALSE
+2022,WA,Tangney,Labor,Other,-1364,107548,5114,FALSE
+2025,NSW,Banks,Labor,Greens,11135,98935,4725,TRUE
+2025,NSW,Banks,Labor,Independents,126,98935,4725,FALSE
+2025,NSW,Banks,Labor,One Nation,-3432,98935,4725,FALSE
+2025,NSW,Banks,Labor,Other,-460,98935,4725,FALSE
+2025,NSW,Bradfield,Independents,Greens,3439,112202,26,TRUE
+2025,NSW,Bradfield,Independents,Independents,195,112202,26,TRUE
+2025,NSW,Bradfield,Independents,Labor,10244,112202,26,TRUE
+2025,NSW,Bradfield,Independents,One Nation,-1229,112202,26,FALSE
+2025,NSW,Bradfield,Independents,Other,-256,112202,26,FALSE
+2025,NSW,Calare,Independents,Greens,272,106267,14409,FALSE
+2025,NSW,Calare,Independents,Independents,17638,106267,14409,TRUE
+2025,NSW,Calare,Independents,Labor,4702,106267,14409,FALSE
+2025,NSW,Calare,Independents,One Nation,-2078,106267,14409,FALSE
+2025,NSW,Calare,Independents,Other,280,106267,14409,FALSE
+2025,NSW,Fowler,Independents,Coalition,5362,92938,4974,TRUE
+2025,NSW,Fowler,Independents,Greens,-665,92938,4974,FALSE
+2025,NSW,Fowler,Independents,One Nation,676,92938,4974,FALSE
+2025,NSW,Fowler,Independents,Other,3402,92938,4974,FALSE
+2025,NT,Solomon,Labor,Greens,1547,60130,1576,FALSE
+2025,NT,Solomon,Labor,Independents,3854,60130,1576,TRUE
+2025,NT,Solomon,Labor,One Nation,-1943,60130,1576,FALSE
+2025,NT,Solomon,Labor,Other,9,60130,1576,FALSE
+2025,QLD,Brisbane,Labor,Greens,25274,110745,19845,TRUE
+2025,QLD,Brisbane,Labor,One Nation,-2683,110745,19845,FALSE
+2025,QLD,Brisbane,Labor,Other,-402,110745,19845,FALSE
+2025,QLD,Dickson,Labor,Greens,4718,105579,12651,FALSE
+2025,QLD,Dickson,Labor,Independents,11595,105579,12651,FALSE
+2025,QLD,Dickson,Labor,One Nation,-2771,105579,12651,FALSE
+2025,QLD,Dickson,Labor,Other,235,105579,12651,FALSE
+2025,QLD,Petrie,Labor,Greens,9708,116792,2730,TRUE
+2025,QLD,Petrie,Labor,One Nation,-4792,116792,2730,FALSE
+2025,QLD,Petrie,Labor,Other,-528,116792,2730,FALSE
+2025,QLD,Ryan,Greens,Labor,15921,103462,6762,TRUE
+2025,QLD,Ryan,Greens,One Nation,-3179,103462,6762,FALSE
+2025,QLD,Ryan,Greens,Other,-160,103462,6762,FALSE
+2025,VIC,Aston,Labor,Greens,11775,109849,7531,TRUE
+2025,VIC,Aston,Labor,Independents,584,109849,7531,FALSE
+2025,VIC,Aston,Labor,One Nation,-3509,109849,7531,FALSE
+2025,VIC,Aston,Labor,Other,-863,109849,7531,FALSE
+2025,VIC,Deakin,Labor,Greens,13806,115507,6521,TRUE
+2025,VIC,Deakin,Labor,Independents,1093,115507,6521,FALSE
+2025,VIC,Deakin,Labor,One Nation,-2718,115507,6521,FALSE
+2025,VIC,Deakin,Labor,Other,-1105,115507,6521,FALSE
+2025,VIC,Kooyong,Independents,Greens,5638,114868,1532,TRUE
+2025,VIC,Kooyong,Independents,Labor,8452,114868,1532,TRUE
+2025,VIC,Kooyong,Independents,One Nation,-1332,114868,1532,FALSE
+2025,VIC,Kooyong,Independents,Other,-639,114868,1532,FALSE
+2025,VIC,Melbourne,Labor,Coalition,13483,97448,5878,TRUE
+2025,VIC,Melbourne,Labor,Independents,431,97448,5878,FALSE
+2025,VIC,Melbourne,Labor,One Nation,410,97448,5878,FALSE
+2025,VIC,Melbourne,Labor,Other,-530,97448,5878,FALSE
+2025,VIC,Menzies,Labor,Greens,11203,109430,2358,TRUE
+2025,VIC,Menzies,Labor,Independents,734,109430,2358,FALSE
+2025,VIC,Menzies,Labor,One Nation,-2074,109430,2358,FALSE
+2025,VIC,Menzies,Labor,Other,-1044,109430,2358,FALSE
+2025,WA,Curtin,Independents,Greens,4322,105348,6888,FALSE
+2025,WA,Curtin,Independents,Labor,11819,105348,6888,TRUE
+2025,WA,Curtin,Independents,One Nation,-989,105348,6888,FALSE
+2025,WA,Curtin,Independents,Other,220,105348,6888,FALSE

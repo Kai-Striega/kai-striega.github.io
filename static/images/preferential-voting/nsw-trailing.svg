@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="462" viewBox="0 0 760 462" role="img" aria-labelledby="t d">
+  <style>
+    /* Dark palette. CSS beats presentation attributes, so the drawing below is
+       untouched. Shared verbatim across the mechanical-sympathy diagrams;
+       selectors that match nothing here are harmless. */
+    @media (prefers-color-scheme: dark) {
+      /* canvas and neutrals */
+      [fill="#f7f7f5"] { fill: #1b212a }   [stroke="#f7f7f5"] { stroke: #1b212a }
+      [fill="#ffffff"] { fill: #262e3a }
+      [fill="#1d1d1b"] { fill: #e3e8ee }   [stroke="#1d1d1b"] { stroke: #e3e8ee }
+      [fill="#5a5a55"] { fill: #ced6dd }   [stroke="#5a5a55"] { stroke: #ced6dd }
+      [fill="#6a6a63"] { fill: #9ca4af }
+      [fill="#8a8a82"] { fill: #868f9c }   [stroke="#8a8a82"] { stroke: #868f9c }
+      [fill="#a9a9a1"] { fill: #566072 }   [stroke="#a9a9a1"] { stroke: #566072 }
+      [fill="#e8e8e2"] { fill: #333d4b }
+      [fill="#dcdcd6"] { fill: #2f3947 }
+      [stroke="#e4e4de"] { stroke: #394454 }
+      [stroke="#b9b9b2"] { stroke: #48566b }
+      [stroke="#c4c4bc"] { stroke: #48566b }
+      /* blue */
+      [fill="#1f6feb"] { fill: #6ea8ff }   [stroke="#1f6feb"] { stroke: #6ea8ff }
+      [stroke="#12408c"] { stroke: #3d6fbf }
+      [fill="#e8effb"] { fill: #1c2942 }
+      /* orange */
+      [fill="#c2410c"] { fill: #f08a4b }   [stroke="#c2410c"] { stroke: #f08a4b }
+      [stroke="#7d2a08"] { stroke: #b35a2a }
+      [fill="#f9e9e2"], [fill="#f8ebe7"], [fill="#f4ece7"] { fill: #33241c }
+      /* green */
+      [fill="#2f6f4f"] { fill: #57b98a }
+      [stroke="#1f4a35"] { stroke: #2f7a56 }
+      [fill="#4a8f6a"] { fill: #6fc79b }
+      [fill="#7aa88c"] { fill: #86b89f }
+      [fill="#f0f6f2"], [fill="#e3f0e9"], [fill="#d6e8de"] { fill: #1a2c24 }
+      /* purple */
+      [fill="#6b3fa0"] { fill: #a77dff }   [stroke="#6b3fa0"] { stroke: #a77dff }
+      [fill="#f0eefa"] { fill: #251f38 }
+      /* terracotta */
+      [fill="#b5705f"] { fill: #d0917f }   [stroke="#b5705f"] { stroke: #d0917f }
+      [stroke="#7d4436"] { stroke: #a5654f }
+      /* memory-hierarchy only */
+      [fill="#f7f5ee"] { fill: #1f2229 }
+      [fill="#b0a98f"] { fill: #a8a184 }
+      [stroke="#6b6552"] { stroke: #8a8470 }
+    }
+    /* Teal, for independents: only this series uses it. */
+    @media (prefers-color-scheme: dark) {
+      [fill="#008080"] { fill: #3fb8b8 }   [stroke="#008080"] { stroke: #3fb8b8 }
+    }
+  </style>
+<title id="t">Every trailing Condorcet winner came through on preferences</title>
+<desc id="d">Dumbbell chart of the 12 NSW contests, 2015 to 2023, where the Condorcet winner was not first on first preferences. Each starts between about 26% and 42% and finishes above 50%: it won every one.</desc>
+<rect width="760" height="462" fill="#f7f7f5"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="24" y="30" font-size="15" font-weight="600" fill="#1d1d1b">Every trailing Condorcet winner came through on preferences</text>
+<text x="24" y="50" font-size="12" fill="#5a5a55">NSW Legislative Assembly: Condorcet winner's first-preference share (hollow) and final share (filled)</text>
+<line x1="180.0" y1="80.0" x2="180.0" y2="392.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="180.0" y="408.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">20%</text>
+<line x1="310.0" y1="80.0" x2="310.0" y2="392.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="310.0" y="408.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">30%</text>
+<line x1="440.0" y1="80.0" x2="440.0" y2="392.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="440.0" y="408.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">40%</text>
+<line x1="570.0" y1="80.0" x2="570.0" y2="392.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="570.0" y="408.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">50%</text>
+<line x1="700.0" y1="80.0" x2="700.0" y2="392.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="700.0" y="408.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">60%</text>
+<line x1="180.0" y1="392.0" x2="700.0" y2="392.0" stroke="#b9b9b2" stroke-width="1.0"/>
+<line x1="570.0" y1="80.0" x2="570.0" y2="392.0" stroke="#b9b9b2" stroke-width="1.5"/>
+<text x="170.0" y="97.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Strathfield 2015</text>
+<line x1="470.6" y1="93.0" x2="593.1" y2="93.0" stroke="#a9a9a1" stroke-width="1.5"/>
+<circle cx="470.6" cy="93.0" r="4" fill="#f7f7f5" stroke="#5a5a55" stroke-width="1.5"/>
+<circle cx="593.1" cy="93.0" r="4.5" fill="#1d1d1b"/>
+<text x="170.0" y="123.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">The Entrance 2015</text>
+<line x1="464.4" y1="119.0" x2="574.9" y2="119.0" stroke="#a9a9a1" stroke-width="1.5"/>
+<circle cx="464.4" cy="119.0" r="4" fill="#f7f7f5" stroke="#5a5a55" stroke-width="1.5"/>
+<circle cx="574.9" cy="119.0" r="4.5" fill="#1d1d1b"/>
+<text x="170.0" y="149.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Gosford 2015</text>
+<line x1="422.4" y1="145.0" x2="573.0" y2="145.0" stroke="#a9a9a1" stroke-width="1.5"/>
+<circle cx="422.4" cy="145.0" r="4" fill="#f7f7f5" stroke="#5a5a55" stroke-width="1.5"/>
+<circle cx="573.0" cy="145.0" r="4.5" fill="#1d1d1b"/>
+<text x="170.0" y="175.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Penrith 2023</text>
+<line x1="417.4" y1="171.0" x2="591.2" y2="171.0" stroke="#a9a9a1" stroke-width="1.5"/>
+<circle cx="417.4" cy="171.0" r="4" fill="#f7f7f5" stroke="#5a5a55" stroke-width="1.5"/>
+<circle cx="591.2" cy="171.0" r="4.5" fill="#1d1d1b"/>
+<text x="170.0" y="201.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Monaro 2023</text>
+<line x1="415.9" y1="197.0" x2="599.8" y2="197.0" stroke="#a9a9a1" stroke-width="1.5"/>
+<circle cx="415.9" cy="197.0" r="4" fill="#f7f7f5" stroke="#5a5a55" stroke-width="1.5"/>
+<circle cx="599.8" cy="197.0" r="4.5" fill="#1d1d1b"/>
+<text x="170.0" y="227.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Wakehurst 2023</text>
+<line x1="386.7" y1="223.0" x2="628.1" y2="223.0" stroke="#a9a9a1" stroke-width="1.5"/>
+<circle cx="386.7" cy="223.0" r="4" fill="#f7f7f5" stroke="#5a5a55" stroke-width="1.5"/>
+<circle cx="628.1" cy="223.0" r="4.5" fill="#1d1d1b"/>
+<text x="170.0" y="253.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Coogee 2019</text>
+<line x1="366.7" y1="249.0" x2="591.3" y2="249.0" stroke="#a9a9a1" stroke-width="1.5"/>
+<circle cx="366.7" cy="249.0" r="4" fill="#f7f7f5" stroke="#5a5a55" stroke-width="1.5"/>
+<circle cx="591.3" cy="249.0" r="4.5" fill="#1d1d1b"/>
+<text x="170.0" y="279.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">South Coast 2023</text>
+<line x1="361.5" y1="275.0" x2="619.0" y2="275.0" stroke="#a9a9a1" stroke-width="1.5"/>
+<circle cx="361.5" cy="275.0" r="4" fill="#f7f7f5" stroke="#5a5a55" stroke-width="1.5"/>
+<circle cx="619.0" cy="275.0" r="4.5" fill="#1d1d1b"/>
+<text x="170.0" y="305.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Ballina 2019</text>
+<line x1="332.2" y1="301.0" x2="640.5" y2="301.0" stroke="#a9a9a1" stroke-width="1.5"/>
+<circle cx="332.2" cy="301.0" r="4" fill="#f7f7f5" stroke="#5a5a55" stroke-width="1.5"/>
+<circle cx="640.5" cy="301.0" r="4.5" fill="#1d1d1b"/>
+<text x="170.0" y="331.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Ballina 2015</text>
+<line x1="271.3" y1="327.0" x2="610.6" y2="327.0" stroke="#a9a9a1" stroke-width="1.5"/>
+<circle cx="271.3" cy="327.0" r="4" fill="#f7f7f5" stroke="#5a5a55" stroke-width="1.5"/>
+<circle cx="610.6" cy="327.0" r="4.5" fill="#1d1d1b"/>
+<text x="170.0" y="357.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Wollondilly 2023</text>
+<line x1="257.2" y1="353.0" x2="589.8" y2="353.0" stroke="#a9a9a1" stroke-width="1.5"/>
+<circle cx="257.2" cy="353.0" r="4" fill="#f7f7f5" stroke="#5a5a55" stroke-width="1.5"/>
+<circle cx="589.8" cy="353.0" r="4.5" fill="#1d1d1b"/>
+<text x="170.0" y="383.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Lismore 2019</text>
+<line x1="252.9" y1="379.0" x2="587.5" y2="379.0" stroke="#a9a9a1" stroke-width="1.5"/>
+<circle cx="252.9" cy="379.0" r="4" fill="#f7f7f5" stroke="#5a5a55" stroke-width="1.5"/>
+<circle cx="587.5" cy="379.0" r="4.5" fill="#1d1d1b"/>
+<text x="440.0" y="426.0" font-size="11" fill="#5a5a55" text-anchor="middle" font-weight="normal">Condorcet winner's share of the vote</text>
+</g></svg>

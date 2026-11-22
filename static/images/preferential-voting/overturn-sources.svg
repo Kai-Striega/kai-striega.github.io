@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" role="img" aria-labelledby="t d">
+  <style>
+    /* Dark palette. CSS beats presentation attributes, so the drawing below is
+       untouched. Shared verbatim across the mechanical-sympathy diagrams;
+       selectors that match nothing here are harmless. */
+    @media (prefers-color-scheme: dark) {
+      /* canvas and neutrals */
+      [fill="#f7f7f5"] { fill: #1b212a }   [stroke="#f7f7f5"] { stroke: #1b212a }
+      [fill="#ffffff"] { fill: #262e3a }
+      [fill="#1d1d1b"] { fill: #e3e8ee }   [stroke="#1d1d1b"] { stroke: #e3e8ee }
+      [fill="#5a5a55"] { fill: #ced6dd }   [stroke="#5a5a55"] { stroke: #ced6dd }
+      [fill="#6a6a63"] { fill: #9ca4af }
+      [fill="#8a8a82"] { fill: #868f9c }   [stroke="#8a8a82"] { stroke: #868f9c }
+      [fill="#a9a9a1"] { fill: #566072 }   [stroke="#a9a9a1"] { stroke: #566072 }
+      [fill="#e8e8e2"] { fill: #333d4b }
+      [fill="#dcdcd6"] { fill: #2f3947 }
+      [stroke="#e4e4de"] { stroke: #394454 }
+      [stroke="#b9b9b2"] { stroke: #48566b }
+      [stroke="#c4c4bc"] { stroke: #48566b }
+      /* blue */
+      [fill="#1f6feb"] { fill: #6ea8ff }   [stroke="#1f6feb"] { stroke: #6ea8ff }
+      [stroke="#12408c"] { stroke: #3d6fbf }
+      [fill="#e8effb"] { fill: #1c2942 }
+      /* orange */
+      [fill="#c2410c"] { fill: #f08a4b }   [stroke="#c2410c"] { stroke: #f08a4b }
+      [stroke="#7d2a08"] { stroke: #b35a2a }
+      [fill="#f9e9e2"], [fill="#f8ebe7"], [fill="#f4ece7"] { fill: #33241c }
+      /* green */
+      [fill="#2f6f4f"] { fill: #57b98a }
+      [stroke="#1f4a35"] { stroke: #2f7a56 }
+      [fill="#4a8f6a"] { fill: #6fc79b }
+      [fill="#7aa88c"] { fill: #86b89f }
+      [fill="#f0f6f2"], [fill="#e3f0e9"], [fill="#d6e8de"] { fill: #1a2c24 }
+      /* purple */
+      [fill="#6b3fa0"] { fill: #a77dff }   [stroke="#6b3fa0"] { stroke: #a77dff }
+      [fill="#f0eefa"] { fill: #251f38 }
+      /* terracotta */
+      [fill="#b5705f"] { fill: #d0917f }   [stroke="#b5705f"] { stroke: #d0917f }
+      [stroke="#7d4436"] { stroke: #a5654f }
+      /* memory-hierarchy only */
+      [fill="#f7f5ee"] { fill: #1f2229 }
+      [fill="#b0a98f"] { fill: #a8a184 }
+      [stroke="#6b6552"] { stroke: #8a8470 }
+    }
+    /* Teal, for independents: only this series uses it. */
+    @media (prefers-color-scheme: dark) {
+      [fill="#008080"] { fill: #3fb8b8 }   [stroke="#008080"] { stroke: #3fb8b8 }
+    }
+  </style>
+<title id="t">Whose preferences carried the comebacks</title>
+<desc id="d">Two bar charts. In Labor's comebacks, Greens preferences supplied 107% of the net gain, more than all of it, because One Nation and other minor-party preferences flowed back to the leader. In independents' comebacks, Labor supplied 59% and the Greens 23%.</desc>
+<rect width="760" height="330" fill="#f7f7f5"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="24" y="30" font-size="15" font-weight="600" fill="#1d1d1b">Whose preferences carried the comebacks</text>
+<text x="24" y="50" font-size="12" fill="#5a5a55">Share of the winners' net preference gain from each source; negative = net flow to the leader</text>
+<text x="140.0" y="80.0" font-size="12" fill="#1d1d1b" text-anchor="start" font-weight="600">Labor's 78 comebacks</text>
+<line x1="177.1" y1="90.0" x2="177.1" y2="270.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="177.1" y="286.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">0%</text>
+<line x1="270.0" y1="90.0" x2="270.0" y2="270.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="270.0" y="286.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">50%</text>
+<line x1="362.9" y1="90.0" x2="362.9" y2="270.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="362.9" y="286.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">100%</text>
+<line x1="140.0" y1="270.0" x2="400.0" y2="270.0" stroke="#b9b9b2" stroke-width="1.0"/>
+<line x1="177.1" y1="90.0" x2="177.1" y2="270.0" stroke="#1d1d1b" stroke-width="1.2"/>
+<text x="130.0" y="109.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Greens</text>
+<rect x="177.1" y="96.0" width="198.9" height="18.0" fill="#2f6f4f"/>
+<text x="382.1" y="109.0" font-size="10" fill="#1d1d1b" text-anchor="start" font-weight="normal">+107%</text>
+<text x="130.0" y="139.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Labor</text>
+<text x="183.1" y="139.0" font-size="10" fill="#5a5a55" text-anchor="start" font-weight="normal">not applicable</text>
+<text x="130.0" y="169.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Coalition</text>
+<rect x="177.1" y="156.0" width="5.5" height="18.0" fill="#1f6feb"/>
+<text x="188.7" y="169.0" font-size="10" fill="#1d1d1b" text-anchor="start" font-weight="normal">+3%</text>
+<text x="130.0" y="199.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Independents</text>
+<rect x="177.1" y="186.0" width="6.4" height="18.0" fill="#008080"/>
+<text x="189.6" y="199.0" font-size="10" fill="#1d1d1b" text-anchor="start" font-weight="normal">+3%</text>
+<text x="130.0" y="229.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">One Nation</text>
+<rect x="165.3" y="216.0" width="11.9" height="18.0" fill="#1d1d1b"/>
+<text x="159.3" y="229.0" font-size="10" fill="#1d1d1b" text-anchor="end" font-weight="normal">-6%</text>
+<text x="130.0" y="259.0" font-size="11" fill="#1d1d1b" text-anchor="end" font-weight="normal">Other</text>
+<rect x="163.8" y="246.0" width="13.3" height="18.0" fill="#a9a9a1"/>
+<text x="157.8" y="259.0" font-size="10" fill="#1d1d1b" text-anchor="end" font-weight="normal">-7%</text>
+<text x="450.0" y="80.0" font-size="12" fill="#1d1d1b" text-anchor="start" font-weight="600">Independents' 15 comebacks</text>
+<line x1="487.1" y1="90.0" x2="487.1" y2="270.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="487.1" y="286.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">0%</text>
+<line x1="580.0" y1="90.0" x2="580.0" y2="270.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="580.0" y="286.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">50%</text>
+<line x1="672.9" y1="90.0" x2="672.9" y2="270.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="672.9" y="286.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">100%</text>
+<line x1="450.0" y1="270.0" x2="710.0" y2="270.0" stroke="#b9b9b2" stroke-width="1.0"/>
+<line x1="487.1" y1="90.0" x2="487.1" y2="270.0" stroke="#1d1d1b" stroke-width="1.2"/>
+<rect x="487.1" y="96.0" width="43.4" height="18.0" fill="#2f6f4f"/>
+<text x="536.5" y="109.0" font-size="10" fill="#1d1d1b" text-anchor="start" font-weight="normal">+23%</text>
+<rect x="487.1" y="126.0" width="108.8" height="18.0" fill="#b5705f"/>
+<text x="601.9" y="139.0" font-size="10" fill="#1d1d1b" text-anchor="start" font-weight="normal">+59%</text>
+<rect x="487.1" y="156.0" width="16.1" height="18.0" fill="#1f6feb"/>
+<text x="509.2" y="169.0" font-size="10" fill="#1d1d1b" text-anchor="start" font-weight="normal">+9%</text>
+<rect x="487.1" y="186.0" width="18.8" height="18.0" fill="#008080"/>
+<text x="511.9" y="199.0" font-size="10" fill="#1d1d1b" text-anchor="start" font-weight="normal">+10%</text>
+<rect x="482.3" y="216.0" width="4.8" height="18.0" fill="#1d1d1b"/>
+<text x="476.3" y="229.0" font-size="10" fill="#1d1d1b" text-anchor="end" font-weight="normal">-3%</text>
+<rect x="487.1" y="246.0" width="3.5" height="18.0" fill="#a9a9a1"/>
+<text x="496.7" y="259.0" font-size="10" fill="#1d1d1b" text-anchor="start" font-weight="normal">+2%</text>
+</g></svg>

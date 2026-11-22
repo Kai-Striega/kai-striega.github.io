@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="400" viewBox="0 0 760 400" role="img" aria-labelledby="t d">
+  <style>
+    /* Dark palette. CSS beats presentation attributes, so the drawing below is
+       untouched. Shared verbatim across the mechanical-sympathy diagrams;
+       selectors that match nothing here are harmless. */
+    @media (prefers-color-scheme: dark) {
+      /* canvas and neutrals */
+      [fill="#f7f7f5"] { fill: #1b212a }   [stroke="#f7f7f5"] { stroke: #1b212a }
+      [fill="#ffffff"] { fill: #262e3a }
+      [fill="#1d1d1b"] { fill: #e3e8ee }   [stroke="#1d1d1b"] { stroke: #e3e8ee }
+      [fill="#5a5a55"] { fill: #ced6dd }   [stroke="#5a5a55"] { stroke: #ced6dd }
+      [fill="#6a6a63"] { fill: #9ca4af }
+      [fill="#8a8a82"] { fill: #868f9c }   [stroke="#8a8a82"] { stroke: #868f9c }
+      [fill="#a9a9a1"] { fill: #566072 }   [stroke="#a9a9a1"] { stroke: #566072 }
+      [fill="#e8e8e2"] { fill: #333d4b }
+      [fill="#dcdcd6"] { fill: #2f3947 }
+      [stroke="#e4e4de"] { stroke: #394454 }
+      [stroke="#b9b9b2"] { stroke: #48566b }
+      [stroke="#c4c4bc"] { stroke: #48566b }
+      /* blue */
+      [fill="#1f6feb"] { fill: #6ea8ff }   [stroke="#1f6feb"] { stroke: #6ea8ff }
+      [stroke="#12408c"] { stroke: #3d6fbf }
+      [fill="#e8effb"] { fill: #1c2942 }
+      /* orange */
+      [fill="#c2410c"] { fill: #f08a4b }   [stroke="#c2410c"] { stroke: #f08a4b }
+      [stroke="#7d2a08"] { stroke: #b35a2a }
+      [fill="#f9e9e2"], [fill="#f8ebe7"], [fill="#f4ece7"] { fill: #33241c }
+      /* green */
+      [fill="#2f6f4f"] { fill: #57b98a }
+      [stroke="#1f4a35"] { stroke: #2f7a56 }
+      [fill="#4a8f6a"] { fill: #6fc79b }
+      [fill="#7aa88c"] { fill: #86b89f }
+      [fill="#f0f6f2"], [fill="#e3f0e9"], [fill="#d6e8de"] { fill: #1a2c24 }
+      /* purple */
+      [fill="#6b3fa0"] { fill: #a77dff }   [stroke="#6b3fa0"] { stroke: #a77dff }
+      [fill="#f0eefa"] { fill: #251f38 }
+      /* terracotta */
+      [fill="#b5705f"] { fill: #d0917f }   [stroke="#b5705f"] { stroke: #d0917f }
+      [stroke="#7d4436"] { stroke: #a5654f }
+      /* memory-hierarchy only */
+      [fill="#f7f5ee"] { fill: #1f2229 }
+      [fill="#b0a98f"] { fill: #a8a184 }
+      [stroke="#6b6552"] { stroke: #8a8470 }
+    }
+    /* Teal, for independents: only this series uses it. */
+    @media (prefers-color-scheme: dark) {
+      [fill="#008080"] { fill: #3fb8b8 }   [stroke="#008080"] { stroke: #3fb8b8 }
+    }
+  </style>
+<title id="t">Resampling single ballots makes the seat look far too predictable</title>
+<desc id="d">Two histograms. Resampling whole collection points, the margin ranges from -1.3 to 2.3 points and 37.5% of replicates are squeezes. Resampling single ballots, it ranges from -0.3 to 0.8 points, with 17.5% squeezes.</desc>
+<rect width="760" height="400" fill="#f7f7f5"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="24" y="30" font-size="15" font-weight="600" fill="#1d1d1b">Resampling single ballots makes the seat look far too predictable</text>
+<text x="24" y="50" font-size="12" fill="#5a5a55">Macnamara 2022: Labor's margin with three left in 1,000 reshuffled seats, two ways</text>
+<text x="70.0" y="80.0" font-size="12" fill="#1d1d1b" text-anchor="start" font-weight="600">Resampling collection points (booths, pre-poll centres, batches)</text>
+<rect x="70.0" y="90.0" width="254.1" height="100.0" fill="#e8e8e2"/>
+<line x1="70.0" y1="190.0" x2="690.0" y2="190.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="62.0" y="194.0" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">0</text>
+<line x1="70.0" y1="158.8" x2="690.0" y2="158.8" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="62.0" y="162.8" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">50</text>
+<line x1="70.0" y1="127.5" x2="690.0" y2="127.5" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="62.0" y="131.5" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">100</text>
+<line x1="70.0" y1="96.2" x2="690.0" y2="96.2" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="62.0" y="100.2" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">150</text>
+<line x1="120.8" y1="90.0" x2="120.8" y2="190.0" stroke="#e4e4de" stroke-width="1.0"/>
+<line x1="222.5" y1="90.0" x2="222.5" y2="190.0" stroke="#e4e4de" stroke-width="1.0"/>
+<line x1="324.1" y1="90.0" x2="324.1" y2="190.0" stroke="#e4e4de" stroke-width="1.0"/>
+<line x1="425.7" y1="90.0" x2="425.7" y2="190.0" stroke="#e4e4de" stroke-width="1.0"/>
+<line x1="527.4" y1="90.0" x2="527.4" y2="190.0" stroke="#e4e4de" stroke-width="1.0"/>
+<line x1="629.0" y1="90.0" x2="629.0" y2="190.0" stroke="#e4e4de" stroke-width="1.0"/>
+<line x1="70.0" y1="190.0" x2="690.0" y2="190.0" stroke="#b9b9b2" stroke-width="1.0"/>
+<rect x="90.8" y="189.4" width="9.2" height="0.6" fill="#8a8a82"/>
+<rect x="111.2" y="189.4" width="9.2" height="0.6" fill="#8a8a82"/>
+<rect x="121.3" y="189.4" width="9.2" height="0.6" fill="#8a8a82"/>
+<rect x="131.5" y="188.8" width="9.2" height="1.2" fill="#8a8a82"/>
+<rect x="141.6" y="188.8" width="9.2" height="1.2" fill="#8a8a82"/>
+<rect x="151.8" y="188.8" width="9.2" height="1.2" fill="#8a8a82"/>
+<rect x="162.0" y="185.6" width="9.2" height="4.4" fill="#8a8a82"/>
+<rect x="172.1" y="188.1" width="9.2" height="1.9" fill="#8a8a82"/>
+<rect x="182.3" y="185.0" width="9.2" height="5.0" fill="#8a8a82"/>
+<rect x="192.5" y="185.0" width="9.2" height="5.0" fill="#8a8a82"/>
+<rect x="202.6" y="184.4" width="9.2" height="5.6" fill="#8a8a82"/>
+<rect x="212.8" y="180.0" width="9.2" height="10.0" fill="#8a8a82"/>
+<rect x="223.0" y="183.8" width="9.2" height="6.2" fill="#8a8a82"/>
+<rect x="233.1" y="176.9" width="9.2" height="13.1" fill="#8a8a82"/>
+<rect x="243.3" y="175.0" width="9.2" height="15.0" fill="#8a8a82"/>
+<rect x="253.5" y="174.4" width="9.2" height="15.6" fill="#8a8a82"/>
+<rect x="263.6" y="171.9" width="9.2" height="18.1" fill="#8a8a82"/>
+<rect x="273.8" y="168.8" width="9.2" height="21.2" fill="#8a8a82"/>
+<rect x="283.9" y="168.8" width="9.2" height="21.2" fill="#8a8a82"/>
+<rect x="294.1" y="153.8" width="9.2" height="36.2" fill="#8a8a82"/>
+<rect x="304.3" y="166.9" width="9.2" height="23.1" fill="#8a8a82"/>
+<rect x="314.4" y="165.6" width="9.2" height="24.4" fill="#8a8a82"/>
+<rect x="324.6" y="163.1" width="9.2" height="26.9" fill="#8a8a82"/>
+<rect x="334.8" y="161.9" width="9.2" height="28.1" fill="#8a8a82"/>
+<rect x="344.9" y="169.4" width="9.2" height="20.6" fill="#8a8a82"/>
+<rect x="355.1" y="163.1" width="9.2" height="26.9" fill="#8a8a82"/>
+<rect x="365.3" y="162.5" width="9.2" height="27.5" fill="#8a8a82"/>
+<rect x="375.4" y="158.1" width="9.2" height="31.9" fill="#8a8a82"/>
+<rect x="385.6" y="160.6" width="9.2" height="29.4" fill="#8a8a82"/>
+<rect x="395.7" y="173.8" width="9.2" height="16.2" fill="#8a8a82"/>
+<rect x="405.9" y="169.4" width="9.2" height="20.6" fill="#8a8a82"/>
+<rect x="416.1" y="178.8" width="9.2" height="11.2" fill="#8a8a82"/>
+<rect x="426.2" y="167.5" width="9.2" height="22.5" fill="#8a8a82"/>
+<rect x="436.4" y="170.6" width="9.2" height="19.4" fill="#8a8a82"/>
+<rect x="446.6" y="180.0" width="9.2" height="10.0" fill="#8a8a82"/>
+<rect x="456.7" y="178.8" width="9.2" height="11.2" fill="#8a8a82"/>
+<rect x="466.9" y="178.1" width="9.2" height="11.9" fill="#8a8a82"/>
+<rect x="477.1" y="175.6" width="9.2" height="14.4" fill="#8a8a82"/>
+<rect x="487.2" y="180.0" width="9.2" height="10.0" fill="#8a8a82"/>
+<rect x="497.4" y="180.6" width="9.2" height="9.4" fill="#8a8a82"/>
+<rect x="507.5" y="180.6" width="9.2" height="9.4" fill="#8a8a82"/>
+<rect x="517.7" y="183.8" width="9.2" height="6.2" fill="#8a8a82"/>
+<rect x="527.9" y="183.8" width="9.2" height="6.2" fill="#8a8a82"/>
+<rect x="538.0" y="185.6" width="9.2" height="4.4" fill="#8a8a82"/>
+<rect x="548.2" y="185.0" width="9.2" height="5.0" fill="#8a8a82"/>
+<rect x="558.4" y="186.2" width="9.2" height="3.8" fill="#8a8a82"/>
+<rect x="568.5" y="187.5" width="9.2" height="2.5" fill="#8a8a82"/>
+<rect x="578.7" y="188.8" width="9.2" height="1.2" fill="#8a8a82"/>
+<rect x="588.9" y="189.4" width="9.2" height="0.6" fill="#8a8a82"/>
+<rect x="599.0" y="186.9" width="9.2" height="3.1" fill="#8a8a82"/>
+<rect x="609.2" y="189.4" width="9.2" height="0.6" fill="#8a8a82"/>
+<rect x="619.4" y="188.1" width="9.2" height="1.9" fill="#8a8a82"/>
+<rect x="639.7" y="189.4" width="9.2" height="0.6" fill="#8a8a82"/>
+<rect x="660.0" y="189.4" width="9.2" height="0.6" fill="#8a8a82"/>
+<rect x="670.2" y="189.4" width="9.2" height="0.6" fill="#8a8a82"/>
+<line x1="350.5" y1="90.0" x2="350.5" y2="190.0" stroke="#1d1d1b" stroke-width="1.5"/>
+<text x="70.0" y="230.0" font-size="12" fill="#1d1d1b" text-anchor="start" font-weight="600">Resampling single ballots</text>
+<rect x="70.0" y="240.0" width="254.1" height="100.0" fill="#e8e8e2"/>
+<line x1="70.0" y1="340.0" x2="690.0" y2="340.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="62.0" y="344.0" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">0</text>
+<line x1="70.0" y1="308.8" x2="690.0" y2="308.8" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="62.0" y="312.8" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">50</text>
+<line x1="70.0" y1="277.5" x2="690.0" y2="277.5" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="62.0" y="281.5" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">100</text>
+<line x1="70.0" y1="246.2" x2="690.0" y2="246.2" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="62.0" y="250.2" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">150</text>
+<line x1="120.8" y1="240.0" x2="120.8" y2="340.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="120.8" y="356.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">-2</text>
+<line x1="222.5" y1="240.0" x2="222.5" y2="340.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="222.5" y="356.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">-1</text>
+<line x1="324.1" y1="240.0" x2="324.1" y2="340.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="324.1" y="356.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">0</text>
+<line x1="425.7" y1="240.0" x2="425.7" y2="340.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="425.7" y="356.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">1</text>
+<line x1="527.4" y1="240.0" x2="527.4" y2="340.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="527.4" y="356.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">2</text>
+<line x1="629.0" y1="240.0" x2="629.0" y2="340.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="629.0" y="356.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">3</text>
+<line x1="70.0" y1="340.0" x2="690.0" y2="340.0" stroke="#b9b9b2" stroke-width="1.0"/>
+<rect x="263.6" y="338.8" width="9.2" height="1.2" fill="#8a8a82"/>
+<rect x="273.8" y="337.5" width="9.2" height="2.5" fill="#8a8a82"/>
+<rect x="283.9" y="336.2" width="9.2" height="3.8" fill="#8a8a82"/>
+<rect x="294.1" y="316.9" width="9.2" height="23.1" fill="#8a8a82"/>
+<rect x="304.3" y="315.6" width="9.2" height="24.4" fill="#8a8a82"/>
+<rect x="314.4" y="288.1" width="9.2" height="51.9" fill="#8a8a82"/>
+<rect x="324.6" y="268.8" width="9.2" height="71.2" fill="#8a8a82"/>
+<rect x="334.8" y="261.2" width="9.2" height="78.8" fill="#8a8a82"/>
+<rect x="344.9" y="228.8" width="9.2" height="111.2" fill="#8a8a82"/>
+<rect x="355.1" y="251.2" width="9.2" height="88.8" fill="#8a8a82"/>
+<rect x="365.3" y="273.8" width="9.2" height="66.2" fill="#8a8a82"/>
+<rect x="375.4" y="288.8" width="9.2" height="51.2" fill="#8a8a82"/>
+<rect x="385.6" y="308.8" width="9.2" height="31.2" fill="#8a8a82"/>
+<rect x="395.7" y="318.8" width="9.2" height="21.2" fill="#8a8a82"/>
+<rect x="405.9" y="334.4" width="9.2" height="5.6" fill="#8a8a82"/>
+<rect x="416.1" y="337.5" width="9.2" height="2.5" fill="#8a8a82"/>
+<rect x="426.2" y="339.4" width="9.2" height="0.6" fill="#8a8a82"/>
+<line x1="350.5" y1="240.0" x2="350.5" y2="340.0" stroke="#1d1d1b" stroke-width="1.5"/>
+<text x="380.0" y="385.0" font-size="11" fill="#5a5a55" text-anchor="middle" font-weight="normal">Labor's margin with three left (points); left of zero, Labor is excluded</text>
+</g></svg>
