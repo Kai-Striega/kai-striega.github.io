@@ -104,17 +104,6 @@ w <- dcast(dop, year + StateAb + DivisionNm + CountNumber + CandidateID + Surnam
 
 And the **NSW** files have one row per *mark*, rather than per ballot, which [Appendix B][appb] covers.
 
-## Rebuilding everything
-
-The analysis is written in R, with the ballot reading and counting in C++ through Rcpp. The slow steps (reading the
-ballots, the bootstraps) are cached, keyed on a hash of their code and input files, so changing one thing only reruns
-what depends on it. A completely cold rebuild, re-reading every ballot file from scratch, took about 11 minutes on a
-24-core machine, and every result came out byte-for-byte identical to the previous run. Every random draw is seeded,
-so "random" here means the luck of the draw is simulated, not that the numbers could change.
-
-The charts in these posts are drawn by a small Python script in [this blog's repository][code], from copies of the
-analysis's output files.
-
 ## Conclusion
 
 That's the end of the series. If you made it all the way to the data appendix, thank you, and I'm a little worried
@@ -128,4 +117,3 @@ about you. If you try any of this yourself, or spot something I got wrong, I'd l
 [appa]: https://kaistriega.com/blog/preferential-voting/appendix-a-measuring/
 [appb]: https://kaistriega.com/blog/preferential-voting/appendix-b-nsw-ballots/
 [appd]: https://kaistriega.com/blog/preferential-voting/appendix-d-breaking-it/
-[code]: https://github.com/Kai-Striega/kai-striega.github.io/tree/main/code/preferential-voting
