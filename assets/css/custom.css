@@ -39,3 +39,99 @@
 #main-content:focus {
   outline: none;
 }
+
+/* Series navigation (layouts/partials/posts/post.html). On wide screens it is
+   a sticky column left of the post (.post-series), styled to mirror the
+   theme's "On this page" column on the right (shortcuts.css). Three columns
+   need room, so below the breakpoint that column is hidden and a collapsed
+   .post-series-inline in the post header takes its place. */
+.post-series,
+.post-series-inline {
+  font-size: 0.9rem;
+}
+
+.post-series-header {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.post-series-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--pst-color-text-muted);
+}
+
+.post-series ol,
+.post-series-inline ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: series;
+}
+
+.post-series li,
+.post-series-inline li {
+  counter-increment: series;
+  padding: 0.3rem 0.3rem 0.3rem 0.9rem;
+  margin-left: 0.125rem;
+  border-left: 1px solid var(--pst-color-text-base);
+  opacity: 0.75;
+}
+
+.post-series li::before,
+.post-series-inline li::before {
+  content: counter(series) ". ";
+  color: var(--pst-color-text-muted);
+}
+
+.post-series li.active,
+.post-series-inline li.active {
+  margin-left: 0;
+  padding-left: calc(0.9rem - 2px);
+  border-left: 5px solid var(--pst-color-text-base);
+  font-weight: bold;
+  opacity: 1;
+}
+
+.post-series li.active a,
+.post-series-inline li.active a {
+  color: var(--pst-color-text-base);
+}
+
+.post-series-inline {
+  margin-bottom: 1.5rem;
+}
+
+.post-series-inline summary {
+  cursor: pointer;
+  color: var(--pst-color-text-muted);
+}
+
+.post-series-inline[open] summary {
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .post-series {
+    position: sticky;
+    top: 5rem;
+    align-self: flex-start;
+    flex: 0 0 15em;
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
+    padding-top: 1rem;
+  }
+
+  .post-series-inline {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .post-series {
+    display: none;
+  }
+}

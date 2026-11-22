@@ -1,5 +1,24 @@
 {{- $featuredImage := .Resources.GetMatch "featuredImage" -}}
+{{- /* A series is any content directory with an _index.md (its own Hugo
+       section) holding more than one post. Membership and order are implied
+       by the directory + post dates, so posts need no extra front matter. */ -}}
+{{- $section := .CurrentSection -}}
+{{- $inSeries := and (ne .Kind "section") (gt (len $section.RegularPages) 1) (ne $section.Title "") -}}
+{{- $seriesPosts := $section.RegularPages.ByDate -}}
 <section class="post content-padding">
+  {{- /* Wide screens: the series is a sticky column left of the post, the
+         first flex child so it mirrors the theme's "On this page" column on
+         the right. Narrower screens hide it and show the collapsed
+         .post-series-inline in the post header instead (see custom.css). */ -}}
+  {{ if $inSeries }}
+  <nav class="post-series" aria-labelledby="post-series-title">
+    <div id="post-series-title" class="post-series-header">
+      <span class="post-series-label">Series</span>
+      <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a>
+    </div>
+    {{ partial "posts/series-list.html" (dict "page" . "posts" $seriesPosts) }}
+  </nav>
+  {{ end }}
   <div class="content-container">
     {{ partial "breadcrumbs.html" . }}
     <h1>{{ .Title }}</h1>
@@ -7,6 +26,14 @@
     <h5 class="subtitle">{{ .Params.Subtitle }}</h5>
     {{ end }}
     <div class="post-meta">{{ partial "posts/meta.html" . }}</div>
+    {{ if $inSeries }}
+    {{ $part := 0 }}
+    {{ range $i, $p := $seriesPosts }}{{ if eq $p $ }}{{ $part = add $i 1 }}{{ end }}{{ end }}
+    <details class="post-series-inline">
+      <summary>Part {{ $part }} of {{ len $seriesPosts }} in the series <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a></summary>
+      {{ partial "posts/series-list.html" (dict "page" . "posts" $seriesPosts) }}
+    </details>
+    {{ end }}
     <div class="post-content">
       {{ with $featuredImage }}
       {{ if .Params.showOnTop }}
@@ -14,16 +41,6 @@
         <img src="{{ .RelPermalink }}" {{ with .Params.description }}alt="{{ . }}"{{ end }}/>
       </div>
       {{ end }}
-      {{ end }}
-      {{/* A series is any content directory with an _index.md (its own Hugo
-           section) holding more than one post. Membership and order are implied
-           by the directory + post dates, so posts need no extra front matter. */}}
-      {{ $section := .CurrentSection }}
-      {{ if and (ne .Kind "section") (gt (len $section.RegularPages) 1) (ne $section.Title "") }}
-      <aside class="post-series">
-        <p>This post is part of the series <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a>:</p>
-        {{ partial "posts/list-without-summary.html" $section.RegularPages.ByDate }}
-      </aside>
       {{ end }}
       {{ .Content }}
       {{ partial "posts/comments.html" .}}

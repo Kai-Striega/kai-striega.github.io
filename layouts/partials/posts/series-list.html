@@ -1,0 +1,9 @@
+{{- /* Ordered list of the posts in a series, marking the one being read.
+       Context: dict "page" (current page) "posts" (the series, in order). */ -}}
+<ol>
+  {{ range .posts }}
+  <li{{ if eq . $.page }} class="active"{{ end }}>
+    <a href="{{ .RelPermalink }}"{{ if eq . $.page }} aria-current="page"{{ end }}>{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ol>
