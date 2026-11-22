@@ -19,6 +19,11 @@ capitalizeListTitles = false
     block = [['$$', '$$'], ['\[', '\]']]
     inline = [['\(', '\)']]
 
+# Emit CSS classes for highlighted code instead of inline colours, so
+# assets/css/syntax.css can switch palettes with the site's light/dark mode.
+[markup.highlight]
+  noClasses = false
+
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']

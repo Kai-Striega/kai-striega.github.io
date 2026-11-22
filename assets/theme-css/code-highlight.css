@@ -1,0 +1,4 @@
+/* Deliberately empty. Shadows the theme's code-highlight.css (a light/dark
+   Witchhazel palette) so assets/css/syntax.css is the only source of code
+   colours. The theme's rules are scoped under html[data-theme], which would
+   otherwise outrank or leak into ours. */
