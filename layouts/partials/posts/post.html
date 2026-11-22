@@ -1,9 +1,11 @@
 {{- $featuredImage := .Resources.GetMatch "featuredImage" -}}
 {{- /* A series is any content directory with an _index.md (its own Hugo
        section) holding more than one post. Membership and order are implied
-       by the directory + post dates, so posts need no extra front matter. */ -}}
+       by the directory + post dates, so posts need no extra front matter.
+       Top-level sections such as /blog/ are never a series: standalone posts
+       live there directly, and would otherwise list each other as one. */ -}}
 {{- $section := .CurrentSection -}}
-{{- $inSeries := and (ne .Kind "section") (gt (len $section.RegularPages) 1) (ne $section.Title "") -}}
+{{- $inSeries := and (ne .Kind "section") (not $section.Parent.IsHome) (gt (len $section.RegularPages) 1) (ne $section.Title "") -}}
 {{- $seriesPosts := $section.RegularPages.ByDate -}}
 <section class="post content-padding">
   {{- /* Wide screens: the series is a sticky column left of the post, the
