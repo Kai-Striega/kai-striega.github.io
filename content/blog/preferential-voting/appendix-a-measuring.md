@@ -134,9 +134,11 @@ where \(\bar{y}\) is a party's mean rating among its outsiders and \(\bar{d}\) t
 
 For the Liberals and Labor in 2025:
 
-```
-gap -0.85 = distance -0.22 + party -0.63
-```
+|                              | Rating points |
+|------------------------------|--------------:|
+| Mean rating, Liberal − Labor |         −0.85 |
+| Due to distance              |         −0.22 |
+| Due to the party             |         −0.63 |
 
 Outsiders rate the Liberals 0.85 points below Labor. A quarter of that is because the Liberals' outsiders (mostly
 left-of-centre voters) see them as further away. The other 0.63 is dislike that distance doesn't explain.
