@@ -77,7 +77,11 @@ quantile(means, c(0.025, 0.975), type = 1)
 ```
 
 That's the **95% interval**: with only ten people, an average of 5.1 is compatible with a true average anywhere from
-about 4 to 6. For a simple average there's also the textbook formula behind a poll's "margin of error":
+about 4 to 6. For a simple average there's also the textbook formula behind a poll's "margin of error",
+
+$$\bar{x} \pm 1.96 \, \frac{s}{\sqrt{n}}$$
+
+where \(\bar{x}\) is the average, \(s\) the standard deviation and \(n\) the number of respondents. In R:
 
 ```r
 mean(x) + c(-1, 1) * 1.96 * sd(x) / sqrt(length(x))
@@ -160,7 +164,8 @@ from −1.3 to +2.3 points, and in **37.5%** of replicates it was below zero: La
 It would be easy to read that as "a 37.5% chance Macnamara was really a squeeze". It isn't! On the ballots actually
 cast, Labor survived. The 37.5% describes *how close* it was, in a useful unit. Labor's margin moves by about 0.9
 points either way from one rebuilt seat to the next; call that the seat's wobble. The real margin, 0.26 points, is
-only about 0.28 of a wobble above zero, and on a bell curve about 39% of draws land that far below the middle. That's
+only about 0.28 of a wobble above zero, and on a bell curve about 39% of draws land that far below the middle
+(\(\Phi(-0.28) \approx 0.39\), where \(\Phi\) is the standard normal distribution function). That's
 close to the 37.5% the bootstrap found. The squeeze frequency is basically "distance from the tipping point, measured
 in wobbles".
 
