@@ -1,0 +1,12 @@
+{{- /* Goldmark hands every passthrough span (the delimiters configured under
+       [markup.goldmark.extensions.passthrough] in hugo.toml) to this hook.
+       Flag the page so partials/mathjax.html loads MathJax only where there
+       is maths, then emit the LaTeX in the two delimiter pairs MathJax is
+       configured for. $$...$$ in the source becomes \[...\]. The LaTeX is
+       HTML-escaped by the template engine; MathJax reads the decoded text. */ -}}
+{{- .Page.Store.Set "hasMath" true -}}
+{{- if eq .Type "block" -}}
+\[{{ .Inner }}\]
+{{- else -}}
+\({{ .Inner }}\)
+{{- end -}}
