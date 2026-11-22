@@ -11,7 +11,7 @@ tags = ['politics', 'elections', 'statistics', 'r']
 
 * This is the working behind [Not More Partisan, Just More Rejecting][post1]. Lots of R, a little C++.
 * The **median voter** has to be *interpolated*, because a third of people answer 5 on a 0–10 scale.
-* **Dislike beyond ideology** comes from one regression per survey: rating = party intercept + slope × distance.
+* **Dislike beyond ideology** comes from one regression per survey: \(\text{rating} = \text{intercept}_p + \text{slope} \times \text{distance}\).
   The gap between two parties splits *exactly* into a distance part and a party part.
 * A Senate ballot becomes a **ranking of parties** by following the voter's numbers until the sequence breaks.
 * **Last places are corrected for ballot position** with a conditional logit, which only works because the AEC
@@ -47,8 +47,13 @@ never move. The problem is that the scale is coarse and an enormous number of pe
 [1] 0.353
 ```
 
-More than a third of respondents. So I treat each answer *k* as covering everything from *k* − 0.5 to *k* + 0.5,
-find which category the 50% point falls in, and interpolate inside it:
+More than a third of respondents. So I treat each answer \(k\) as covering everything from \(k - 0.5\) to \(k + 0.5\),
+find which category the 50% point falls in, and interpolate inside it. If \(N\) is the total (weighted) number of
+answers, \(N_{<k}\) the number below category \(k\), and \(N_k\) the number in it, then
+
+$$\text{median} = k - \tfrac{1}{2} + \frac{N/2 - N_{<k}}{N_k}$$
+
+which in R is:
 
 ```r
 interpolated_median <- function(x, w) {
@@ -81,11 +86,10 @@ they place themselves and where they place the party. A voter at 3 who puts the 
 
 Each survey gets one weighted least-squares fit over all its pairs:
 
-```
-rating[i, p] = intercept[p] + slope * distance[i, p] + error
-```
+$$\text{rating}_{ip} = \alpha_p + \beta \, d_{ip} + \varepsilon_{ip}$$
 
-There's one intercept per party but a single shared slope. In R that's a design matrix with one dummy column per
+where \(d_{ip}\) is respondent \(i\)'s perceived distance from party \(p\), \(\alpha_p\) is party \(p\)'s intercept, and
+\(\beta\) is the slope. There's one intercept per party but a single shared slope. In R that's a design matrix with one dummy column per
 party plus a distance column, handed to `lm.wfit` with the survey weights. Here's the heart of it:
 
 ```r
@@ -114,8 +118,9 @@ How to read that:
   points off their rating, whichever party it is.
 * **The intercept** (`effect`) is the rating a party would get from a voter sitting exactly where they place it.
   Differences between intercepts are the dislike that distance doesn't explain.
-* **The adjusted rating** is each party's predicted rating at the *same* distance for everyone (3.34 points, the
-  average). It's the intercept moved onto the familiar 0–10 scale, so it's the number the posts chart.
+* **The adjusted rating** is each party's predicted rating at the *same* distance for everyone, the average
+  distance \(\bar d = 3.34\): that is, \(\alpha_p + \beta \bar d\). It's the intercept moved onto the familiar 0–10
+  scale, so it's the number the posts chart.
 
 ### Splitting a gap into distance and dislike
 
@@ -123,10 +128,9 @@ This bit is genuinely neat. Because every party has its own intercept, least squ
 to zero *within each party*. So each party's mean rating is exactly its intercept plus the slope times its mean
 distance. Subtract two parties and the gap splits cleanly in two:
 
-```
-mean_rating[a] - mean_rating[b] = slope * (mean_distance[a] - mean_distance[b])   # distance
-                                + (intercept[a] - intercept[b])                   # the party itself
-```
+$$\bar{y}_a - \bar{y}_b = \underbrace{\beta \, (\bar{d}_a - \bar{d}_b)}_{\text{distance}} + \underbrace{(\alpha_a - \alpha_b)}_{\text{the party itself}}$$
+
+where \(\bar{y}\) is a party's mean rating among its outsiders and \(\bar{d}\) their mean distance from it.
 
 For the Liberals and Labor in 2025:
 
@@ -216,11 +220,12 @@ party always sat at the edge, you'd never be able to separate "unpopular" from "
 ### The model
 
 Each full ranker's last place is treated as a choice among every party *except* the one they put first (nobody puts
-their own first choice last). The chance that a voter whose first preference is `f` puts party `g` last is
+their own first choice last). The chance \(P_f(g)\) that a voter whose first preference is \(f\) puts party \(g\) last
+is
 
-```
-P(last = g | first = f) = exp(party[g] + column[g]) / sum over h != f of exp(party[h] + column[h])
-```
+$$P_f(g) = \frac{\exp(\alpha_{g} + \gamma_{c(g)})}{\sum_{h \ne f} \exp(\alpha_{h} + \gamma_{c(h)})}$$
+
+where \(\alpha_g\) is a *party effect* for party \(g\) and \(\gamma_{c(g)}\) a *column effect* for the column \(c(g)\) it sits in.
 
 That's a *conditional logit*. Column effects are estimated for the first, second, second-last and last columns
 (middle columns are the zero baseline), separately for minor parties (under 5% of first preferences in that state)
@@ -239,7 +244,8 @@ for (st in prep) for (bf in st$by_first) {         # each state, each first pref
 theta <- theta - solve(H, grad)                    # one Newton step
 ```
 
-The fitted column effects, as odds multipliers relative to a middle column:
+A column effect reads as an odds multiplier, \(e^{\gamma}\): how many times more likely a party is to be put last in
+that column than the same party in a middle column. The fitted values:
 
 ```
                             column log_odds odds_multiplier
@@ -259,7 +265,12 @@ edge for its effect to be estimated at all), so I don't lean on them. Dropping t
 ### From the model to the measure
 
 The column effects become an expected number of last places for each party: how many it would get if voters ignored
-parties entirely and chose by column alone.
+parties entirely and chose by column alone. Give each party the weight \(w_g = e^{\gamma_{c(g)}}\) (which is 1 in a
+middle column) and add up over the \(n_f\) voters who put each other party \(f\) first:
+
+$$E_g = \sum_{f \ne g} n_f \, \frac{w_g}{\sum_{h \ne f} w_h}$$
+
+In R:
 
 ```r
 weight <- exp(ifelse(is.na(cols), 0, effects[cols]))     # 1 for a middle column
@@ -270,8 +281,8 @@ for (i in seq_len(nrow(by_first))) {
 }
 ```
 
-The measure in the post is actual last places over that expectation. Notice that the *party* effects play no part
-in it. That's deliberate: the expectation is the "party doesn't matter" baseline that the real last places get
+The measure in the post is actual last places over that expectation, \(\text{last}_g / E_g\). Notice that the *party*
+effects play no part in it. That's deliberate: the expectation is the "party doesn't matter" baseline that the real last places get
 compared with.
 
 To make it concrete, here's the ACT in 2025, the smallest ballot paper and the place where the most people number
