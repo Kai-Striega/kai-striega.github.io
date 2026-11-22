@@ -1,0 +1,11 @@
+{{- /* Overrides the theme's partials/meta.html, which used .Params.summary or
+       else the site description, so every post shared one description.
+       This follows the same fallback as Hugo's embedded opengraph.html and
+       twitter_cards.html (front matter description, then the page summary,
+       then the site description), so search results and link previews agree.
+       charset also moves first, where the HTML spec wants it. */ -}}
+{{- $desc := or .Description .Params.summary .Summary site.Params.description -}}
+<meta charset="utf-8">
+<meta name="description" content="{{ $desc | plainify | htmlUnescape | strings.TrimSpace | truncate 160 }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
