@@ -1,0 +1,19 @@
+{{- /* Overrides the theme's partials/posts/tag.html, which linked the heading
+       to atom.xml. The site only emits RSS for terms (see [outputs] in
+       hugo.toml), so every tag page carried a broken feed link. This links
+       the term's actual RSS output instead, and only the icon: the tag name
+       is plain text, so the feed link is announced as a feed, not as "#rust". */ -}}
+<section class="content-padding">
+  <div class="content-container">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 id="term-title">
+      Posts with #{{ .Title }}
+      {{ with .OutputFormats.Get "rss" -}}
+      <a href="{{ .RelPermalink }}" aria-label="RSS feed for posts tagged {{ $.Title }}">
+        <span class="icon fas fa-rss" style="vertical-align: baseline;" aria-hidden="true"></span>
+      </a>
+      {{- end }}
+    </h1>
+    {{ partial "posts/list-without-summary.html" .Pages }}
+  </div>
+</section>
