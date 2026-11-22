@@ -13,7 +13,6 @@ tags = ['politics', 'elections', 'statistics', 'r']
   Commission.
 * The biggest piece is every formal Senate ballot from 2016 to 2025, which arrives as one CSV row per ballot paper.
 * Reading those files quickly takes a little care: R for the plumbing, C++ for the hot loop.
-* The whole analysis rebuilds from the raw files in about 11 minutes on a 24-core machine.
 
 ## Introduction
 
@@ -24,7 +23,6 @@ covers what data I used, what it looks like when it arrives, and how it gets rea
 2. What a Senate ballot file looks like
 3. Reading it without waiting all day
 4. The other files
-5. Rebuilding everything
 
 ## The sources
 
