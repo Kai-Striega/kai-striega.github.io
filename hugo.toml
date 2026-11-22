@@ -32,6 +32,9 @@ capitalizeListTitles = false
 
 [params]
   description = 'Kai Striega on scientific computing and performance: SciPy and NumPy internals, CPU caches, and how the machine underneath shapes the code you write.'
+  # Link-preview image for pages without their own. Must be a raster image:
+  # X and Open Graph consumers do not render SVG (the theme defaults to logo.svg).
+  images = ['/images/og-default.png']
 
 [params.author]
   name = 'Kai Striega'

@@ -2,3 +2,15 @@
 {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
+
+{{/* Canonical URL. baseof.html already emits one when a page sets
+     canonicalURL in front matter (a post first published elsewhere), so only
+     fall back to the page's own permalink when it doesn't. */}}
+{{ if not .Params.canonicalURL -}}
+<link rel="canonical" href="{{ .Permalink }}">
+{{ end -}}
+
+{{/* Open Graph tags for link previews (Mastodon, Slack, LinkedIn, Discord).
+     baseof.html already includes the Twitter card. Both take the image from
+     params.images in hugo.toml unless a page sets its own. */}}
+{{ partial "opengraph.html" . }}
