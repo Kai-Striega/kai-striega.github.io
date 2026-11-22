@@ -10,6 +10,15 @@ capitalizeListTitles = false
 # directories instead.
 [taxonomies]
   tag = 'tags'
+# Pass LaTeX through Markdown untouched so MathJax (loaded by the theme) sees it as written.
+# Display maths is $$ ... $$ (or \[ ... \]); inline maths is \( ... \). Single dollars are not
+# delimiters, so prices in prose stay prices.
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block = [['$$', '$$'], ['\[', '\]']]
+    inline = [['\(', '\)']]
+
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']
