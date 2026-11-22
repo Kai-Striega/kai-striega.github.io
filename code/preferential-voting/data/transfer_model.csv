@@ -1,0 +1,36 @@
+source,group,value,lo,hi,exclusions
+All transfers,Coalition,0.6488,0.6291,0.6651,6111
+All transfers,Greens,0.782,0.7444,0.8206,4482
+All transfers,Independents,1.4345,1.3516,1.5025,1711
+All transfers,Katter,1.2061,1.0476,1.3347,238
+All transfers,One Nation,1.289,1.2065,1.3466,1619
+All transfers,Other minor,0.9655,0.8938,1.0277,2728
+All transfers,Palmer / UAP,1.0811,0.9974,1.155,1289
+All transfers,Trumpet of Patriots,0.7343,0.6562,0.8125,154
+All transfers,Xenophon / Centre Alliance,1.3421,1.0912,1.5385,83
+From Labor and Greens candidates,Coalition,0.2578,0.2524,0.2651,1234
+From Labor and Greens candidates,Greens,1.1217,0.9553,1.331,9
+From Labor and Greens candidates,Independents,0.9758,0.9147,1.0379,182
+From Labor and Greens candidates,Katter,0.4703,0.3735,0.5723,29
+From Labor and Greens candidates,One Nation,0.2617,0.2442,0.2773,129
+From Labor and Greens candidates,Other minor,0.6176,0.5428,0.7016,96
+From Labor and Greens candidates,Palmer / UAP,0.4638,0.4046,0.5195,83
+From Labor and Greens candidates,Trumpet of Patriots,0.1653,0.155,0.1742,1
+From Labor and Greens candidates,Xenophon / Centre Alliance,0.8163,0.7318,0.8776,21
+From Coalition candidates,Coalition,3.6294,3.0594,4.1376,62
+From Coalition candidates,Greens,0.6497,0.5224,0.8464,59
+From Coalition candidates,Independents,2.2069,1.6725,2.8229,33
+From Coalition candidates,One Nation,2.7791,1.0094,3.8209,9
+From Coalition candidates,Other minor,0.6344,0.406,0.9044,16
+From Coalition candidates,Palmer / UAP,1.12,0.6909,1.7231,8
+From Coalition candidates,Trumpet of Patriots,0.2997,0.2178,0.3874,1
+From Coalition candidates,Xenophon / Centre Alliance,2.7286,0.876,4.9912,3
+From minor parties and independents,Coalition,1.4532,1.4136,1.5048,4815
+From minor parties and independents,Greens,1.2543,1.1907,1.3149,4414
+From minor parties and independents,Independents,2.1556,2.0043,2.3203,1496
+From minor parties and independents,Katter,2.5167,2.1804,2.891,209
+From minor parties and independents,One Nation,2.9387,2.7966,3.1181,1481
+From minor parties and independents,Other minor,1.7239,1.6034,1.8525,2616
+From minor parties and independents,Palmer / UAP,2.1142,1.9165,2.291,1198
+From minor parties and independents,Trumpet of Patriots,1.3578,1.2195,1.4887,152
+From minor parties and independents,Xenophon / Centre Alliance,1.4145,1.278,1.5348,59

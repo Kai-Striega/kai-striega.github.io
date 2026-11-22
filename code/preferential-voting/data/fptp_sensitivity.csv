@@ -1,0 +1,603 @@
+year,state,division,condorcet,top1,top2,third,first1,first2,first3,others_to1,others_to2,others_neither
+2016,NSW,Banks,Liberal / Coalition,Liberal / Coalition,Labor,Greens,34569,32411,4604,8413,9016,8265
+2016,NSW,Barton,Labor,Labor,Liberal / Coalition,Greens,37142,27266,7117,10951,6923,8407
+2016,NSW,Bennelong,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40645,24291,7866,9871,11382,8259
+2016,NSW,Berowra,Liberal / Coalition,Liberal / Coalition,Labor,Greens,47492,17711,8531,11066,11235,8534
+2016,NSW,Blaxland,Labor,Labor,Liberal / Coalition,Christian Democratic Party (Fred Nile Group),42904,18601,3524,7138,6756,8262
+2016,NSW,Bradfield,Liberal / Coalition,Liberal / Coalition,Labor,Greens,52842,15105,8902,9565,10805,7019
+2016,NSW,Calare,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,37829,23884,7814,11391,11972,16634
+2016,NSW,Chifley,Labor,Labor,Liberal / Coalition,Christian Democratic Party (Fred Nile Group),43792,17775,4442,8684,7319,11014
+2016,NSW,Cook,Liberal / Coalition,Liberal / Coalition,Labor,Greens,46107,22067,4775,8478,8101,8472
+2016,NSW,Cowper,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40754,23123,8641,10699,13881,16382
+2016,NSW,Cunningham,Labor,Labor,Liberal / Coalition,Greens,38387,24654,10848,15944,7943,11201
+2016,NSW,Dobell,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,36389,31888,7036,10637,7531,12357
+2016,NSW,Eden-Monaro,Liberal / Coalition,Liberal / Coalition,Labor,Greens,35968,28863,7704,7622,12613,12520
+2016,NSW,Farrer,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,44321,17759,5298,10966,9255,15526
+2016,NSW,Fowler,Labor,Labor,Liberal / Coalition,Christian Democratic Party (Fred Nile Group),45401,19348,3238,7414,6574,9346
+2016,NSW,Gilmore,Liberal / Coalition,Liberal / Coalition,Labor,Greens,37552,31304,8401,8821,13415,12762
+2016,NSW,Grayndler,Labor,Labor,Liberal / Coalition,Greens,32932,22188,22164,23497,5087,8970
+2016,NSW,Greenway,Labor,Labor,Liberal / Coalition,Christian Democratic Party (Fred Nile Group),36992,31417,4130,7856,8222,8916
+2016,NSW,Hughes,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40505,26134,5644,9310,10013,9529
+2016,NSW,Hume,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,39221,24749,6696,9709,9765,13789
+2016,NSW,Hunter,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,38946,24005,8859,12815,9214,16308
+2016,NSW,Kingsford Smith,Labor,Labor,Liberal / Coalition,Greens,34694,32860,9414,12769,6502,7865
+2016,NSW,Lindsay,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,35379,31525,6116,8993,8546,12852
+2016,NSW,Lyne,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,39876,22930,8199,10435,11403,16270
+2016,NSW,Macarthur,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,39066,26290,5345,8745,7275,11108
+2016,NSW,Mackellar,Liberal / Coalition,Liberal / Coalition,Labor,Greens,47695,16091,10389,10199,11752,10358
+2016,NSW,Macquarie,Liberal / Coalition,Liberal / Coalition,Labor,Greens,33167,26573,10155,8911,14732,11934
+2016,NSW,McMahon,Labor,Labor,Liberal / Coalition,Christian Democratic Party (Fred Nile Group),39136,23858,4917,7631,8384,10293
+2016,NSW,Mitchell,Liberal / Coalition,Liberal / Coalition,Labor,Greens,47514,19983,5123,10182,8168,7589
+2016,NSW,New England,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,41225,18607,7570,10482,11059,17223
+2016,NSW,Newcastle,Labor,Labor,Liberal / Coalition,Greens,39302,25721,11738,16626,7038,12256
+2016,NSW,North Sydney,Liberal / Coalition,Liberal / Coalition,Labor,Greens,48150,17333,12100,8355,13922,7618
+2016,NSW,Page,Liberal / Coalition,Liberal / Coalition,Labor,Greens,35905,27920,10619,9948,15254,16152
+2016,NSW,Parkes,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,37236,20791,9329,11034,9711,15686
+2016,NSW,Parramatta,Labor,Labor,Liberal / Coalition,Greens,35085,28919,4487,8113,7442,7584
+2016,NSW,Paterson,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,40006,27371,9890,12431,7744,14444
+2016,NSW,Reid,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40056,28575,6929,7494,9953,6764
+2016,NSW,Richmond,Labor,Liberal / Coalition,Labor,Greens,32357,26295,15971,7698,17694,14511
+2016,NSW,Riverina,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,42534,21588,6755,11248,9234,14935
+2016,NSW,Robertson,Liberal / Coalition,Liberal / Coalition,Labor,Greens,36927,31952,6913,7321,11034,9993
+2016,NSW,Shortland,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,39969,27428,6195,12328,7486,12342
+2016,NSW,Sydney,Labor,Labor,Liberal / Coalition,Greens,29342,26538,20439,22295,5824,8595
+2016,NSW,Warringah,Liberal / Coalition,Liberal / Coalition,Labor,Greens,46332,14520,11643,7960,13228,8569
+2016,NSW,Watson,Labor,Labor,Liberal / Coalition,Greens,40583,21184,4669,9036,7312,8771
+2016,NSW,Wentworth,Liberal / Coalition,Liberal / Coalition,Labor,Greens,46117,14463,12568,6514,13108,6738
+2016,NSW,Werriwa,Labor,Labor,Liberal / Coalition,Liberal Democrats,42507,23791,3319,7874,7093,10126
+2016,NSW,Whitlam,Labor,Labor,Liberal / Coalition,Greens,42400,25346,4975,11409,8641,12100
+2016,VIC,Aston,Liberal / Coalition,Liberal / Coalition,Labor,Derryn Hinch's Justice Party,33709,24719,5951,7481,10462,9770
+2016,VIC,Ballarat,Labor,Labor,Liberal / Coalition,Greens,31633,30105,9822,15361,7437,14459
+2016,VIC,Batman,Labor,Labor,Greens,Liberal / Coalition,32978,27103,15928,8406,9659,16256
+2016,VIC,Bendigo,Labor,Liberal / Coalition,Labor,Greens,32690,29497,10613,7171,15684,13682
+2016,VIC,Bruce,Labor,Labor,Liberal / Coalition,Greens,32695,27390,5286,10036,5564,8096
+2016,VIC,Calwell,Labor,Labor,Liberal / Coalition,Derryn Hinch's Justice Party,43744,18187,6569,11931,5660,11126
+2016,VIC,Casey,Liberal / Coalition,Liberal / Coalition,Labor,Greens,34669,22679,8755,8414,14179,12932
+2016,VIC,Chisholm,Labor,Liberal / Coalition,Labor,Greens,33321,26166,9996,6424,13689,7738
+2016,VIC,Corangamite,Liberal / Coalition,Liberal / Coalition,Labor,Greens,38847,27433,11948,7237,15619,11953
+2016,VIC,Corio,Labor,Labor,Liberal / Coalition,Greens,35766,25784,8548,14772,6251,12762
+2016,VIC,Deakin,Liberal / Coalition,Liberal / Coalition,Labor,Greens,35997,23761,10129,7596,14410,8917
+2016,VIC,Dunkley,Liberal / Coalition,Liberal / Coalition,Labor,Greens,33948,27256,8255,6716,13404,11349
+2016,VIC,Flinders,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40510,24050,8869,8454,14430,14745
+2016,VIC,Gellibrand,Labor,Labor,Liberal / Coalition,Greens,36533,19221,15511,19672,5487,11666
+2016,VIC,Gippsland,Liberal / Coalition,Liberal / Coalition,Labor,Greens,34750,19699,5216,8979,11840,16249
+2016,VIC,Goldstein,Liberal / Coalition,Liberal / Coalition,Labor,Greens,45494,17847,12871,7323,15087,8411
+2016,VIC,Gorton,Labor,Labor,Liberal / Coalition,Derryn Hinch's Justice Party,49077,17783,7501,13260,5995,12980
+2016,VIC,Higgins,Liberal / Coalition,Liberal / Coalition,Greens,Labor,43609,17756,16072,6851,16617,8032
+2016,VIC,Holt,Labor,Labor,Liberal / Coalition,Derryn Hinch's Justice Party,45929,22943,6638,11923,7152,12931
+2016,VIC,Hotham,Labor,Labor,Liberal / Coalition,Greens,33598,26177,7289,12334,5919,9402
+2016,VIC,Indi,Liberal / Coalition,Liberal / Coalition,Labor,Greens,37239,18175,7320,9109,12224,16116
+2016,VIC,Isaacs,Labor,Labor,Liberal / Coalition,Greens,33734,29440,7202,12699,6601,10364
+2016,VIC,Jagajaga,Labor,Liberal / Coalition,Labor,Greens,31890,27535,13521,6629,17384,9311
+2016,VIC,Kooyong,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44180,15897,14144,7193,15420,7729
+2016,VIC,La Trobe,Liberal / Coalition,Liberal / Coalition,Labor,Greens,34194,27626,8867,7794,14025,12132
+2016,VIC,Lalor,Labor,Labor,Liberal / Coalition,Derryn Hinch's Justice Party,46640,24758,7802,15131,7472,13598
+2016,VIC,Mallee,Liberal / Coalition,Liberal / Coalition,Labor,Derryn Hinch's Justice Party,39232,16085,4891,8907,8247,14608
+2016,VIC,Maribyrnong,Labor,Labor,Liberal / Coalition,Greens,40671,24440,7892,13465,5917,10002
+2016,VIC,McEwen,Labor,Labor,Liberal / Coalition,Derryn Hinch's Justice Party,42180,32864,10476,16460,8820,16395
+2016,VIC,McMillan,Liberal / Coalition,Liberal / Coalition,Labor,Derryn Hinch's Justice Party,38186,25488,7484,9225,13796,16745
+2016,VIC,Melbourne,Greens,Greens,Labor,Liberal / Coalition,33790,23986,22359,13379,8777,16790
+2016,VIC,Melbourne Ports,Liberal / Coalition,Liberal / Coalition,Labor,Greens,33642,18958,18087,6274,18972,9151
+2016,VIC,Menzies,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40156,20508,7292,8391,11042,9056
+2016,VIC,Murray,Liberal / Coalition,Liberal / Coalition,Labor,Derryn Hinch's Justice Party,42452,15901,5198,9440,8830,15082
+2016,VIC,Scullin,Labor,Labor,Liberal / Coalition,Derryn Hinch's Justice Party,46641,20252,7064,12889,5809,10950
+2016,VIC,Wannon,Liberal / Coalition,Liberal / Coalition,Labor,Greens,35879,21263,5708,7443,10578,13382
+2016,VIC,Wills,Labor,Labor,Greens,Liberal / Coalition,33534,25337,16885,9696,10191,17883
+2025,NSW,Banks,Labor,Labor,Liberal / Coalition,Greens,41318,32959,10884,12451,9300,8082
+2025,NSW,Barton,Labor,Labor,Liberal / Coalition,Greens,47043,22975,13254,15243,8648,9213
+2025,NSW,Bennelong,Labor,Labor,Liberal / Coalition,Greens,49206,36221,13234,15409,7360,5402
+2025,NSW,Berowra,Labor,Liberal / Coalition,Labor,Greens,43571,41506,15164,10748,16879,6716
+2025,NSW,Blaxland,Labor,Labor,Liberal / Coalition,Greens,44140,16713,11767,13305,7148,9326
+2025,NSW,Bradfield,Labor,Liberal / Coalition,Labor,Greens,44494,42049,13285,8111,15561,5292
+2025,NSW,Calare,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,37938,29067,12544,16274,11886,14679
+2025,NSW,Chifley,Labor,Labor,Liberal / Coalition,Greens,46354,19515,9756,11904,8885,10495
+2025,NSW,Cook,Liberal / Coalition,Liberal / Coalition,Labor,Greens,46067,34375,9487,10263,11194,6688
+2025,NSW,Cowper,Liberal / Coalition,Liberal / Coalition,Labor,Greens,38164,31219,11483,14317,14858,15060
+2025,NSW,Cunningham,Labor,Labor,Liberal / Coalition,Greens,47759,22876,20108,23050,10545,10988
+2025,NSW,Dobell,Labor,Labor,Liberal / Coalition,Greens,40629,27765,10172,13635,11649,11919
+2025,NSW,Eden-Monaro,Labor,Labor,Liberal / Coalition,Greens,40324,33602,10674,14287,11353,9994
+2025,NSW,Farrer,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,42994,26005,10751,15368,10326,12823
+2025,NSW,Fowler,Labor,Labor,Liberal / Coalition,Greens,48292,21197,7285,9975,8684,10924
+2025,NSW,Gilmore,Labor,Labor,Liberal / Coalition,Greens,42419,36033,10526,14019,11019,10831
+2025,NSW,Grayndler,Labor,Labor,Greens,Liberal / Coalition,53528,28579,15875,8246,8518,13714
+2025,NSW,Greenway,Labor,Labor,Liberal / Coalition,Greens,45986,30339,11005,12495,9314,7389
+2025,NSW,Hughes,Labor,Labor,Liberal / Coalition,Greens,38633,32847,9539,11940,10034,8022
+2025,NSW,Hume,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,38415,30637,8939,12933,10547,11074
+2025,NSW,Hunter,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,45656,24241,15912,14343,16537,15687
+2025,NSW,Kingsford Smith,Labor,Labor,Liberal / Coalition,Greens,45079,26542,13343,15561,7290,6181
+2025,NSW,Lindsay,Labor,Labor,Liberal / Coalition,Greens,36136,33569,9122,12117,11698,11965
+2025,NSW,Lyne,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,40249,29975,12067,15877,11444,15378
+2025,NSW,Macarthur,Labor,Labor,Liberal / Coalition,Greens,41040,22219,9874,12580,10485,11702
+2025,NSW,Mackellar,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44892,36575,15140,10519,16297,8193
+2025,NSW,Macquarie,Labor,Labor,Liberal / Coalition,Greens,39020,33049,13209,16928,12417,9411
+2025,NSW,McMahon,Labor,Labor,Liberal / Coalition,Greens,43809,26315,7877,10729,10197,10048
+2025,NSW,Mitchell,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44678,39911,12016,9712,12947,5466
+2025,NSW,New England,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,42244,28225,13999,17574,11741,14867
+2025,NSW,Newcastle,Labor,Labor,Greens,Liberal / Coalition,47097,21873,20849,10191,11020,22355
+2025,NSW,Page,Liberal / Coalition,Liberal / Coalition,Labor,Greens,37279,31325,13903,13690,16716,14421
+2025,NSW,Parkes,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,40279,26515,14508,17929,9496,16068
+2025,NSW,Parramatta,Labor,Labor,Liberal / Coalition,Greens,47175,29039,11224,12740,7474,6109
+2025,NSW,Paterson,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,42331,30618,11388,13731,13554,13778
+2025,NSW,Reid,Labor,Labor,Liberal / Coalition,Greens,47473,31126,11671,13340,6809,5031
+2025,NSW,Richmond,Labor,Labor,Liberal / Coalition,Greens,34175,28234,22024,22354,10768,13346
+2025,NSW,Riverina,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,42145,30190,12008,15822,11200,14096
+2025,NSW,Robertson,Labor,Labor,Liberal / Coalition,Greens,42591,29738,10706,13717,9753,8300
+2025,NSW,Shortland,Labor,Labor,Liberal / Coalition,Greens,45261,25697,11164,14940,11921,11398
+2025,NSW,Sydney,Labor,Labor,Greens,Liberal / Coalition,51896,24396,18518,10323,9349,12970
+2025,NSW,Warringah,Labor,Labor,Liberal / Coalition,Greens,43009,41275,17919,19268,8345,5801
+2025,NSW,Watson,Labor,Labor,Liberal / Coalition,Greens,42043,15963,12204,13625,7507,9617
+2025,NSW,Wentworth,Labor,Liberal / Coalition,Labor,Greens,43491,37439,17142,6727,18548,4796
+2025,NSW,Werriwa,Labor,Labor,Liberal / Coalition,Greens,40204,25007,8730,10704,8501,10160
+2025,NSW,Whitlam,Labor,Labor,Liberal / Coalition,Greens,45041,30529,11203,14726,12916,13367
+2019,NSW,Banks,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41440,31417,5545,6686,8183,7285
+2019,NSW,Barton,Labor,Labor,Liberal / Coalition,Greens,36619,31286,8847,11338,6044,8147
+2019,NSW,Bennelong,Liberal / Coalition,Liberal / Coalition,Labor,Greens,45146,28180,9219,7550,11028,6511
+2019,NSW,Berowra,Liberal / Coalition,Liberal / Coalition,Labor,Greens,51085,20113,10392,8492,11322,7274
+2019,NSW,Blaxland,Labor,Labor,Liberal / Coalition,Greens,41125,23744,4203,7062,5422,7822
+2019,NSW,Bradfield,Liberal / Coalition,Liberal / Coalition,Labor,Greens,53125,19352,11673,7599,11691,6025
+2019,NSW,Calare,Liberal / Coalition,Liberal / Coalition,Labor,"Shooters, Fishers and Farmers",41760,22340,11681,12494,12419,17102
+2019,NSW,Chifley,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,41174,25780,5052,9038,7261,11866
+2019,NSW,Cook,Liberal / Coalition,Liberal / Coalition,Labor,Greens,54769,20652,5934,6505,7202,7409
+2019,NSW,Cowper,Liberal / Coalition,Liberal / Coalition,Labor,Greens,45509,25121,9752,9675,13533,15856
+2019,NSW,Cunningham,Labor,Labor,Liberal / Coalition,Greens,38656,27409,14208,17616,7682,11263
+2019,NSW,Dobell,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,37493,32734,6858,8392,11334,13481
+2019,NSW,Eden-Monaro,Liberal / Coalition,Liberal / Coalition,Labor,Greens,39941,29457,9649,8386,13335,11530
+2019,NSW,Farrer,Liberal / Coalition,Liberal / Coalition,Labor,"Shooters, Fishers and Farmers",45537,17746,9332,13016,9621,15967
+2019,NSW,Fowler,Labor,Labor,Liberal / Coalition,Greens,41269,24583,3760,7487,6272,10317
+2019,NSW,Gilmore,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40664,32207,10056,9279,13687,13402
+2019,NSW,Grayndler,Labor,Labor,Greens,Liberal / Coalition,38752,24875,22067,7934,10219,16726
+2019,NSW,Greenway,Liberal / Coalition,Liberal / Coalition,Labor,Greens,38328,35346,5463,7822,8848,8962
+2019,NSW,Hughes,Liberal / Coalition,Liberal / Coalition,Labor,Greens,46430,26139,6616,7831,9343,8093
+2019,NSW,Hume,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,46507,23711,9266,10772,9608,13852
+2019,NSW,Hunter,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,31602,30205,14599,13939,10801,19898
+2019,NSW,Kingsford Smith,Labor,Labor,Liberal / Coalition,Greens,35392,34533,11352,13615,5769,7546
+2019,NSW,Lindsay,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,42211,31755,7370,8707,9062,12943
+2019,NSW,Lyne,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,46883,22978,9435,10816,10677,15309
+2019,NSW,Macarthur,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,39847,32617,8220,9731,9461,13658
+2019,NSW,Mackellar,Liberal / Coalition,Liberal / Coalition,Labor,Greens,50051,18675,12710,8378,12878,9464
+2019,NSW,Macquarie,Liberal / Coalition,Liberal / Coalition,Labor,Greens,38187,27877,10154,8593,13887,9829
+2019,NSW,McMahon,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,34888,30565,5156,7439,7242,10658
+2019,NSW,Mitchell,Liberal / Coalition,Liberal / Coalition,Labor,Greens,55863,22134,6865,8326,8283,6817
+2019,NSW,New England,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,43548,18011,9455,11853,11205,16862
+2019,NSW,Newcastle,Labor,Labor,Liberal / Coalition,Greens,38573,27679,14925,18852,7686,12587
+2019,NSW,North Sydney,Liberal / Coalition,Liberal / Coalition,Labor,Greens,47523,23889,13979,6975,14166,6281
+2019,NSW,Page,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41209,27271,12147,9575,16411,14974
+2019,NSW,Parkes,Liberal / Coalition,Liberal / Coalition,Labor,"Shooters, Fishers and Farmers",38215,19361,9854,11923,9674,16160
+2019,NSW,Parramatta,Labor,Liberal / Coalition,Labor,Greens,33985,33478,6039,6182,8371,6947
+2019,NSW,Paterson,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,35641,32960,12637,13610,10509,16914
+2019,NSW,Reid,Liberal / Coalition,Liberal / Coalition,Labor,Greens,43554,31283,8198,5949,10048,6188
+2019,NSW,Richmond,Labor,Liberal / Coalition,Labor,Greens,35711,27056,17634,7512,19386,14489
+2019,NSW,Riverina,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,44983,19998,8639,12326,9829,14532
+2019,NSW,Robertson,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40196,29309,8507,7497,11852,11049
+2019,NSW,Shortland,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,35476,32483,7586,12500,8533,13549
+2019,NSW,Sydney,Labor,Labor,Liberal / Coalition,Greens,35874,25007,22129,23639,5396,7344
+2019,NSW,Warringah,Liberal / Coalition,Liberal / Coalition,Labor,Greens,46456,18768,15040,6997,14190,9269
+2019,NSW,Watson,Labor,Labor,Liberal / Coalition,Greens,39558,26638,6436,8994,6367,8633
+2019,NSW,Wentworth,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44783,19580,14808,5617,14378,6578
+2019,NSW,Werriwa,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,40788,31218,4484,8320,7519,11361
+2019,NSW,Whitlam,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,39321,30429,7172,12441,8820,14231
+2022,NSW,Banks,Labor,Liberal / Coalition,Labor,Greens,37092,32265,8103,5516,11355,8596
+2022,NSW,Barton,Labor,Labor,Liberal / Coalition,Greens,37762,25825,11818,16100,5507,8872
+2022,NSW,Bennelong,Labor,Liberal / Coalition,Labor,Greens,40733,35412,12710,5769,15190,6540
+2022,NSW,Berowra,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44478,22438,14482,7260,15510,7066
+2022,NSW,Blaxland,Labor,Labor,Liberal / Coalition,Greens,38989,24099,5102,9114,4830,8171
+2022,NSW,Bradfield,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44080,23937,14893,6930,16875,5831
+2022,NSW,Calare,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44846,23979,8406,10129,14692,14121
+2022,NSW,Chifley,Labor,Labor,Liberal / Coalition,Greens,40463,29201,6137,11481,6389,10605
+2022,NSW,Cook,Liberal / Coalition,Liberal / Coalition,Labor,Greens,50806,22510,8996,6311,11468,8381
+2022,NSW,Cowper,Liberal / Coalition,Liberal / Coalition,Labor,Greens,45447,26188,12861,9036,17574,14935
+2022,NSW,Cunningham,Labor,Labor,Liberal / Coalition,Greens,36637,26124,20264,23897,6814,11087
+2022,NSW,Dobell,Labor,Liberal / Coalition,Labor,Greens,35876,33949,9143,6939,14048,12246
+2022,NSW,Eden-Monaro,Labor,Liberal / Coalition,Labor,Greens,38794,32387,11724,7106,16209,10671
+2022,NSW,Farrer,Liberal / Coalition,Liberal / Coalition,Labor,Greens,49020,20111,7701,9973,11961,13129
+2022,NSW,Fowler,Labor,Labor,Liberal / Coalition,United Australia Party,33672,26593,6061,10513,6651,11653
+2022,NSW,Gilmore,Liberal / Coalition,Liberal / Coalition,Labor,Greens,43434,33169,13420,7469,16953,12129
+2022,NSW,Grayndler,Labor,Labor,Greens,Liberal / Coalition,41551,27886,17936,9189,9857,12509
+2022,NSW,Greenway,Labor,Liberal / Coalition,Labor,Greens,42461,41206,9050,7414,13084,9598
+2022,NSW,Hughes,Liberal / Coalition,Liberal / Coalition,Labor,Greens,43654,26469,9517,6699,13056,8899
+2022,NSW,Hume,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,46872,24597,7664,9401,13184,14895
+2022,NSW,Hunter,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,36649,35229,8372,15006,8689,16695
+2022,NSW,Kingsford Smith,Labor,Labor,Liberal / Coalition,Greens,37169,30805,17142,20095,5771,7600
+2022,NSW,Lindsay,Liberal / Coalition,Liberal / Coalition,Labor,Greens,45052,30322,7669,8144,12656,12203
+2022,NSW,Lyne,Liberal / Coalition,Liberal / Coalition,Labor,Greens,48339,24419,8975,9141,13566,15237
+2022,NSW,Macarthur,Labor,Labor,Liberal / Coalition,Greens,41094,38817,7230,13878,8167,14213
+2022,NSW,Mackellar,Liberal / Coalition,Liberal / Coalition,Labor,Greens,45014,20289,16105,8063,17661,9079
+2022,NSW,Macquarie,Labor,Liberal / Coalition,Labor,Greens,35186,30420,12339,6378,16824,9450
+2022,NSW,McMahon,Labor,Labor,Liberal / Coalition,United Australia Party,31767,28994,5995,9420,6626,11047
+2022,NSW,Mitchell,Liberal / Coalition,Liberal / Coalition,Labor,Greens,53262,26641,11297,7510,13226,6953
+2022,NSW,New England,Liberal / Coalition,Liberal / Coalition,Labor,Greens,45270,19398,7550,9369,12706,13269
+2022,NSW,Newcastle,Labor,Labor,Liberal / Coalition,Greens,40635,26954,21049,25009,5913,10327
+2022,NSW,North Sydney,Labor,Liberal / Coalition,Labor,Greens,40388,28846,17105,6602,19412,5968
+2022,NSW,Page,Liberal / Coalition,Liberal / Coalition,Labor,Greens,42843,25293,14069,7972,18307,14722
+2022,NSW,Parkes,Liberal / Coalition,Liberal / Coalition,Labor,"Shooters, Fishers and Farmers Party",40970,19191,6247,9387,10288,12753
+2022,NSW,Parramatta,Labor,Labor,Liberal / Coalition,Greens,34253,31256,8023,11130,5623,7619
+2022,NSW,Paterson,Labor,Liberal / Coalition,Labor,Greens,39413,39027,8968,7943,15324,14264
+2022,NSW,Reid,Labor,Liberal / Coalition,Labor,Greens,38467,37383,11184,5461,13983,6656
+2022,NSW,Richmond,Labor,Liberal / Coalition,Labor,Greens,32770,26242,22238,6964,22983,15348
+2022,NSW,Riverina,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,46624,21198,6375,10211,11688,12620
+2022,NSW,Robertson,Labor,Liberal / Coalition,Labor,Greens,37720,31953,11480,5928,14513,10033
+2022,NSW,Shortland,Labor,Labor,Liberal / Coalition,Greens,36521,33128,10503,15519,6966,11494
+2022,NSW,Sydney,Labor,Labor,Greens,Liberal / Coalition,38517,27932,21074,11691,11608,13479
+2022,NSW,Warringah,Liberal / Coalition,Liberal / Coalition,Labor,Greens,39034,22669,17604,6861,19052,7012
+2022,NSW,Watson,Labor,Labor,Liberal / Coalition,Greens,38489,24276,8018,12292,5315,8783
+2022,NSW,Wentworth,Liberal / Coalition,Liberal / Coalition,Labor,Greens,37821,20027,18131,5743,19104,5458
+2022,NSW,Werriwa,Labor,Labor,Liberal / Coalition,United Australia Party,37369,34467,7072,11881,8084,12751
+2022,NSW,Whitlam,Labor,Labor,Liberal / Coalition,Greens,38835,32913,10899,16980,7797,13155
+2022,VIC,Aston,Liberal / Coalition,Liberal / Coalition,Labor,Greens,37709,29855,10771,6790,14450,9985
+2022,VIC,Ballarat,Labor,Labor,Liberal / Coalition,Greens,34638,28027,13354,18143,6287,11033
+2022,VIC,Bendigo,Labor,Labor,Liberal / Coalition,Greens,33878,28924,14081,18792,7050,11737
+2022,VIC,Bruce,Labor,Labor,Liberal / Coalition,Greens,34808,28627,7762,12546,7366,12030
+2022,VIC,Calwell,Labor,Labor,Liberal / Coalition,Greens,34391,20241,6509,13152,6602,11919
+2022,VIC,Casey,Labor,Liberal / Coalition,Labor,Greens,35914,26804,15096,7750,18956,13938
+2022,VIC,Chisholm,Labor,Labor,Liberal / Coalition,Greens,36114,35508,12955,15698,5341,6848
+2022,VIC,Cooper,Labor,Labor,Greens,Liberal / Coalition,34033,26304,15548,10452,8835,15625
+2022,VIC,Corangamite,Labor,Labor,Liberal / Coalition,Greens,34337,34014,15858,18890,6091,9487
+2022,VIC,Corio,Labor,Labor,Liberal / Coalition,Greens,36155,25834,14323,19253,5920,11661
+2022,VIC,Deakin,Labor,Liberal / Coalition,Labor,Greens,39090,31018,14616,6293,17693,8627
+2022,VIC,Dunkley,Labor,Labor,Liberal / Coalition,Greens,32171,31909,11126,15470,6579,11940
+2022,VIC,Flinders,Liberal / Coalition,Liberal / Coalition,Labor,Greens,42092,25319,12699,6826,15617,11682
+2022,VIC,Fraser,Labor,Labor,Liberal / Coalition,Greens,34753,20700,15714,21860,5988,9582
+2022,VIC,Gellibrand,Labor,Labor,Liberal / Coalition,Greens,35659,25206,13385,17515,5822,9691
+2022,VIC,Gippsland,Liberal / Coalition,Liberal / Coalition,Labor,Greens,39997,23726,7865,9463,13179,13468
+2022,VIC,Goldstein,Liberal / Coalition,Liberal / Coalition,Labor,Greens,42463,25478,17427,6576,19099,6743
+2022,VIC,Gorton,Labor,Labor,Liberal / Coalition,Greens,35990,25072,6735,13503,6974,13186
+2022,VIC,Hawke,Labor,Labor,Liberal / Coalition,Greens,31186,24687,7648,13915,6956,14475
+2022,VIC,Higgins,Labor,Liberal / Coalition,Labor,Greens,37286,26554,21237,5557,22336,5680
+2022,VIC,Holt,Labor,Labor,Liberal / Coalition,United Australia Party,34187,27336,6803,11927,6776,12182
+2022,VIC,Hotham,Labor,Labor,Liberal / Coalition,Greens,39579,28491,10972,15527,6693,10199
+2022,VIC,Indi,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40892,23466,9800,9983,15703,13743
+2022,VIC,Isaacs,Labor,Labor,Liberal / Coalition,Greens,33464,32640,12734,16247,6697,9719
+2022,VIC,Jagajaga,Labor,Labor,Liberal / Coalition,Greens,34911,31093,18042,21297,5950,9040
+2022,VIC,Kooyong,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44165,27280,20404,5453,21946,5612
+2022,VIC,La Trobe,Liberal / Coalition,Liberal / Coalition,Labor,Greens,36369,25066,8875,7435,12825,11905
+2022,VIC,Lalor,Labor,Labor,Liberal / Coalition,Greens,35303,24256,8534,13949,6328,11180
+2022,VIC,Macnamara,Labor,Liberal / Coalition,Labor,Greens,28437,26991,25270,5672,26496,6856
+2022,VIC,Mallee,Liberal / Coalition,Liberal / Coalition,Labor,United Australia Party,46269,21179,5905,9526,11307,14563
+2022,VIC,Maribyrnong,Labor,Labor,Liberal / Coalition,Greens,33823,27246,15676,19678,5950,9614
+2022,VIC,McEwen,Labor,Liberal / Coalition,Labor,Greens,28789,28031,11008,6707,15595,11015
+2022,VIC,Melbourne,Greens,Greens,Labor,Liberal / Coalition,39137,28268,16097,10315,8518,12473
+2022,VIC,Menzies,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40848,30560,13126,6711,15460,8089
+2022,VIC,Monash,Liberal / Coalition,Liberal / Coalition,Labor,Greens,35895,25270,10210,8471,14784,13657
+2022,VIC,Nicholls,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,44133,20268,6445,9573,10931,13712
+2022,VIC,Scullin,Labor,Labor,Liberal / Coalition,Greens,40702,23955,7904,14629,7108,13800
+2022,VIC,Wannon,Liberal / Coalition,Liberal / Coalition,Labor,Greens,42890,25136,10589,8057,15140,11797
+2022,VIC,Wills,Labor,Labor,Greens,Liberal / Coalition,32168,25509,15666,10491,9474,15657
+2016,QLD,Blair,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,29446,20569,12904,12097,8248,17256
+2016,QLD,Bonner,Liberal / Coalition,Liberal / Coalition,Labor,Greens,35968,26843,7450,7183,11229,9446
+2016,QLD,Bowman,Liberal / Coalition,Liberal / Coalition,Labor,Greens,35369,25107,6209,8392,11235,12748
+2016,QLD,Brisbane,Liberal / Coalition,Liberal / Coalition,Labor,Greens,42968,20798,16550,6788,17260,8842
+2016,QLD,Capricornia,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,27384,25892,13936,10887,8652,16099
+2016,QLD,Dawson,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,29534,25641,12220,9145,10704,16449
+2016,QLD,Dickson,Liberal / Coalition,Liberal / Coalition,Labor,Greens,33147,26020,7430,7980,11944,12503
+2016,QLD,Fadden,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,36956,20825,8174,8530,9200,14066
+2016,QLD,Fairfax,Liberal / Coalition,Liberal / Coalition,Labor,Greens,37791,18523,8869,9852,12683,16625
+2016,QLD,Fisher,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,34253,17947,7473,8475,11178,14929
+2016,QLD,Flynn,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,27496,24625,16704,9746,10437,18200
+2016,QLD,Forde,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,27053,26548,7659,9999,7812,14494
+2016,QLD,Griffith,Labor,Liberal / Coalition,Labor,Greens,35793,25448,15673,6456,17343,9130
+2016,QLD,Groom,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,36813,16616,11320,11947,10167,16419
+2016,QLD,Herbert,Labor,Liberal / Coalition,Labor,Pauline Hanson's One Nation,27122,25411,12007,9139,12235,17827
+2016,QLD,Hinkler,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,30572,22000,15581,8825,9767,18187
+2016,QLD,Kennedy,Katter's Australian Party,Liberal / Coalition,Labor,Katter's Australian Party,24309,17681,15326,12498,11903,20145
+2016,QLD,Leichhardt,Labor,Liberal / Coalition,Labor,Pauline Hanson's One Nation,27813,26146,7419,8812,12791,16575
+2016,QLD,Lilley,Labor,Liberal / Coalition,Labor,Greens,33145,31798,9455,7118,13429,9952
+2016,QLD,Longman,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,29032,28131,9417,10921,7837,16800
+2016,QLD,Maranoa,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,38325,15236,14999,12349,8847,18030
+2016,QLD,McPherson,Liberal / Coalition,Liberal / Coalition,Labor,Greens,36065,20542,6526,9025,10556,13027
+2016,QLD,Moncrieff,Liberal / Coalition,Liberal / Coalition,Labor,Greens,38448,18354,5602,8155,9463,12355
+2016,QLD,Moreton,Labor,Liberal / Coalition,Labor,Greens,30342,26176,10003,6932,13976,8878
+2016,QLD,Oxley,Labor,Labor,Liberal / Coalition,Greens,32509,23747,5934,11039,6352,10558
+2016,QLD,Petrie,Labor,Liberal / Coalition,Labor,Pauline Hanson's One Nation,32412,30554,5824,7519,10593,12691
+2016,QLD,Rankin,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,34441,22327,6029,10131,7146,12965
+2016,QLD,Ryan,Liberal / Coalition,Liberal / Coalition,Labor,Greens,43445,19137,15429,7676,16666,8865
+2016,QLD,Wide Bay,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,33680,18034,12034,9826,11251,18282
+2016,QLD,Wright,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,31936,18469,15206,10254,10492,18512
+2025,VIC,Aston,Labor,Labor,Liberal / Coalition,Greens,39588,39354,11614,16274,8590,7959
+2025,VIC,Ballarat,Labor,Labor,Liberal / Coalition,Greens,37999,28957,12713,19065,9508,9262
+2025,VIC,Bendigo,Labor,Liberal / Coalition,Labor,Greens,36640,35100,12757,9457,18512,9380
+2025,VIC,Bruce,Labor,Labor,Liberal / Coalition,Greens,44826,28716,10877,17363,10286,9045
+2025,VIC,Calwell,Labor,Labor,Liberal / Coalition,Greens,35019,21042,8842,18534,7884,11488
+2025,VIC,Casey,Labor,Liberal / Coalition,Labor,Greens,39838,32313,14161,11020,19680,9270
+2025,VIC,Chisholm,Labor,Labor,Liberal / Coalition,Greens,41113,38211,12751,16730,5835,4291
+2025,VIC,Cooper,Labor,Labor,Greens,Liberal / Coalition,40258,25317,16322,11831,14834,14880
+2025,VIC,Corangamite,Labor,Labor,Liberal / Coalition,Greens,38622,33071,14865,18824,7228,6880
+2025,VIC,Corio,Labor,Labor,Liberal / Coalition,Greens,42623,27327,15084,21991,9185,9549
+2025,VIC,Deakin,Labor,Labor,Liberal / Coalition,Greens,41609,41484,14544,19082,8332,6265
+2025,VIC,Dunkley,Labor,Labor,Liberal / Coalition,Greens,39925,33296,12194,18264,9512,9595
+2025,VIC,Flinders,Liberal / Coalition,Liberal / Coalition,Labor,Greens,46987,34953,11474,9112,16228,8051
+2025,VIC,Fraser,Labor,Labor,Liberal / Coalition,Greens,42939,19509,19334,27678,7031,8326
+2025,VIC,Gellibrand,Labor,Labor,Liberal / Coalition,Greens,43395,27402,14070,20560,7930,7121
+2025,VIC,Gippsland,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,40728,25321,11265,14061,12996,10548
+2025,VIC,Goldstein,Liberal / Coalition,Liberal / Coalition,Labor,Greens,50392,35830,14602,6508,18602,4902
+2025,VIC,Gorton,Labor,Labor,Liberal / Coalition,Greens,47856,31604,9468,16175,9281,8833
+2025,VIC,Hawke,Labor,Labor,Liberal / Coalition,Greens,38498,29504,8738,16086,10582,9377
+2025,VIC,Holt,Labor,Labor,Liberal / Coalition,Greens,41407,25075,10295,15762,8919,8140
+2025,VIC,Hotham,Labor,Labor,Liberal / Coalition,Greens,48793,31699,13454,19033,7629,7050
+2025,VIC,Indi,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40381,27646,9590,13015,15518,11323
+2025,VIC,Isaacs,Labor,Labor,Liberal / Coalition,Greens,46224,30574,12480,17181,7319,6390
+2025,VIC,Jagajaga,Labor,Labor,Liberal / Coalition,Greens,43094,32449,16637,22676,7099,6165
+2025,VIC,Kooyong,Labor,Liberal / Coalition,Labor,Greens,49368,35442,17496,5534,21139,4223
+2025,VIC,La Trobe,Labor,Liberal / Coalition,Labor,Greens,35916,33025,10535,11072,15367,8242
+2025,VIC,Lalor,Labor,Labor,Liberal / Coalition,Greens,39744,25269,10321,17235,8682,8602
+2025,VIC,Macnamara,Labor,Labor,Liberal / Coalition,Greens,33003,32257,20662,24700,5019,4983
+2025,VIC,Mallee,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,46467,22460,9707,13080,11821,11713
+2025,VIC,Maribyrnong,Labor,Labor,Liberal / Coalition,Greens,41687,31670,16843,23210,7338,6812
+2025,VIC,McEwen,Labor,Labor,Liberal / Coalition,Greens,37770,33359,10659,16859,9736,8915
+2025,VIC,Melbourne,Labor,Labor,Greens,Liberal / Coalition,33325,28783,19920,10309,10649,15399
+2025,VIC,Menzies,Labor,Liberal / Coalition,Labor,Greens,41837,40840,12090,6938,16421,5165
+2025,VIC,Monash,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,37173,28938,8882,12627,15031,10857
+2025,VIC,Nicholls,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,44393,24860,9096,13154,12295,11192
+2025,VIC,Scullin,Labor,Labor,Liberal / Coalition,Greens,42043,22025,8311,16981,8392,9904
+2025,VIC,Wannon,Liberal / Coalition,Liberal / Coalition,Labor,Greens,47260,27275,9410,10769,15087,9656
+2025,VIC,Wills,Greens,Labor,Greens,Liberal / Coalition,37419,32494,15360,10973,16316,14016
+2019,VIC,Aston,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44516,28280,7346,8061,10896,8346
+2019,VIC,Ballarat,Labor,Labor,Liberal / Coalition,Greens,35343,30904,9521,15504,8501,12565
+2019,VIC,Bendigo,Labor,Labor,Liberal / Coalition,Greens,32073,31732,10720,15873,9672,12656
+2019,VIC,Bruce,Labor,Labor,Liberal / Coalition,Greens,39965,26090,4739,9746,7375,10532
+2019,VIC,Calwell,Labor,Labor,Liberal / Coalition,Labour DLP,38701,21800,4509,10158,6747,12048
+2019,VIC,Casey,Liberal / Coalition,Liberal / Coalition,Labor,Greens,39744,27544,10921,8876,15189,11443
+2019,VIC,Chisholm,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40251,29571,11429,6589,13880,6405
+2019,VIC,Cooper,Labor,Labor,Greens,Liberal / Coalition,37946,24554,18754,7825,9356,18912
+2019,VIC,Corangamite,Labor,Liberal / Coalition,Labor,Greens,38534,31694,11317,7589,15023,9856
+2019,VIC,Corio,Labor,Labor,Liberal / Coalition,Greens,35502,29862,10002,14885,7537,10495
+2019,VIC,Deakin,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41816,29209,9563,7683,12935,7346
+2019,VIC,Dunkley,Labor,Liberal / Coalition,Labor,Greens,35803,31880,7704,7615,12581,10422
+2019,VIC,Flinders,Liberal / Coalition,Liberal / Coalition,Labor,Greens,42801,24907,8627,7896,12056,11359
+2019,VIC,Fraser,Labor,Labor,Liberal / Coalition,Greens,39531,23231,5770,11059,7120,11350
+2019,VIC,Gellibrand,Labor,Labor,Liberal / Coalition,Greens,36972,26491,14351,18201,6949,9178
+2019,VIC,Gippsland,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,40262,21961,5709,10654,10130,13546
+2019,VIC,Goldstein,Liberal / Coalition,Liberal / Coalition,Labor,Greens,48232,24571,13210,6763,14146,5692
+2019,VIC,Gorton,Labor,Labor,Liberal / Coalition,Greens,38297,23803,4579,12027,8332,13070
+2019,VIC,Higgins,Liberal / Coalition,Liberal / Coalition,Labor,Greens,45788,24601,18713,6527,18431,5316
+2019,VIC,Holt,Labor,Labor,Liberal / Coalition,Greens,36656,30356,4271,9774,8282,9987
+2019,VIC,Hotham,Labor,Liberal / Coalition,Labor,Greens,35824,34032,7920,6640,11018,7797
+2019,VIC,Indi,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44041,19035,7071,12122,11777,14064
+2019,VIC,Isaacs,Labor,Liberal / Coalition,Labor,Greens,36327,33159,8877,7107,12299,8158
+2019,VIC,Jagajaga,Labor,Liberal / Coalition,Labor,Greens,34905,32936,12653,7135,15477,7607
+2019,VIC,Kooyong,Liberal / Coalition,Liberal / Coalition,Labor,Greens,47777,21628,18950,6808,18593,5474
+2019,VIC,La Trobe,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40015,29677,5896,9050,10556,10133
+2019,VIC,Lalor,Labor,Labor,Liberal / Coalition,Greens,38229,25768,5922,11436,7904,10699
+2019,VIC,Macnamara,Labor,Liberal / Coalition,Labor,Greens,36581,28073,21687,6038,21780,6757
+2019,VIC,Mallee,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,45269,16791,7014,12586,8560,16337
+2019,VIC,Maribyrnong,Labor,Labor,Liberal / Coalition,Greens,36666,32111,13881,16962,6697,8227
+2019,VIC,McEwen,Labor,Liberal / Coalition,Labor,Greens,32533,31528,6916,9025,12864,11903
+2019,VIC,Melbourne,Greens,Greens,Labor,Liberal / Coalition,32226,29270,20662,10728,6320,15815
+2019,VIC,Menzies,Liberal / Coalition,Liberal / Coalition,Labor,Greens,46499,25729,9699,7314,11647,6900
+2019,VIC,Monash,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41473,24325,6632,10830,11478,12888
+2019,VIC,Nicholls,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,42886,17283,8430,13082,8611,15359
+2019,VIC,Scullin,Labor,Labor,Liberal / Coalition,Greens,41593,21791,4461,10598,6630,10916
+2019,VIC,Wannon,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44538,23479,6137,10923,11279,12946
+2019,VIC,Wills,Labor,Labor,Greens,Liberal / Coalition,35509,24663,18092,8528,9771,17656
+2022,QLD,Blair,Labor,Labor,Liberal / Coalition,Greens,31282,28785,11466,17680,11215,18134
+2022,QLD,Bonner,Liberal / Coalition,Liberal / Coalition,Labor,Greens,36269,26944,15100,8090,17093,8661
+2022,QLD,Bowman,Liberal / Coalition,Liberal / Coalition,Labor,Greens,37994,26030,11980,9629,15302,13074
+2022,QLD,Brisbane,Greens,Liberal / Coalition,Greens,Labor,37923,29355,27330,9685,28198,5559
+2022,QLD,Capricornia,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,31410,24426,12501,10530,11108,15834
+2022,QLD,Dawson,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,33805,21138,12618,10886,11497,15640
+2022,QLD,Dickson,Liberal / Coalition,Liberal / Coalition,Labor,Greens,37146,27695,13583,8505,16174,11374
+2022,QLD,Fadden,Liberal / Coalition,Liberal / Coalition,Labor,Greens,43672,22253,10282,11485,14068,16601
+2022,QLD,Fairfax,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40532,22720,14694,10129,16859,17420
+2022,QLD,Fisher,Liberal / Coalition,Liberal / Coalition,Labor,Greens,42073,23157,14490,10960,17380,15909
+2022,QLD,Flynn,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,31539,24191,11943,11028,10807,16057
+2022,QLD,Forde,Liberal / Coalition,Liberal / Coalition,Labor,Greens,31443,25778,9272,10577,13981,16830
+2022,QLD,Griffith,Greens,Greens,Liberal / Coalition,Labor,32757,31638,26997,27653,9546,5916
+2022,QLD,Groom,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,41427,19716,9701,11503,12077,13512
+2022,QLD,Herbert,Liberal / Coalition,Liberal / Coalition,Labor,Greens,37887,20718,8907,10332,13190,14091
+2022,QLD,Hinkler,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,38363,25431,10126,10436,11621,14966
+2022,QLD,Kennedy,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,32267,18018,13237,13576,12128,16140
+2022,QLD,Leichhardt,Labor,Liberal / Coalition,Labor,Greens,28958,24511,11024,9810,15667,16586
+2022,QLD,Lilley,Labor,Labor,Liberal / Coalition,Greens,32940,30825,17169,19390,7529,9283
+2022,QLD,Longman,Liberal / Coalition,Liberal / Coalition,Labor,Greens,37208,30756,8991,10360,14518,17272
+2022,QLD,Maranoa,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,42989,14680,11911,12040,9677,14452
+2022,QLD,McPherson,Liberal / Coalition,Liberal / Coalition,Labor,Greens,36727,20700,13575,10075,15893,16383
+2022,QLD,Moncrieff,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40509,19920,11371,11304,13971,15392
+2022,QLD,Moreton,Labor,Labor,Liberal / Coalition,Greens,28990,28586,19276,21074,6659,8189
+2022,QLD,Oxley,Labor,Labor,Liberal / Coalition,Greens,33233,27361,12947,16922,8056,10872
+2022,QLD,Petrie,Liberal / Coalition,Liberal / Coalition,Labor,Greens,39418,30672,11833,9400,15504,12875
+2022,QLD,Rankin,Labor,Labor,Liberal / Coalition,Greens,31431,23610,8989,13546,7856,12217
+2022,QLD,Ryan,Greens,Liberal / Coalition,Greens,Labor,36269,28580,22017,9250,22413,5191
+2022,QLD,Wide Bay,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,37506,20380,9891,9793,12956,18046
+2022,QLD,Wright,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,38271,20942,12952,13199,15590,19126
+2025,QLD,Blair,Labor,Labor,Liberal / Coalition,Greens,44589,30747,12480,20715,15344,16749
+2025,QLD,Bonner,Labor,Labor,Liberal / Coalition,Greens,38205,32089,12259,15959,8346,6506
+2025,QLD,Bowman,Labor,Liberal / Coalition,Labor,Greens,36109,33782,10750,12113,16114,10673
+2025,QLD,Brisbane,Labor,Liberal / Coalition,Labor,Greens,36145,35923,25321,7029,27491,5890
+2025,QLD,Capricornia,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,29874,28442,13021,15468,12669,12690
+2025,QLD,Dawson,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,34045,25494,9579,14174,11835,13254
+2025,QLD,Dickson,Labor,Labor,Liberal / Coalition,Greens,37149,35137,11710,16896,9477,9274
+2025,QLD,Fadden,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41649,31213,9127,13132,15103,13163
+2025,QLD,Fairfax,Liberal / Coalition,Liberal / Coalition,Labor,Greens,38528,31859,12877,13122,17497,13664
+2025,QLD,Fisher,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41287,33128,13180,13590,18312,14430
+2025,QLD,Flynn,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,31405,24322,13682,16350,12194,16731
+2025,QLD,Forde,Labor,Labor,Liberal / Coalition,Greens,37212,28762,10013,17140,13742,14293
+2025,QLD,Griffith,Labor,Labor,Liberal / Coalition,Greens,37246,29863,28088,29942,7196,6156
+2025,QLD,Groom,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,40060,24051,9790,16042,13655,11700
+2025,QLD,Herbert,Liberal / Coalition,Liberal / Coalition,Labor,Greens,36797,25762,8128,13162,13985,11718
+2025,QLD,Hinkler,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,36115,31857,11873,14966,12356,14214
+2025,QLD,Kennedy,Liberal / Coalition,Liberal / Coalition,Labor,Gerard Rennick People First|Katter's Australian Party,26922,21799,21097,19615,15275,20740
+2025,QLD,Leichhardt,Labor,Labor,Liberal / Coalition,Greens,30789,23670,8324,15034,11698,12282
+2025,QLD,Lilley,Labor,Labor,Liberal / Coalition,Greens,43665,29319,16409,20679,8344,7213
+2025,QLD,Longman,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,40237,35265,9858,17769,14919,14692
+2025,QLD,Maranoa,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,43140,17612,12594,16683,9891,13006
+2025,QLD,McPherson,Liberal / Coalition,Liberal / Coalition,Labor,Greens,34363,28928,11020,10786,14953,11686
+2025,QLD,Moncrieff,Liberal / Coalition,Liberal / Coalition,Labor,Greens,40447,28331,9395,11669,14041,11310
+2025,QLD,Moreton,Labor,Labor,Liberal / Coalition,Greens,37117,23534,17575,21516,6631,6351
+2025,QLD,Oxley,Labor,Labor,Liberal / Coalition,Greens,42921,21358,12283,17542,8663,8744
+2025,QLD,Petrie,Labor,Labor,Liberal / Coalition,Greens,41182,35555,11418,16924,11584,10124
+2025,QLD,Rankin,Labor,Labor,Liberal / Coalition,Greens,41100,18781,8849,15645,9216,10175
+2025,QLD,Ryan,Labor,Liberal / Coalition,Labor,Greens,34825,31841,25110,7349,26570,5606
+2025,QLD,Wide Bay,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,35451,27449,10999,14923,14008,15140
+2025,QLD,Wright,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,36343,29954,15681,19165,16919,17305
+2019,QLD,Blair,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,28160,26851,17305,14114,14109,17147
+2019,QLD,Bonner,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41873,24938,11642,8684,12701,6601
+2019,QLD,Bowman,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41949,22848,9655,11707,12288,10160
+2019,QLD,Brisbane,Liberal / Coalition,Liberal / Coalition,Greens,Labor,46441,24233,23342,9238,22951,4381
+2019,QLD,Capricornia,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,30996,20698,18271,14942,10015,15585
+2019,QLD,Dawson,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,33849,18048,14934,15435,9702,15278
+2019,QLD,Dickson,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41649,25363,10611,9715,12855,9519
+2019,QLD,Fadden,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,44485,18920,8979,13387,10442,11512
+2019,QLD,Fairfax,Liberal / Coalition,Liberal / Coalition,Labor,Greens,43188,19052,12583,11780,13847,12435
+2019,QLD,Fisher,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44891,19806,11390,12313,13247,11741
+2019,QLD,Flynn,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,30593,19871,19733,15662,9449,16676
+2019,QLD,Forde,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,34078,22711,10491,12632,11260,12527
+2019,QLD,Griffith,Greens,Liberal / Coalition,Labor,Greens,38891,24862,23591,7709,22711,6107
+2019,QLD,Groom,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,42592,15557,12880,15968,10135,11969
+2019,QLD,Herbert,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,32468,19797,11536,15438,12631,14763
+2019,QLD,Hinkler,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,37095,20922,15561,13871,9178,14809
+2019,QLD,Kennedy,Liberal / Coalition,Liberal / Coalition,Katter's Australian Party (KAP),Labor,26508,16899,15276,13561,22511,12834
+2019,QLD,Leichhardt,Liberal / Coalition,Liberal / Coalition,Labor,Greens,29501,23536,10037,12798,13840,13171
+2019,QLD,Lilley,Liberal / Coalition,Liberal / Coalition,Labor,Greens,36916,28837,13983,8734,15503,7616
+2019,QLD,Longman,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,35176,26999,14631,12835,11447,15392
+2019,QLD,Maranoa,Liberal / Coalition,Liberal / Coalition,Pauline Hanson's One Nation,Labor,43245,16829,12625,10230,11800,12021
+2019,QLD,McPherson,Liberal / Coalition,Liberal / Coalition,Labor,Greens,42463,19211,10210,11311,11976,10515
+2019,QLD,Moncrieff,Liberal / Coalition,Liberal / Coalition,Labor,Greens,45585,18319,8355,11349,10656,10021
+2019,QLD,Moreton,Liberal / Coalition,Liberal / Coalition,Labor,Greens,34901,25698,16093,8081,16953,6176
+2019,QLD,Oxley,Labor,Liberal / Coalition,Labor,Greens,30101,29937,10550,9673,13285,9228
+2019,QLD,Petrie,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41822,27935,8597,10701,11702,10292
+2019,QLD,Rankin,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,27842,27533,8147,11969,10313,11019
+2019,QLD,Ryan,Liberal / Coalition,Liberal / Coalition,Greens,Labor,43692,20809,20002,8945,19630,4179
+2019,QLD,Wide Bay,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,38859,18307,12085,12582,11689,13722
+2019,QLD,Wright,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,39616,17256,15951,15730,11484,16480
+2016,WA,Brand,Labor,Labor,Liberal / Coalition,Greens,33137,22134,7157,11756,6706,9495
+2016,WA,Burt,Labor,Labor,Liberal / Coalition,Greens,33618,26315,6218,10311,7334,8388
+2016,WA,Canning,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,33643,24120,5982,8206,10099,9946
+2016,WA,Cowan,Labor,Labor,Liberal / Coalition,Greens,31541,28677,5979,9191,6550,7794
+2016,WA,Curtin,Liberal / Coalition,Liberal / Coalition,Labor,Greens,50342,13052,12720,7009,12127,4374
+2016,WA,Durack,Liberal / Coalition,Liberal / Coalition,Labor,Nationals,26587,17497,8643,13828,9817,10416
+2016,WA,Forrest,Liberal / Coalition,Liberal / Coalition,Labor,Greens,35139,18631,9384,10404,12095,11084
+2016,WA,Fremantle,Labor,Labor,Liberal / Coalition,Greens,29200,28139,14041,15687,5986,7155
+2016,WA,Hasluck,Liberal / Coalition,Liberal / Coalition,Labor,Greens,29933,25167,9138,7551,11920,8560
+2016,WA,Moore,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41634,22143,9239,7760,10797,6669
+2016,WA,O'Connor,Liberal / Coalition,Liberal / Coalition,Labor,Nationals,29288,16724,12119,17915,12204,11802
+2016,WA,Pearce,Liberal / Coalition,Liberal / Coalition,Labor,Greens,31462,26807,7206,9386,11258,10495
+2016,WA,Perth,Labor,Liberal / Coalition,Labor,Greens,31930,25693,14564,6075,15691,6085
+2016,WA,Stirling,Liberal / Coalition,Liberal / Coalition,Labor,Greens,35968,25448,9252,6259,10988,5949
+2016,WA,Swan,Liberal / Coalition,Liberal / Coalition,Labor,Greens,33695,24053,10562,6912,12346,6011
+2016,WA,Tangney,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41366,19488,9944,7466,11167,5153
+2022,WA,Brand,Labor,Labor,Liberal / Coalition,Greens,43056,22158,11771,16503,6660,11213
+2022,WA,Burt,Labor,Labor,Liberal / Coalition,Greens,41989,21631,9778,14639,7175,8849
+2022,WA,Canning,Labor,Liberal / Coalition,Labor,Greens,33964,32520,9081,7538,12946,11138
+2022,WA,Cowan,Labor,Labor,Liberal / Coalition,Greens,43043,29819,11932,15676,6221,8995
+2022,WA,Curtin,Liberal / Coalition,Liberal / Coalition,Labor,Greens,46878,25545,21684,7176,21936,5674
+2022,WA,Durack,Labor,Liberal / Coalition,Labor,Greens,31115,28062,9661,8386,13826,11653
+2022,WA,Forrest,Labor,Liberal / Coalition,Labor,Greens,33814,28436,13825,7315,15924,11999
+2022,WA,Fremantle,Labor,Labor,Liberal / Coalition,Greens,38690,25355,20226,23081,5999,9054
+2022,WA,Hasluck,Labor,Labor,Liberal / Coalition,Greens,37193,30624,13173,16816,7394,10257
+2022,WA,Moore,Labor,Liberal / Coalition,Labor,Greens,40246,32487,15511,8053,17746,8803
+2022,WA,O'Connor,Liberal / Coalition,Liberal / Coalition,Labor,Greens,37347,27146,10708,9042,14617,11512
+2022,WA,Pearce,Labor,Labor,Liberal / Coalition,Greens,36467,29203,11154,14890,7551,10790
+2022,WA,Perth,Labor,Labor,Liberal / Coalition,Greens,37384,29017,25001,26816,6244,7524
+2022,WA,Swan,Labor,Labor,Liberal / Coalition,Greens,37585,31547,17076,19770,6818,7873
+2022,WA,Tangney,Labor,Liberal / Coalition,Labor,Greens,40790,37956,15052,7095,17124,6458
+2025,WA,Brand,Labor,Labor,Liberal / Coalition,Greens,40291,16728,11231,17643,10339,9180
+2025,WA,Bullwinkel,Labor,Labor,Liberal / Coalition,Greens,33862,24998,12112,17581,19660,9789
+2025,WA,Burt,Labor,Labor,Liberal / Coalition,Greens,43732,18171,10475,17503,11212,9251
+2025,WA,Canning,Labor,Liberal / Coalition,Labor,Pauline Hanson's One Nation,32652,32586,9343,12835,13406,9715
+2025,WA,Cowan,Labor,Labor,Liberal / Coalition,Greens,44269,22756,11380,16259,8421,7899
+2025,WA,Curtin,Labor,Liberal / Coalition,Labor,Greens,43755,33127,17526,7307,19702,3892
+2025,WA,Durack,Liberal / Coalition,Liberal / Coalition,Labor,Nationals,25036,22919,11502,19345,12430,11201
+2025,WA,Forrest,Labor,Liberal / Coalition,Labor,Greens,30623,29534,12318,14708,16024,10726
+2025,WA,Fremantle,Labor,Labor,Liberal / Coalition,Greens,42159,21148,18933,23340,8641,7945
+2025,WA,Hasluck,Labor,Labor,Liberal / Coalition,Greens,42551,20245,11944,16690,9109,7802
+2025,WA,Moore,Labor,Labor,Liberal / Coalition,Greens,39207,36015,13624,16805,10593,6649
+2025,WA,O'Connor,Liberal / Coalition,Liberal / Coalition,Labor,Nationals,30352,22900,13479,23513,14251,11430
+2025,WA,Pearce,Labor,Labor,Liberal / Coalition,Greens,37381,25835,10839,15394,11446,8661
+2025,WA,Perth,Labor,Labor,Liberal / Coalition,Greens,38480,23233,21465,24475,6879,5278
+2025,WA,Swan,Labor,Labor,Liberal / Coalition,Greens,39320,24325,16147,20608,8275,5797
+2025,WA,Tangney,Labor,Labor,Liberal / Coalition,Greens,44583,35874,13875,17583,9147,4902
+2016,SA,Adelaide,"",Liberal / Coalition,Labor,Nick Xenophon Team,35015,27292,16767,9782,19869,5335
+2016,SA,Barker,Liberal / Coalition,Liberal / Coalition,Nick Xenophon Team,Labor,39544,23350,15827,7004,16161,9488
+2016,SA,Boothby,Liberal / Coalition,Liberal / Coalition,Labor,Nick Xenophon Team,36549,22112,22014,12700,20349,6476
+2016,SA,Grey,Nick Xenophon Team,Liberal / Coalition,Nick Xenophon Team,Labor,33186,22765,20075,6619,18441,9644
+2016,SA,Hindmarsh,Liberal / Coalition,Liberal / Coalition,Labor,Nick Xenophon Team,36881,29060,19106,10542,17604,5921
+2016,SA,Kingston,Labor,Labor,Liberal / Coalition,Nick Xenophon Team,33714,22427,20123,19126,10689,9060
+2016,SA,Makin,Labor,Labor,Liberal / Coalition,Nick Xenophon Team,31509,26521,19734,17218,12010,8746
+2016,SA,Mayo,Nick Xenophon Team,Liberal / Coalition,Nick Xenophon Team,Labor,34915,28548,14011,5931,18692,7629
+2016,SA,Port Adelaide,Labor,Labor,Nick Xenophon Team,Liberal / Coalition,42883,18337,18302,11879,16392,9244
+2016,SA,Sturt,Liberal / Coalition,Liberal / Coalition,Labor,Nick Xenophon Team,37757,21116,20522,11781,17565,6343
+2016,SA,Wakefield,Labor,Labor,Liberal / Coalition,Nick Xenophon Team,32372,24706,19601,17649,11726,11905
+2019,WA,Brand,Labor,Labor,Liberal / Coalition,Greens,32715,27096,9573,13114,9153,9651
+2019,WA,Burt,Labor,Labor,Liberal / Coalition,Greens,32490,30883,8017,10734,9324,7609
+2019,WA,Canning,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,40015,24755,8270,10243,9980,8642
+2019,WA,Cowan,Liberal / Coalition,Liberal / Coalition,Labor,Greens,33541,29373,7886,7914,9792,6745
+2019,WA,Curtin,Liberal / Coalition,Liberal / Coalition,Labor,Greens,49345,16892,15648,7393,14090,3289
+2019,WA,Durack,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,30598,17495,8116,13666,8697,8684
+2019,WA,Forrest,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41032,20463,11469,10709,12046,8696
+2019,WA,Fremantle,Labor,Liberal / Coalition,Labor,Greens,32319,30534,15982,7326,17267,6122
+2019,WA,Hasluck,Liberal / Coalition,Liberal / Coalition,Labor,Greens,33911,25447,10156,8695,11688,7208
+2019,WA,Moore,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44379,21977,11136,8539,11231,5542
+2019,WA,O'Connor,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,34524,17620,8554,16984,10312,9277
+2019,WA,Pearce,Liberal / Coalition,Liberal / Coalition,Labor,Greens,41609,29119,9248,11812,11582,10355
+2019,WA,Perth,Labor,Liberal / Coalition,Labor,Greens,32785,27609,17731,6765,17900,5086
+2019,WA,Stirling,Liberal / Coalition,Liberal / Coalition,Labor,Greens,39875,26307,10729,6874,11355,4641
+2019,WA,Swan,Liberal / Coalition,Liberal / Coalition,Labor,Greens,36089,25972,12392,7360,12941,5249
+2019,WA,Tangney,Liberal / Coalition,Liberal / Coalition,Labor,Greens,43992,21003,10647,6788,10461,3605
+2022,SA,Adelaide,Labor,Labor,Liberal / Coalition,Greens,40647,33249,20821,25681,8031,7217
+2022,SA,Barker,Liberal / Coalition,Liberal / Coalition,Labor,Greens,49871,24888,7104,10605,12120,12365
+2022,SA,Boothby,Labor,Liberal / Coalition,Labor,Greens,42023,36972,18961,7721,23241,7006
+2022,SA,Grey,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,44040,28797,6551,9355,12184,12624
+2022,SA,Hindmarsh,Labor,Labor,Liberal / Coalition,Greens,42461,35119,14020,19191,8218,9122
+2022,SA,Kingston,Labor,Labor,Liberal / Coalition,Greens,41624,30528,13754,19504,8502,10548
+2022,SA,Makin,Labor,Labor,Liberal / Coalition,Greens,40706,34398,10640,16461,8711,9121
+2022,SA,Mayo,Labor,Liberal / Coalition,Labor,Greens,41768,30921,17692,11226,23969,11887
+2022,SA,Spence,Labor,Labor,Liberal / Coalition,Greens,43764,26171,9093,16277,9039,12464
+2022,SA,Sturt,Liberal / Coalition,Liberal / Coalition,Labor,Greens,45748,33366,16771,9046,21266,7283
+2025,SA,Adelaide,Labor,Labor,Liberal / Coalition,Greens,49802,28121,20891,26081,7645,5552
+2025,SA,Barker,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,44680,29541,8780,13964,13819,11387
+2025,SA,Boothby,Labor,Labor,Liberal / Coalition,Greens,46960,35336,19392,23552,7702,5062
+2025,SA,Grey,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,38213,34030,10417,12884,14163,11724
+2025,SA,Hindmarsh,Labor,Labor,Liberal / Coalition,Greens,51771,28251,15016,20495,8838,7533
+2025,SA,Kingston,Labor,Labor,Liberal / Coalition,Greens,49598,23376,15825,21862,10392,9149
+2025,SA,Makin,Labor,Labor,Liberal / Coalition,Greens,47818,26489,12391,18147,10208,8500
+2025,SA,Mayo,Labor,Labor,Liberal / Coalition,Greens,41575,36439,20261,25810,13414,9510
+2025,SA,Spence,Labor,Labor,Liberal / Coalition,Greens,49262,21575,12566,20495,11414,13038
+2025,SA,Sturt,Labor,Labor,Liberal / Coalition,Greens,42769,38552,18399,22331,8552,5145
+2019,SA,Adelaide,Labor,Liberal / Coalition,Labor,Greens,37629,37507,18213,8393,20944,4571
+2019,SA,Barker,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,52677,21093,8128,14030,11288,8645
+2019,SA,Boothby,Liberal / Coalition,Liberal / Coalition,Labor,Greens,47544,33846,17381,8869,19316,4236
+2019,SA,Grey,Liberal / Coalition,Liberal / Coalition,Labor,Pauline Hanson's One Nation,46729,25576,10043,13239,11361,10099
+2019,SA,Hindmarsh,Labor,Labor,Liberal / Coalition,Greens,40217,38577,12813,16492,9233,5768
+2019,SA,Kingston,Labor,Labor,Liberal / Coalition,Greens,39819,32902,11819,16907,10433,7127
+2019,SA,Makin,Labor,Labor,Liberal / Coalition,Greens,39394,35537,9688,15224,10982,7056
+2019,SA,Mayo,Liberal / Coalition,Liberal / Coalition,Labor,Greens,44107,24018,16017,14357,23508,7590
+2019,SA,Spence,Labor,Labor,Liberal / Coalition,Pauline Hanson's One Nation,40946,25247,9489,15305,11264,10537
+2019,SA,Sturt,Liberal / Coalition,Liberal / Coalition,Labor,Greens,53111,30094,14732,8968,16638,4299
+2016,TAS,Bass,Labor,Liberal / Coalition,Labor,Greens,23250,21673,6583,5151,11470,5174
+2016,TAS,Braddon,Labor,Liberal / Coalition,Labor,Jacqui Lambie Network,23284,19617,9410,6050,10824,5878
+2016,TAS,Denison,Labor,Labor,Liberal / Coalition,Greens,25238,17691,12419,16103,3974,3806
+2016,TAS,Franklin,Labor,Labor,Liberal / Coalition,Greens,24743,22828,9732,13642,4788,4170
+2016,TAS,Lyons,Labor,Liberal / Coalition,Labor,Jacqui Lambie Network,23303,22733,6133,5608,11678,6154
+2025,TAS,Bass,Labor,Labor,Liberal / Coalition,Greens,25129,18690,10241,16207,7805,4469
+2025,TAS,Braddon,Labor,Labor,Liberal / Coalition,Jacqui Lambie Network,24911,21447,7146,14413,8997,5497
+2025,TAS,Clark,Labor,Labor,Greens,Liberal / Coalition,24165,18711,11983,12587,6553,5485
+2025,TAS,Franklin,Labor,Labor,Greens,Liberal / Coalition,28393,16129,15971,16853,7344,7875
+2025,TAS,Lyons,Labor,Labor,Liberal / Coalition,Greens,28522,19465,9171,17067,9107,5514
+2019,TAS,Bass,Liberal / Coalition,Liberal / Coalition,Labor,Greens,25675,19672,7426,7450,12491,4224
+2019,TAS,Braddon,Liberal / Coalition,Liberal / Coalition,Labor,Jacqui Lambie Network,26248,17797,11581,9842,12500,5878
+2019,TAS,Clark,Labor,Labor,Liberal / Coalition,Greens,24751,16960,14994,18650,4786,2697
+2019,TAS,Franklin,Labor,Labor,Liberal / Coalition,Greens,24138,20734,12010,15967,5891,3161
+2019,TAS,Lyons,Labor,Labor,Liberal / Coalition,Jacqui Lambie Network,21742,21614,7325,13708,9700,5311
+2022,TAS,Bass,Labor,Liberal / Coalition,Labor,Greens,25400,18171,9766,7034,14770,5381
+2022,TAS,Braddon,Liberal / Coalition,Liberal / Coalition,Labor,Jacqui Lambie Network,28472,17277,9113,8259,12877,6709
+2022,TAS,Clark,Labor,Labor,Greens,Liberal / Coalition,20256,17844,15790,12022,8961,8165
+2022,TAS,Franklin,Labor,Labor,Liberal / Coalition,Greens,21745,21002,14738,19519,6060,4868
+2022,TAS,Lyons,Labor,Liberal / Coalition,Labor,Greens,24984,20229,8203,8294,15564,6788
+2022,ACT,Bean,Labor,Labor,Liberal / Coalition,David Pocock,32500,26986,21189,27491,8606,3508
+2022,ACT,Canberra,Labor,Labor,David Pocock,Liberal / Coalition,30766,21838,19133,15853,22565,3238
+2022,ACT,Fenner,Labor,Labor,Liberal / Coalition,David Pocock,31568,24685,17444,24523,7567,3004
+2016,ACT,Canberra,Labor,Labor,Liberal / Coalition,Greens,48398,46749,19965,25650,8608,2063
+2016,ACT,Fenner,Labor,Labor,Liberal / Coalition,Greens,48368,37949,21240,26983,7734,1890
+2025,ACT,Bean,David Pocock,David Pocock,Labor,Liberal / Coalition,38186,31861,19569,21293,7725,715
+2025,ACT,Canberra,David Pocock,David Pocock,Labor,Liberal / Coalition,43132,29093,14995,18839,7534,495
+2025,ACT,Fenner,David Pocock,David Pocock,Labor,Liberal / Coalition,33597,32181,17571,19348,8522,605
+2019,ACT,Bean,Labor,Labor,Liberal / Coalition,Greens,37945,33581,14015,17856,6225,490
+2019,ACT,Canberra,Labor,Labor,Liberal / Coalition,Greens,33730,24409,21337,24553,4672,309
+2019,ACT,Fenner,Labor,Labor,Liberal / Coalition,Greens,35146,29659,12792,15374,5315,348
+2019,NT,Lingiari,Labor,Labor,Liberal / Coalition,Greens,19095,17292,4243,6208,4675,1113
+2019,NT,Solomon,Labor,Liberal / Coalition,Labor,Greens,21221,20258,6509,5112,7905,1006
+2025,NT,Lingiari,Labor,Labor,Liberal / Coalition,Greens,17051,13614,4747,7881,5973,828
+2025,NT,Solomon,Labor,Liberal / Coalition,Labor,Greens,21381,20501,7690,6789,10762,762
+2022,NT,Lingiari,Labor,Labor,Liberal / Coalition,Greens,15907,13142,4980,7772,6692,857
+2022,NT,Solomon,Labor,Labor,Liberal / Coalition,Greens,18275,12760,7767,11526,8692,992
+2016,NT,Lingiari,Labor,Liberal / Coalition,Labor,Greens,15862,15489,4891,5475,6102,997
+2016,NT,Solomon,Labor,Labor,Liberal / Coalition,Greens,22901,21442,6288,7476,4394,589

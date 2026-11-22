@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-labelledby="t d">
+  <style>
+    /* Dark palette. CSS beats presentation attributes, so the drawing below is
+       untouched. Shared verbatim across the mechanical-sympathy diagrams;
+       selectors that match nothing here are harmless. */
+    @media (prefers-color-scheme: dark) {
+      /* canvas and neutrals */
+      [fill="#f7f7f5"] { fill: #1b212a }   [stroke="#f7f7f5"] { stroke: #1b212a }
+      [fill="#ffffff"] { fill: #262e3a }
+      [fill="#1d1d1b"] { fill: #e3e8ee }   [stroke="#1d1d1b"] { stroke: #e3e8ee }
+      [fill="#5a5a55"] { fill: #ced6dd }   [stroke="#5a5a55"] { stroke: #ced6dd }
+      [fill="#6a6a63"] { fill: #9ca4af }
+      [fill="#8a8a82"] { fill: #868f9c }   [stroke="#8a8a82"] { stroke: #868f9c }
+      [fill="#a9a9a1"] { fill: #566072 }   [stroke="#a9a9a1"] { stroke: #566072 }
+      [fill="#e8e8e2"] { fill: #333d4b }
+      [fill="#dcdcd6"] { fill: #2f3947 }
+      [stroke="#e4e4de"] { stroke: #394454 }
+      [stroke="#b9b9b2"] { stroke: #48566b }
+      [stroke="#c4c4bc"] { stroke: #48566b }
+      /* blue */
+      [fill="#1f6feb"] { fill: #6ea8ff }   [stroke="#1f6feb"] { stroke: #6ea8ff }
+      [stroke="#12408c"] { stroke: #3d6fbf }
+      [fill="#e8effb"] { fill: #1c2942 }
+      /* orange */
+      [fill="#c2410c"] { fill: #f08a4b }   [stroke="#c2410c"] { stroke: #f08a4b }
+      [stroke="#7d2a08"] { stroke: #b35a2a }
+      [fill="#f9e9e2"], [fill="#f8ebe7"], [fill="#f4ece7"] { fill: #33241c }
+      /* green */
+      [fill="#2f6f4f"] { fill: #57b98a }
+      [stroke="#1f4a35"] { stroke: #2f7a56 }
+      [fill="#4a8f6a"] { fill: #6fc79b }
+      [fill="#7aa88c"] { fill: #86b89f }
+      [fill="#f0f6f2"], [fill="#e3f0e9"], [fill="#d6e8de"] { fill: #1a2c24 }
+      /* purple */
+      [fill="#6b3fa0"] { fill: #a77dff }   [stroke="#6b3fa0"] { stroke: #a77dff }
+      [fill="#f0eefa"] { fill: #251f38 }
+      /* terracotta */
+      [fill="#b5705f"] { fill: #d0917f }   [stroke="#b5705f"] { stroke: #d0917f }
+      [stroke="#7d4436"] { stroke: #a5654f }
+      /* memory-hierarchy only */
+      [fill="#f7f5ee"] { fill: #1f2229 }
+      [fill="#b0a98f"] { fill: #a8a184 }
+      [stroke="#6b6552"] { stroke: #8a8470 }
+    }
+    /* Teal, for independents: only this series uses it. */
+    @media (prefers-color-scheme: dark) {
+      [fill="#008080"] { fill: #3fb8b8 }   [stroke="#008080"] { stroke: #3fb8b8 }
+    }
+  </style>
+<title id="t">Most first-past-the-post misses depend on voters not adapting</title>
+<desc id="d">Line chart. With no switching, first past the post misses the Condorcet winner in 77 contests; if a quarter of third-party voters switch to the front-runner they prefer, 58; at half, 41; if all do, 2.</desc>
+<rect width="760" height="320" fill="#f7f7f5"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="24" y="30" font-size="15" font-weight="600" fill="#1d1d1b">Most first-past-the-post misses depend on voters not adapting</text>
+<text x="24" y="50" font-size="12" fill="#5a5a55">Contests where first past the post would miss the Condorcet winner, if some third-party voters switched</text>
+<line x1="80.0" y1="270.0" x2="680.0" y2="270.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="72.0" y="274.0" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">0</text>
+<line x1="80.0" y1="227.1" x2="680.0" y2="227.1" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="72.0" y="231.1" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">20</text>
+<line x1="80.0" y1="184.2" x2="680.0" y2="184.2" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="72.0" y="188.2" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">40</text>
+<line x1="80.0" y1="141.3" x2="680.0" y2="141.3" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="72.0" y="145.3" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">60</text>
+<line x1="80.0" y1="98.3" x2="680.0" y2="98.3" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="72.0" y="102.3" font-size="10" fill="#5a5a55" text-anchor="end" font-weight="normal">80</text>
+<line x1="80.0" y1="80.0" x2="80.0" y2="270.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="80.0" y="286.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">0%</text>
+<line x1="230.0" y1="80.0" x2="230.0" y2="270.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="230.0" y="286.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">25%</text>
+<line x1="380.0" y1="80.0" x2="380.0" y2="270.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="380.0" y="286.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">50%</text>
+<line x1="530.0" y1="80.0" x2="530.0" y2="270.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="530.0" y="286.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">75%</text>
+<line x1="680.0" y1="80.0" x2="680.0" y2="270.0" stroke="#e4e4de" stroke-width="1.0"/>
+<text x="680.0" y="286.0" font-size="10" fill="#5a5a55" text-anchor="middle" font-weight="normal">100%</text>
+<line x1="80.0" y1="270.0" x2="680.0" y2="270.0" stroke="#b9b9b2" stroke-width="1.0"/>
+<polyline points="80.0,104.8 110.0,111.2 140.0,119.8 170.0,126.2 200.0,132.7 230.0,145.6 260.0,154.1 290.0,162.7 320.0,164.9 350.0,173.4 380.0,182.0 410.0,186.3 440.0,201.3 470.0,214.2 500.0,220.6 530.0,227.1 560.0,233.5 590.0,242.1 620.0,252.8 650.0,261.4 680.0,265.7" fill="none" stroke="#1d1d1b" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="80.0" cy="104.8" r="3" fill="#1d1d1b"/>
+<text x="86.0" y="96.8" font-size="11" fill="#1d1d1b" text-anchor="start" font-weight="normal">77</text>
+<circle cx="110.0" cy="111.2" r="3" fill="#1d1d1b"/>
+<circle cx="140.0" cy="119.8" r="3" fill="#1d1d1b"/>
+<circle cx="170.0" cy="126.2" r="3" fill="#1d1d1b"/>
+<circle cx="200.0" cy="132.7" r="3" fill="#1d1d1b"/>
+<circle cx="230.0" cy="145.6" r="3" fill="#1d1d1b"/>
+<text x="236.0" y="137.6" font-size="11" fill="#1d1d1b" text-anchor="start" font-weight="normal">58</text>
+<circle cx="260.0" cy="154.1" r="3" fill="#1d1d1b"/>
+<circle cx="290.0" cy="162.7" r="3" fill="#1d1d1b"/>
+<circle cx="320.0" cy="164.9" r="3" fill="#1d1d1b"/>
+<circle cx="350.0" cy="173.4" r="3" fill="#1d1d1b"/>
+<circle cx="380.0" cy="182.0" r="3" fill="#1d1d1b"/>
+<text x="386.0" y="174.0" font-size="11" fill="#1d1d1b" text-anchor="start" font-weight="normal">41</text>
+<circle cx="410.0" cy="186.3" r="3" fill="#1d1d1b"/>
+<circle cx="440.0" cy="201.3" r="3" fill="#1d1d1b"/>
+<circle cx="470.0" cy="214.2" r="3" fill="#1d1d1b"/>
+<circle cx="500.0" cy="220.6" r="3" fill="#1d1d1b"/>
+<circle cx="530.0" cy="227.1" r="3" fill="#1d1d1b"/>
+<circle cx="560.0" cy="233.5" r="3" fill="#1d1d1b"/>
+<circle cx="590.0" cy="242.1" r="3" fill="#1d1d1b"/>
+<circle cx="620.0" cy="252.8" r="3" fill="#1d1d1b"/>
+<circle cx="650.0" cy="261.4" r="3" fill="#1d1d1b"/>
+<circle cx="680.0" cy="265.7" r="3" fill="#1d1d1b"/>
+<text x="686.0" y="257.7" font-size="11" fill="#1d1d1b" text-anchor="start" font-weight="normal">2</text>
+<text x="380.0" y="304.0" font-size="11" fill="#5a5a55" text-anchor="middle" font-weight="normal">Third-party voters who switch to their preferred front-runner</text>
+<text x="40.0" y="175.0" font-size="11" fill="#5a5a55" text-anchor="middle" font-weight="normal" transform="rotate(-90 40.0 175.0)">Contests missed</text>
+</g></svg>
