@@ -1,0 +1,22 @@
+{{- /* Overrides the theme's partials/mathjax.html, which decided whether to
+       load MathJax by regex-matching the rendered HTML. That regex was escaped
+       twice, so \(...\) alone never matched; any `$` (even in code) did; and
+       it set $...$ as an inline delimiter, contradicting hugo.toml, where
+       single dollars are not maths so prices stay prices.
+
+       Instead, render-passthrough.html flags each page that contains a
+       passthrough span. This partial runs in <head>, before the body has
+       rendered, so render .Content first to make sure the hook has run. */ -}}
+{{- $_ := .Content -}}
+{{- if .Store.Get "hasMath" -}}
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]']],
+            inlineMath: [['\\(', '\\)']],
+        }
+    };
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js">
+</script>
+{{- end -}}

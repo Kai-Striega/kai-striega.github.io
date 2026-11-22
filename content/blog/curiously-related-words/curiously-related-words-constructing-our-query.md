@@ -25,7 +25,7 @@ we said we wanted two things:
 ### Finding a word
 
 Let's start with something simpler, how to find a single word. Let's try to find the word "potion"[^2]. To do this we'll
-need to match a node $n$ where the ``lexeme`` property is ``potion``. And then return it.
+need to match a node \(n\) where the ``lexeme`` property is ``potion``. And then return it.
 
 ```
 MATCH (n: Lexeme)
